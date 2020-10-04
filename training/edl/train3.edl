@@ -1,0 +1,79 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 3090
+y 518
+w 500
+h 600
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-i-10.0"
+btnFont "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 23
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 26
+y 220
+w 446
+h 297
+caseColor index 0
+scaleColor index 1
+labelColor index 1
+fgColor index 1
+bgColor index 2
+topShadowColor index 3
+botShadowColor index 4
+readPv "ALEX:RDCUR"
+labelType "pvName"
+showScale
+scaleFormat "FFloat"
+scalePrecision "0"
+scaleLimitsFromDb
+useDisplayBg
+labelIntervals "20"
+complexNeedle
+3d
+scaleMin "0"
+scaleMax "10"
+labelFontTag "helvetica-medium-r-12.0"
+scaleFontTag "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 74
+y 95
+w 321
+h 72
+fgColor index 1
+bgColor index 0
+2ndBgColor index 2
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "ALEX:CUR"
+controlLabelType "pvName"
+font "helvetica-medium-i-10.0"
+limitsFromDb
+showValue
+endObjectProperties
+

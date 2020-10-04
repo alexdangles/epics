@@ -1,0 +1,32 @@
+### 
+export CONTROL_SYSTEM=training
+
+### source the edm environment
+. /usr1/common/useedm.bash
+
+### EPICS for direct
+export EPICS_CA_ADDR_LIST=142.90.141.255
+export EPICS_CA_AUTO_ADDR_LIST=YES
+export EPICS_CA_REPEATER_PORT=9191
+export EPICS_CA_SERVER_PORT=9192
+
+### Other EPICS stuff
+export EPICS_TS_MIN_WEST=480
+export EPICS_IOC_LOG_PORT=7004
+export EPICS_IOC_LOG_INET=142.90.148.144
+export EPICS_IOC_LOG_FILE_LIMIT=10000000
+export EPICS_IOC_LOG_FILE_NAME=/usr1/local/epics/userappl/rolf/cyc2epics/data/iocLog.text
+export EPICS_AR_PORT=7002
+export TRAR_ARCHIVE_DIRECTORY="/usr1/local/epics/userappl/rolf/cyc2epics/data/arch"
+export LD_LIBRARY_PATH="/usr/X11R6/lib:/usr1/extensionslib"
+export CPP_OUTPUT_DIRECTORY="/tmp/"
+export EDMBROWSER='dillo -g 600x600{+50}{+5} -f'
+export HOST_ARCH=Linux
+export EPICS_CA_MAX_ARRAY_BYTES=32776
+export COMMON_ROOT=/usr1/common/
+export ISAC_ROOT=/usr1/isac/
+export ISAC2_ROOT=/usr1/isac2/
+export TITAN_ROOT=/usr1/titan/
+export BL2A_ROOT=/usr1/2a/
+export ISAC_SANDBOX_ROOT=/usr1/isac_sandbox/
+export PATH=$PATH:/usr1/local/epics/base/bin/linux-x86:/usr1/local/epics/extensions/bin/liunx-x86

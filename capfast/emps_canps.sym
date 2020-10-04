@@ -1,0 +1,37 @@
+[symbol2]
+bbox -67 -16 291 160
+port -32 80 100 1792 enable symbol 1 -64 64 0
+port -32 32 100 1792 scanin symbol 1 -64 16 0
+port 272 32 100 1792 flink symbol 2 288 16 0
+port 272 80 100 1792 statok symbol 2 288 64 0
+uniq 27
+[tools]
+[attributes]
+p 24 64 100 0 -1 set1:D ???
+p 24 32 100 0 -1 set2:PS ???
+[layers]
+<symbol>
+a 0 -6 64 0 64 360
+a 0 -6 16 0 16 360
+a 0 230 16 236 16 360
+a 0 230 64 236 64 360
+l 100 0 0 48 136 Optics Status
+l 100 0 0 72 112 CANBUS
+l 100 0 0 80 -16 emps_canps.sym
+r 0 0 0 224 160
+v 0 0 96
+224 96
+_
+v 0 -12 64
+-64 64
+_
+v 0 -12 16
+-64 16
+_
+v 0 236 16
+288 16
+_
+v 0 236 64
+288 64
+_
+[comments]

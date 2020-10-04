@@ -1,0 +1,96 @@
+#   streamDevice protocol file for MDC660004-2012 motor controller
+# 	
+#	$Date: 2019/12/12 23:52:58 $
+#   $Id: mdc660004.proto,v 1.3 2019/12/12 23:52:58 adangelo Exp $
+#   $Log: mdc660004.proto,v $
+#   Revision 1.3  2019/12/12 23:52:58  adangelo
+#   added more functionality
+#
+#   Revision 1.2  2019/12/12 19:42:58  adangelo
+#   tags
+#
+#	$Revision: 1.3 $
+#
+
+InTerminator = CR;
+OutTerminator = CR;
+ExtraInput = Ignore;
+
+# LockTimeout should be GT ReplyTimeout
+LockTimeout  = 1000;
+ReplyTimeout = 500;
+ReadTimeout  = 100;
+
+# $1 = $(ADDR)
+
+INIT {
+  OUT ":\$1i%d";
+}
+
+HOME {
+  OUT ":\$1j-5000000";
+}
+
+RDSTEPPOS {
+	OUT ":\$1p";
+	IN ":\$1p%d";
+}
+
+RDENCPOS {
+	OUT ":\$1y";
+	IN ":\$1y%d";
+}
+
+STOP {
+	OUT ":\$1h1";
+}
+
+AXISSTATUS {
+	OUT ":\$1g";
+	IN ":\$1g%d";
+}
+
+DEFPOS {
+	OUT ":\$1y";
+	IN ":\$1y%d";
+}
+
+RDSPD {
+	OUT ":\$1s";
+	IN ":\$1s%d";
+}
+
+RDACC {
+	OUT ":\$1a";
+	IN ":\$1a%f";
+}
+
+SETPOS {
+	OUT ":\$1p%d";
+}	
+
+SETACC {
+	OUT ":\$1A%f";
+}
+
+SETSPD {
+	OUT ":\$1S%d";
+}
+
+RDSTEPSIZE {
+	OUT ":\$1E";
+	IN ":\$1E%d";
+}
+
+JOGPOS {
+	OUT ":\$1j%f";
+}
+
+JOGNEG {
+	OUT ":\$1j-%f";
+}
+
+CMDOUT {
+	OUT "%s";
+	IN "%(DESC)s";
+}

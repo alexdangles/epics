@@ -1,0 +1,48 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2303
+y 234
+w 1304
+h 600
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-i-10.0"
+btnFont "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 23
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 25
+y 119
+w 1195
+h 41
+fgColor index 1
+bgColor index 0
+2ndBgColor index 2
+topShadowColor index 3
+botShadowColor index 4
+increment 0.1
+controlPv "ALEX:AO"
+controlLabelType "pvName"
+font "helvetica-medium-i-10.0"
+limitsFromDb
+showLimits
+showLabel
+showValue
+endObjectProperties
+

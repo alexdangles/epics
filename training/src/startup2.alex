@@ -1,0 +1,34 @@
+#!./camactcpioc
+# startup2.camactcp
+# for epics release R3.14.x
+#
+# specify IOC Application for BootConfigure tool
+#
+# kernel:/usr1/local/epics/iocApp/plctcpiocApp/devel/bin/linux-x86/plcioc
+#
+epicsEnvSet(IOCSH_PS1, "alexioc>")
+epicsEnvSet(EPICS_TS_NTP_INET,"142.90.98.144")
+epicsEnvSet(EPICS_TIMEZONE,"UTC::480:40404:103104")
+epicsEnvSet(EPICS_IOC_CA_PUT_LOG_INET,"142.90.98.144")
+epicsEnvSet(EPICS_IOC_CA_PUT_LOG_PORT,"7000")
+epicsEnvSet(EPICS_IOC_LOG_PORT,"7015")
+
+epicsEnvSet(EPICS_CA_REPEATER_PORT, 9191)
+epicsEnvSet(EPICS_CA_SERVER_PORT, 9192)
+epicsEnvSet(EPICS_TS_MIN_WEST, 480)
+
+
+## Register all support components
+dbLoadDatabase("./plcioc.dbd",0,0)
+plcioc_registerRecordDeviceDriver(pdbbase)
+
+# EPICS 
+#
+dbLoadRecords("train1.db")
+
+ 
+#########################################
+iocInit()
+#########################################
+
+

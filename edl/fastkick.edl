@@ -1,0 +1,291 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 484
+y 180
+w 991
+h 600
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-r-10.0"
+btnFont "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 1
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 91
+y 63
+w 732
+h 30
+lineColor index 1
+fillColor index 1
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 91
+y 63
+w 732
+h 30
+lineColor index 3
+fillColor index 19
+numPoints 3
+xPoints {
+  0 823
+  1 823
+  2 91
+}
+yPoints {
+  0 63
+  1 93
+  2 93
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 96
+y 68
+w 85
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+buttonLabel "AVTE:DEFL14"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "avtedefl14cp.edl"
+}
+menuLabel {
+  0 "AVTE:DEFL14"
+}
+symbols {
+  0 "CD2=AOPT:CR06:,D=AVTE:DEFL14,CD1=AOPT:CR06:,MD1=AOPT:MD067:,MD2=AOPT:MD068:"
+}
+helpCommand "$EDMWEBBROWSER $\{TRIUMFHELPURL\}?D=\\$(!label)"
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 186
+y 64
+w 160
+h 28
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 2
+botShadowColor index 1
+controlPv "AVTE:DEFL14:VOL"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 356
+y 73
+w 90
+h 15
+controlPv "AVTE:DEFL14:RDVOL"
+font "helvetica-medium-r-14.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+limitsFromDb
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+showUnits
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 33
+y 64
+w 37
+h 27
+
+beginGroup
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 33
+y 75
+w 19
+h 5
+lineColor index 71
+fillColor index 0
+alarmPv "CALC\\fillsmall2(AVTE:DEFL14,AVTE:DEFL14)"
+numPoints 8
+xPoints {
+  0 33
+  1 38
+  2 38
+  3 43
+  4 43
+  5 47
+  6 47
+  7 52
+}
+yPoints {
+  0 80
+  1 80
+  2 75
+  3 75
+  4 80
+  5 80
+  6 75
+  7 75
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 54
+y 64
+w 4
+h 21
+lineColor index 71
+fill
+fillColor index 72
+alarmPv "CALC\\fillsmall2(AVTE:DEFL14,AVTE:DEFL14)"
+closePolygon
+numPoints 5
+xPoints {
+  0 54
+  1 58
+  2 58
+  3 54
+  4 54
+}
+yPoints {
+  0 85
+  1 85
+  2 68
+  3 64
+  4 85
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 62
+y 71
+w 8
+h 20
+lineColor index 71
+fill
+fillColor index 72
+alarmPv "CALC\\fillsmall2(AVTE:DEFL14,AVTE:DEFL14)"
+numPoints 7
+xPoints {
+  0 62
+  1 66
+  2 66
+  3 70
+  4 67
+  5 62
+  6 62
+}
+yPoints {
+  0 85
+  1 85
+  2 78
+  3 74
+  4 71
+  5 75
+  6 85
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 61
+y 65
+w 7
+h 7
+lineColor index 71
+fill
+fillColor index 72
+alarmPv "CALC\\fillsmall2(AVTE:DEFL14,AVTE:DEFL14)"
+closePolygon
+numPoints 5
+xPoints {
+  0 61
+  1 68
+  2 61
+  3 61
+  4 68
+}
+yPoints {
+  0 72
+  1 65
+  2 72
+  3 65
+  4 65
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

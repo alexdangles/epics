@@ -1,0 +1,261 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2545
+y 486
+w 790
+h 573
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-r-10.0"
+btnFont "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 1
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 122
+y 87
+w 110
+h 47
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:$(D):DRVON"
+pressValue "1"
+onLabel "DRVON"
+offLabel "DRVON"
+3d
+useEnumNumeric
+font "helvetica-bold-r-14.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 122
+y 144
+w 110
+h 47
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:$(D):DRVOFF"
+pressValue "1"
+onLabel "DRVOFF"
+offLabel "DRVOFF"
+3d
+useEnumNumeric
+font "helvetica-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 257
+y 229
+w 157
+h 21
+controlPv "ALEX:$(D):STATINT"
+font "helvetica-medium-r-18.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 106
+y 38
+w 170
+h 16
+controlPv "ALEX:$(D):CALCDRV.CALC"
+font "helvetica-medium-r-14.0"
+fgColor index 23
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+limitsFromDb
+nullColor index 23
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Choice Button)
+object activeChoiceButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 162
+y 203
+w 70
+h 66
+fgColor index 1
+bgColor index 0
+selectColor index 0
+inconsistentColor index 2
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:$(D):RDINT"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 90
+y 206
+w 57
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "RDINT"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 257
+y 140
+w 157
+h 21
+controlPv "ALEX:$(D):STATDRV"
+font "helvetica-medium-r-18.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 257
+y 203
+w 77
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "STATINT"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 257
+y 114
+w 87
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "STATDRV"
+}
+autoSize
+endObjectProperties
+
+# (Choice Button)
+object activeChoiceButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 162
+y 285
+w 70
+h 66
+fgColor index 1
+bgColor index 0
+selectColor index 0
+inconsistentColor index 2
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:$(D):RST"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 111
+y 287
+w 36
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "RST"
+}
+autoSize
+endObjectProperties
+
