@@ -63,7 +63,7 @@ drvAsynIPPortConfigure("LAN","142.90.149.102:5024",0,1,0)
 ## 
 # =========== Load EPICS runtime DB =======================
 #
-
+dbLoadRecords("test.db")
 dbLoadRecords("empsled.db")
 
 

@@ -20,11 +20,12 @@ genericStream_registerRecordDeviceDriver(pdbbase)
 #
 # =========== Configure Asyn Ports =======================
 #                       Bus    IP Address:Port
-drvAsynIPPortConfigure("RS485","192.168.1.3:100",0,1,0)
+drvAsynIPPortConfigure("LAN","192.168.1.4:100",0,1,0)
 
 #
 # =========== Load EPICS runtime DB =======================
 #
+dbLoadRecords("test.db")
 dbLoadRecords("stream.db")
 #
 #  Don't use ADDR=10, here (in use by application DB), but okay to change after iocInit

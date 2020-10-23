@@ -1,0 +1,110 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 912
+y 72
+w 358
+h 195
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-r-10.0"
+btnFont "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 1
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 16
+y 86
+w 113
+h 24
+fgColor index 0
+bgColor index 7
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+yPosOffset 10
+buttonLabel "Asyn"
+numPvs 4
+numDsps 2
+displayFileName {
+  0 "asynRecord.edl"
+  1 "asynOctet.edl"
+}
+menuLabel {
+  0 "Asyn Record"
+  1 "Asyn Octet"
+}
+symbols {
+  0 "P=$(D):,R=ASYN"
+  1 "P=GALIL:,R=ASYN"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 134
+y 34
+w 90
+h 20
+controlPv "$(D):CMD.DESC"
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+limitsFromDb
+nullColor index 24
+useHexPrefix
+newPos
+inputFocusUpdates
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 23
+y 33
+w 71
+h 20
+controlPv "$(D):CMD"
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 0
+nullColor index 24
+useHexPrefix
+newPos
+inputFocusUpdates
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+

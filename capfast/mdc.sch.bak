@@ -14,7 +14,7 @@ p 3987 187 150 0 -1 seta:Alex
 p 3840 496 250 0 -1 sets:Alex Testbench
 p 3852 348 200 0 -1 sett1:Alex IOC
 p 4360 187 150 0 -1 setdat:2020/01/13
-p 4072 250 200 0 -1 setd:$Revision: 1.5 $
+p 4072 250 200 0 -1 setd:$Revision: 1.6 $
 p 3834 119 150 0 -1 setf:mdc.sch
 use efanouts 2348 1605 100 0 SCANMSTR
 xform 0 2288 1760
