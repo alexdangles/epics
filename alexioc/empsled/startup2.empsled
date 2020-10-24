@@ -10,6 +10,7 @@ cd "/data/isacdata/iocboot/genericStreamioc/current"
 
 # =========== Tell streamDevice where to find protocol file(s) ===============
 #
+epicsEnvSet(IOCSH_PS1, "empsled>")
 epicsEnvSet(STREAM_PROTOCOL_PATH,".")
 epicsEnvSet(EPICS_CA_REPEATER_PORT,"9101")
 epicsEnvSet(EPICS_CA_SERVER_PORT,"9102")
@@ -63,7 +64,6 @@ drvAsynIPPortConfigure("LAN","142.90.149.102:5024",0,1,0)
 ## 
 # =========== Load EPICS runtime DB =======================
 #
-dbLoadRecords("test.db")
 dbLoadRecords("empsled.db")
 
 

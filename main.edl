@@ -3,10 +3,10 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 824
-y 253
-w 770
-h 268
+x 765
+y 359
+w 544
+h 239
 font "helvetica-medium-r-12.0"
 ctlFont "helvetica-medium-r-10.0"
 btnFont "helvetica-bold-r-12.0"
@@ -27,22 +27,32 @@ beginObjectProperties
 major 4
 minor 4
 release 0
-x 8
-y 10
-w 110
-h 25
-fgColor index 1
-bgColor index 0
+x 4
+y 6
+w 101
+h 20
+fgColor index 0
+bgColor index 1
 topShadowColor index 3
 botShadowColor index 4
 font "helvetica-bold-r-12.0"
+yPosOffset 10
 buttonLabel "Template"
 numPvs 4
 numDsps 1
 displayFileName {
   0 "/usr1/common/edl/libedmisac.edl"
 }
-helpCommand "$EDMWEBBROWSER $\{TRIUMFHELPURL\}?D=$(!label)"
+setPosition {
+  0 "parentWindow"
+}
+replaceSymbols {
+  0 1
+}
+propagateMacros {
+  0 0
+}
+helpCommand "dillo -g 600x600\{+50\}\{+5\} -f http://isacwserv.triumf.ca/cgi-bin/devel/dbdev/web_info.pl?D=\\$(!label)"
 endObjectProperties
 
 # (Related Display)
@@ -51,142 +61,32 @@ beginObjectProperties
 major 4
 minor 4
 release 0
-x 8
-y 40
-w 201
-h 25
-fgColor index 1
-bgColor index 0
+x 4
+y 28
+w 101
+h 20
+fgColor index 0
+bgColor index 1
 topShadowColor index 3
 botShadowColor index 4
 font "helvetica-bold-r-12.0"
-buttonLabel "MDC Single-axis Stepper Motor"
+yPosOffset 10
+buttonLabel "MDC Motor"
 numPvs 4
 numDsps 1
 displayFileName {
   0 "mdc.edl"
 }
-symbols {
-  0 "D=ALEX"
+setPosition {
+  0 "parentWindow"
 }
-helpCommand "$EDMWEBBROWSER $\{TRIUMFHELPURL\}?D=$(!label)"
-endObjectProperties
-
-# (Group)
-object activeGroupClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 260
-y 79
-w 342
-h 118
-
-beginGroup
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 283
-y 94
-w 342
-h 109
-lineColor index 4
-fillColor index 0
-lineWidth 2
-endObjectProperties
-
-# (Group)
-object activeGroupClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 283
-y 85
-w 342
-h 118
-
-beginGroup
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 305
-y 85
-w 85
-h 16
-font "helvetica-bold-r-12.0"
-fgColor index 1
-bgColor index 0
-value {
-  "Stream Device"
+replaceSymbols {
+  0 1
 }
-autoSize
-endObjectProperties
-
-# (Lines)
-object activeLineClass
-beginObjectProperties
-major 4
-minor 0
-release 1
-x 283
-y 94
-w 342
-h 109
-lineColor index 3
-fillColor index 0
-lineWidth 2
-numPoints 3
-xPoints {
-  0 283
-  1 625
-  2 625
+propagateMacros {
+  0 0
 }
-yPoints {
-  0 203
-  1 203
-  2 94
-}
-endObjectProperties
-
-endGroup
-
-endObjectProperties
-
-endGroup
-
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 532
-y 29
-w 50
-h 20
-fgColor index 1
-onColor index 0
-offColor index 0
-topShadowColor index 3
-botShadowColor index 4
-controlPv "ALEX:BO"
-pressValue "1"
-onLabel "on"
-offLabel "on"
-3d
-font "helvetica-bold-r-12.0"
+helpCommand "dillo -g 600x600\{+50\}\{+5\} -f http://isacwserv.triumf.ca/cgi-bin/devel/dbdev/web_info.pl?D=\\$(!label)"
 endObjectProperties
 
 # (Symbol)
@@ -195,10 +95,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 639
-y 29
-w 40
-h 20
+x 467
+y 19
+w 34
+h 16
 file "led5state.edl"
 numStates 5
 minValues {
@@ -224,38 +124,15 @@ fgColor index 1
 bgColor index 0
 endObjectProperties
 
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 584
-y 29
-w 50
-h 20
-fgColor index 1
-onColor index 0
-offColor index 0
-topShadowColor index 3
-botShadowColor index 4
-controlPv "ALEX:BO"
-pressValue "0"
-onLabel "off"
-offLabel "off"
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
 # (Triumf Slider)
 object activeTriumfSliderClass
 beginObjectProperties
 major 4
 minor 2
 release 0
-x 278
-y 22
-w 169
+x 145
+y 12
+w 160
 h 28
 fgColor index 1
 bgColor index 0
@@ -277,8 +154,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 449
-y 32
+x 305
+y 21
 w 71
 h 15
 controlPv "ALEX:AI"
@@ -298,16 +175,123 @@ newPos
 noExecuteClipMask
 endObjectProperties
 
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 153
+y 77
+w 307
+h 98
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 153
+y 77
+w 297
+h 98
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 174
+y 89
+w 297
+h 90
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 174
+y 82
+w 297
+h 98
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 195
+y 82
+w 85
+h 16
+font "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+value {
+  "Stream Device"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 174
+y 90
+w 297
+h 90
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 174
+  1 471
+  2 471
+}
+yPoints {
+  0 180
+  1 180
+  2 90
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
 # (Text Control)
 object activeXTextDspClass
 beginObjectProperties
 major 4
 minor 7
 release 0
-x 381
-y 108
-w 202
-h 20
+x 263
+y 101
+w 197
+h 18
 controlPv "ALEX:CMD"
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -330,10 +314,10 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 381
-y 137
-w 202
-h 15
+x 263
+y 129
+w 197
+h 14
 controlPv "ALEX:CMD.DESC"
 format "decimal"
 font "helvetica-medium-r-12.0"
@@ -356,10 +340,10 @@ beginObjectProperties
 major 4
 minor 4
 release 0
-x 303
-y 161
+x 188
+y 149
 w 59
-h 26
+h 24
 fgColor index 0
 bgColor index 7
 topShadowColor index 3
@@ -389,8 +373,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 305
-y 110
+x 188
+y 103
 w 70
 h 18
 font "helvetica-medium-r-14.0"
@@ -409,8 +393,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 304
-y 134
+x 188
+y 125
 w 68
 h 18
 font "helvetica-medium-r-14.0"
@@ -421,5 +405,97 @@ value {
   "Response:"
 }
 autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 148
+y 43
+w 43
+h 18
+fgColor index 1
+onColor index 8
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:OK"
+pressValue "1"
+releaseValue "0"
+onLabel "OK"
+offLabel "NOT OK"
+toggle
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 383
+y 20
+w 76
+h 14
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 383
+y 20
+w 37
+h 14
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:BO"
+pressValue "1"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 422
+y 20
+w 37
+h 14
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:BO"
+pressValue "0"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+endGroup
+
 endObjectProperties
 

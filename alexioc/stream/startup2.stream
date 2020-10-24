@@ -1,6 +1,6 @@
 #! ./genericStream
 
-epicsEnvSet(IOCSH_PS1, "alexioc>")
+epicsEnvSet(IOCSH_PS1, "stream>")
 epicsEnvSet(EPICS_TS_NTP_INET,"142.90.98.144")
 epicsEnvSet(EPICS_TIMEZONE,"UTC::480:40404:103104")
 epicsEnvSet(EPICS_IOC_CA_PUT_LOG_INET,"142.90.98.144")
@@ -25,7 +25,6 @@ drvAsynIPPortConfigure("LAN","192.168.1.4:100",0,1,0)
 #
 # =========== Load EPICS runtime DB =======================
 #
-dbLoadRecords("test.db")
 dbLoadRecords("stream.db")
 #
 #  Don't use ADDR=10, here (in use by application DB), but okay to change after iocInit
