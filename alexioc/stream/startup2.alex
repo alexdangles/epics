@@ -30,7 +30,7 @@ dbLoadRecords("stream.db")
 #
 #  Don't use ADDR=10, here (in use by application DB), but okay to change after iocInit
 #
-# dbLoadRecords("asynRecord.db","P=HEBT:SCOPE1:,R=ASYN,PORT=GPIB0,ADDR=2,IMAX=0,OMAX=0")
+dbLoadRecords("asynRecord.db","P=ALEX:,R=ASYN,PORT=LAN,ADDR=2,IMAX=0,OMAX=0")
 
 ## ===================================================
 iocInit
