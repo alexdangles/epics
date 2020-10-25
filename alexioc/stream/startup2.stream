@@ -39,6 +39,9 @@ iocInit
 caPutLogInit("icsl6.ggeng.triumf.ca:7000",1)
 asInit()
 
+< stream.iocscr
+
 # var scopeReadDebug 0
 # var wfcursorDebug 0
 var streamDebug 0
+

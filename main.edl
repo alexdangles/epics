@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 765
-y 359
+x 641
+y 70
 w 544
 h 239
 font "helvetica-medium-r-12.0"
@@ -79,6 +79,9 @@ displayFileName {
 }
 setPosition {
   0 "parentWindow"
+}
+symbols {
+  0 "D=ALEX"
 }
 replaceSymbols {
   0 1
@@ -419,8 +422,8 @@ minor 1
 release 0
 x 148
 y 43
-w 43
-h 18
+w 60
+h 23
 fgColor index 1
 onColor index 8
 offColor index 76
@@ -430,10 +433,10 @@ controlPv "ALEX:OK"
 pressValue "1"
 releaseValue "0"
 onLabel "OK"
-offLabel "NOT OK"
+offLabel "Not OK"
 toggle
 3d
-font "helvetica-bold-r-8.0"
+font "helvetica-bold-r-12.0"
 endObjectProperties
 
 # (Group)
@@ -497,5 +500,38 @@ endObjectProperties
 
 endGroup
 
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 214
+y 43
+w 89
+h 23
+fgColor index 1
+bgColor index 0
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+buttonLabel "Run Script"
+numCmds 5
+commandLabel {
+  0 "Script 1"
+  1 "Script 2"
+  2 "Script 3"
+  3 "Script 4"
+  4 "Script 5"
+}
+command {
+  0 "./alexioc.scr"
+  1 "./alexioc.scr"
+  2 "./alexioc.scr"
+  3 "./alexioc.scr"
+  4 "./alexioc.scr"
+}
 endObjectProperties
 
