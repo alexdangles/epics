@@ -1,0 +1,70 @@
+[schematic2]
+uniq 5
+[tools]
+[detail]
+w 1588 1331 100 0 n#1 trcalcos.$(PS):STATUS.SLNK 1656 1328 1520 1328 inhier.scanin.P
+w 2010 1555 100 0 n#2 trcalcos.$(PS):STATUS.FLNK 1944 1552 2076 1552 2076 1568 2208 1568 outhier.flink.p
+w 1616 1363 100 0 n#3 trcalcos.$(PS):STATUS.INPL 1656 1360 1576 1360 1576 1392 1520 1392 inhier.enable.P
+w 2076 1523 100 0 n#4 trcalcos.$(PS):STATUS.VAL 1944 1520 2208 1520 outhier.statok.p
+n 1659 1955 2161 2027 100
+FUNCTIONALITY:
+CHECK THAT STREAM DEVICE OPTICS ELEMENT IS ON,
+COMMUNICATING AND NOT IN TIMEOUT STATE.
+_
+n 2209 1618 2530 1714 100
+LED RULES FOR $(D)$(PS):STATUS:
+0: PATH BAD -> RED
+1: PATH GOOD -> GREEN
+2: DISABLED -> BLACK
+_
+n 2812 2007 3172 2057 150
+Functionality:
+Please add functionality here
+_
+[cell use]
+use bb200tr 712 632 100 0 bb200tr#2
+xform 0 1992 1432
+p 2296 824 150 0 -1 seta:M. Rowe
+p 2152 1016 150 0 -1 sets:E-Linac Control System
+p 2152 984 100 0 -1 sett0:Machine Protect System
+p 2152 952 100 0 -1 sett1:Optics Subsystem - Stream Device PS Status
+p 2568 824 150 0 -1 setdat:2016/08/15
+p 2328 872 200 0 -1 setd:$Revision: 1.1 $
+p 2168 760 150 0 -1 setf:emps_canps.sch
+use trcalcos 1740 1219 100 0 $(PS):STATUS
+xform 0 1800 1520
+p 1684 1219 100 0 -1 PV:$(D)
+p 1489 1706 100 0 -1 def(INPA):$(PS):STATON MS
+p 1478 1673 100 0 -1 def(INPB):$(PS):STATTMO MS
+p 1511 1640 100 0 -1 def(INPC):$(PS):ALIVE MS
+p 1503 1609 100 0 -1 def(INPD):$(PS):STATPRES
+p 1736 1680 150 0 1 CALC:L?((A&!B)?1:0):2
+p 1735 1659 100 0 1 OCAL:L?(E?4:(!D|!C?3:(B?2:(!A?1:0)))):5
+p 1950 1483 100 0 -1 def(OUT):$(D)$(PS):STATTEXT PP MS
+p 1736 1424 100 0 1 OOPT:Every Time
+p 1739 1639 100 0 1 DOPT:Use OCAL
+p 1526 1577 100 0 -1 def(INPE):$(PS):STATLB
+use embbis 2138 1320 100 0 $(PS):STATTEXT
+xform 0 2232 1384
+p 2174 1286 100 0 1 ONVL:1
+p 2177 1269 100 0 1 TWVL:2
+p 2179 1252 100 0 1 THVL:3
+p 2264 1304 100 0 1 ZRST:OK
+p 2259 1286 100 0 1 ONST:Off
+p 2263 1267 100 0 1 TWST:Timeout
+p 2265 1251 100 0 1 THST:CANBUS
+p 2179 1306 100 0 1 ZRVL:0
+p 2082 1320 100 0 -1 PV:$(D)
+p 2181 1235 100 0 1 FRVL:4
+p 2183 1218 100 0 1 FVVL:5
+p 2267 1233 100 0 1 FRST:Loop Back
+p 2267 1215 100 0 1 FVST:Not Monitored
+use inhier 1483 1352 100 0 scanin
+xform 0 1520 1328
+use outhier 2179 1598 100 0 flink
+xform 0 2192 1568
+use inhier 1485 1414 100 0 enable
+xform 0 1520 1392
+use outhier 2175 1537 100 0 statok
+xform 0 2192 1520
+[comments]
