@@ -29,7 +29,7 @@ n 2065 1162 2396 1210 100
 Problem with previous OCAL
 L?!H?3:B?2:!A?1:(!(C|D|E|F|G)?5:0):4
 _
-n 2812 2007 3172 2057 150
+n 2812 1987 3215 2057 150
 Functionality:
 Please add functionality here
 _
@@ -127,7 +127,7 @@ use ecalcos 3591 1300 100 0 $(PS):CURDISABLE
 xform 0 3688 1592
 p 3535 1300 100 0 -1 PV:$(D)
 p 3629 1750 150 0 1 CALC:(A>2)&B
-p 3852 1553 100 0 1 def(OUT):$(PS):CUR.DISP PP
+p 3852 1553 100 0 1 def(OUT):$(PS):CUR.DISP PP MS
 p 3628 1732 100 0 1 OCAL:0
 p 3275 1747 100 0 1 def(INPB):$(D)$(PS):STATUS
 p 3624 1496 100 0 1 OOPT:On Change
