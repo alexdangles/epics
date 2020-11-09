@@ -3,9 +3,9 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 389
-y 155
-w 933
+x 396
+y 205
+w 973
 h 679
 font "helvetica-medium-r-12.0"
 ctlFont "helvetica-medium-r-10.0"
@@ -241,6 +241,7 @@ w 160
 h 25
 fgColor index 1
 bgColor index 0
+bgAlarm 1
 2ndBgColor index 29
 topShadowColor index 3
 botShadowColor index 4
@@ -3193,6 +3194,366 @@ bgColor index 0
 useDisplayBg
 value {
   "BEAM PROPERTY"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 101
+y 466
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "ALEX:BEAMCUR"
+font "helvetica-medium-i-8.0"
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 21
+y 473
+w 64
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "BEAM CUR"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 302
+y 13
+w 31
+h 15
+controlPv "EMPS:BMPROPREQ"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 885
+y 39
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS1):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 886
+y 103
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS3):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 166
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS5):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 882
+y 228
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS7):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 293
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS9):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 881
+y 366
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS11):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 433
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS13):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 879
+y 507
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS15):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 578
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS17):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 446
+y 161
+w 28
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 2
+value {
+  "BIRA"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 433
+y 101
+w 51
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 2
+value {
+  "CANBUS"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 433
+y 30
+w 51
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 28
+value {
+  "STREAM"
 }
 autoSize
 endObjectProperties

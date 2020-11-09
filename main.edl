@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 1058
-y 184
+x 1061
+y 213
 w 812
 h 239
 font "helvetica-medium-r-12.0"
@@ -380,7 +380,7 @@ setPosition {
   0 "parentWindow"
 }
 symbols {
-  0 "PS1=EGUN:XCB0,PS3=ELBT:SOL2,PS5=ELBD:MB0,PS7=EMBT:XCB0,PS9=EMBD:MB0,PS11=EABT:XCB0,PS13=EABD:MB0,PS15=EHAT:XCB0,PS17=EHDT:XCB0"
+  0 "PS1=EGUN:XCB0,PS3=ELBT:SOL2,PS5=ELBD:MB0,PS7=EMBT:XCB0,PS9=EMBD:MB0,PS11=EABT:XCB0,PS13=EABD:MB0,PS15=EHAT:XCB0,PS17=EHDT:XCB4"
 }
 replaceSymbols {
   0 1
