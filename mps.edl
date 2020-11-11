@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 396
-y 205
+x 107
+y 373
 w 973
 h 679
 font "helvetica-medium-r-12.0"
@@ -161,7 +161,7 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 86
+x 92
 y 12
 w 31
 h 15
@@ -2750,23 +2750,23 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 479
-y 91
-w 422
+x 358
+y 90
+w 607
 h 1
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 479
-  1 878
-  2 901
+  0 358
+  1 932
+  2 965
 }
 yPoints {
-  0 92
-  1 92
-  2 91
+  0 91
+  1 91
+  2 90
 }
 endObjectProperties
 
@@ -2776,18 +2776,18 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 478
+x 364
 y 153
-w 422
+w 607
 h 1
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 478
-  1 877
-  2 900
+  0 364
+  1 938
+  2 971
 }
 yPoints {
   0 154
@@ -2802,18 +2802,18 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 473
+x 367
 y 217
-w 422
+w 597
 h 1
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 473
-  1 872
-  2 895
+  0 367
+  1 932
+  2 964
 }
 yPoints {
   0 218
@@ -2828,18 +2828,18 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 470
+x 366
 y 284
-w 422
+w 593
 h 1
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 470
-  1 869
-  2 892
+  0 366
+  1 927
+  2 959
 }
 yPoints {
   0 285
@@ -2854,18 +2854,18 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 467
+x 361
 y 350
-w 422
+w 594
 h 1
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 467
-  1 866
-  2 889
+  0 361
+  1 923
+  2 955
 }
 yPoints {
   0 351
@@ -2880,22 +2880,22 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 465
+x 362
 y 423
-w 408
-h 1
+w 596
+h 0
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 465
-  1 851
-  2 873
+  0 362
+  1 926
+  2 958
 }
 yPoints {
-  0 424
-  1 424
+  0 423
+  1 423
   2 423
 }
 endObjectProperties
@@ -2906,23 +2906,23 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 462
-y 496
-w 422
-h 1
+x 352
+y 497
+w 596
+h 0
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 462
-  1 861
-  2 884
+  0 352
+  1 916
+  2 948
 }
 yPoints {
   0 497
   1 497
-  2 496
+  2 497
 }
 endObjectProperties
 
@@ -2932,18 +2932,18 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 463
+x 361
 y 567
-w 422
+w 588
 h 1
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 463
-  1 862
-  2 885
+  0 361
+  1 917
+  2 949
 }
 yPoints {
   0 568
@@ -2958,18 +2958,18 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 462
+x 357
 y 640
-w 422
+w 591
 h 1
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 462
-  1 861
-  2 884
+  0 357
+  1 916
+  2 948
 }
 yPoints {
   0 641
@@ -3166,7 +3166,7 @@ minor 1
 release 1
 x 8
 y 11
-w 70
+w 75
 h 16
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -3227,8 +3227,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 21
-y 473
+x 28
+y 474
 w 64
 h 16
 font "helvetica-medium-r-12.0"
@@ -3554,6 +3554,393 @@ fgColor index 1
 bgColor index 28
 value {
   "STREAM"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 432
+y 228
+w 51
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 28
+value {
+  "STREAM"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 434
+y 359
+w 51
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 28
+value {
+  "STREAM"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 431
+y 509
+w 51
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 28
+value {
+  "STREAM"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 442
+y 294
+w 28
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 2
+value {
+  "BIRA"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 886
+y 66
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS2):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 884
+y 130
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS4):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 878
+y 195
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS6):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 882
+y 258
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS8):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 326
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS10):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 881
+y 393
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS12):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 469
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS14):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 879
+y 542
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS16):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 881
+y 607
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS18):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 20
+y 499
+w 266
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "This will be from the EOECM or another method"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 427
+y 613
+w 51
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 28
+value {
+  "STREAM"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 437
+y 436
+w 28
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 2
+value {
+  "BIRA"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 444
+y 581
+w 28
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 2
+value {
+  "BIRA"
 }
 autoSize
 endObjectProperties
