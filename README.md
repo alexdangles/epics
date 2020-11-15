@@ -1,4 +1,4 @@
-# My projects at TRIUMF.
+# My projects at TRIUMF
 
 Directories:
 alexioc
