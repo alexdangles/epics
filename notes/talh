@@ -1,7 +1,5 @@
-[[Category:Developer Documentation]][[Category:Personal Notes]]
-
-
 ==TAlh==
+
 ===Set up the alarm limit===
 The alarm limits are configured by the user in the HIHI, LOLO, HIGH, and LOW fields using numerical values. For each of these fields, there is a corresponding severity field which can be either NO_ALARM, MINOR, or MAJOR. The corresponding severity fields are: HHSV, LLSV, HSV, and LSV.
 # Find which IOC hosts those PVs
@@ -18,32 +16,3 @@ The alarm limits are configured by the user in the HIHI, LOLO, HIGH, and LOW fie
 # CVS and copy the file over to the production server. With TAlh, to allow the Ops to edit the configuration file, we have moved the configuration files to /data/isacdata/talh_config directory. "put" command is not setup to copy the file to that directory, and we don't allow "write" on the sunbeam data directory mount point on the development server, so we have to scp the file over.
 # Ask the RIB Ops to restart the alarm handler
 # Verify alarms are set up.
-
-
-==Viewscreens==
-===Crash log===
- *** glibc detected *** ./viewscreenioc: malloc(): memory corruption (fast): 0xb71cf4a0 ***
- ======= Backtrace: =========
- /lib/libc.so.6(+0x6af2a)[0xb6bcbf2a]
- /lib/libc.so.6(+0x6e0a6)[0xb6bcf0a6]
- /lib/libc.so.6(__libc_malloc+0x5c)[0xb6bd092c]
- /usr/lib/libstdc++.so.6(_Znwj+0x28)[0xb6d6d2dd]
- /epicsserver/data/iocboot/elvs02ioc/vslib/libGraphicsMagick++.so.3(_ZNK6Magick12DrawableLine4copyEv+0x26)[0xb71942c6]
- /epicsserver/data/iocboot/elvs02ioc/vslib/libGraphicsMagick++.so.3(_ZN6Magick8DrawableC1ERKS0_+0x19)[0xb7191f49]
- Segmentation fault
-
-
-==MPS==
-===ELMPS01IOC===
-To bypass EOECM watchdog, run after ioc reboot:
- < eoecmwdBypass.iocscr
-
-===ELMPS02IOC===
-To bypass benders, run after ioc reboot:
- < benderBypass.iocscr
-
-===Tune Lock===
-Currently implementing
-
-===Discussions===
-* Find method to save tunes (HV and BLM values) and later restore on ioc reboots.

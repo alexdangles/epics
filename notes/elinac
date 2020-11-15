@@ -1,0 +1,12 @@
+==Viewscreens==
+
+===Crash log===
+ *** glibc detected *** ./viewscreenioc: malloc(): memory corruption (fast): 0xb71cf4a0 ***
+ ======= Backtrace: =========
+ /lib/libc.so.6(+0x6af2a)[0xb6bcbf2a]
+ /lib/libc.so.6(+0x6e0a6)[0xb6bcf0a6]
+ /lib/libc.so.6(__libc_malloc+0x5c)[0xb6bd092c]
+ /usr/lib/libstdc++.so.6(_Znwj+0x28)[0xb6d6d2dd]
+ /epicsserver/data/iocboot/elvs02ioc/vslib/libGraphicsMagick++.so.3(_ZNK6Magick12DrawableLine4copyEv+0x26)[0xb71942c6]
+ /epicsserver/data/iocboot/elvs02ioc/vslib/libGraphicsMagick++.so.3(_ZN6Magick8DrawableC1ERKS0_+0x19)[0xb7191f49]
+ Segmentation fault

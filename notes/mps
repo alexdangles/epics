@@ -1,0 +1,12 @@
+==MPS==
+
+===ELMPS01IOC===
+To bypass EOECM watchdog, run after ioc reboot:
+ < eoecmwdBypass.iocscr
+
+===ELMPS02IOC===
+To bypass benders, run after ioc reboot:
+ < benderBypass.iocscr
+
+===Tune Lock===
+Currently implementing
