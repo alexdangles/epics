@@ -9,16 +9,13 @@ w 2076 1523 100 0 n#4 trcalcos.$(PS):STATUSOFF.VAL 1944 1520 2208 1520 outhier.s
 n 1659 1979 2109 2027 100
 FUNCTIONALITY:
 CHECK THAT CANBUS BENDER IS OFF AND ALIVE
+
 _
 n 2209 1618 2530 1714 100
 LED RULES FOR $(D)$(PS):STATUS:
 0: PATH BAD -> RED
 1: PATH GOOD -> GREEN
 2: DISABLED -> BLACK
-_
-n 2812 2007 3172 2057 150
-Functionality:
-Please add functionality here
 _
 [cell use]
 use bb200tr 712 632 100 0 bb200tr#2
@@ -29,7 +26,7 @@ p 2152 984 100 0 -1 sett0:Machine Protect System
 p 2152 952 100 0 -1 sett1:Optics Subsystem - Stream Device PS Status
 p 2568 824 150 0 -1 setdat:2016/08/15
 p 2328 872 200 0 -1 setd:$Revision: 1.1 $
-p 2168 760 150 0 -1 setf:emps_canps_off.sch
+p 2168 760 150 0 -1 setf:emps_streamps.sch
 use trcalcos 1740 1219 100 0 $(PS):STATUSOFF
 xform 0 1800 1520
 p 1684 1219 100 0 -1 PV:$(D)

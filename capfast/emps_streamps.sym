@@ -8,7 +8,8 @@ uniq 27
 [tools]
 [attributes]
 p 24 64 100 0 -1 set1:D ???
-p 24 32 100 0 -1 set2:PS ???
+p 24 40 100 0 -1 set2:PS ???
+p 24 8 100 0 -1 set3:TL EMPS:TUNELOCK
 [layers]
 <symbol>
 a 0 -6 64 0 64 360
