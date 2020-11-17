@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 533
-y 152
+x 2511
+y 440
 w 1084
 h 657
 font "helvetica-medium-r-12.0"
@@ -3501,139 +3501,6 @@ newPos
 noExecuteClipMask
 endObjectProperties
 
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 446
-y 161
-w 28
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 2
-value {
-  "BIRA"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 433
-y 101
-w 51
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 2
-value {
-  "CANBUS"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 433
-y 30
-w 51
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 28
-value {
-  "STREAM"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 432
-y 228
-w 51
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 28
-value {
-  "STREAM"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 434
-y 359
-w 51
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 28
-value {
-  "STREAM"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 431
-y 509
-w 51
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 28
-value {
-  "STREAM"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 442
-y 294
-w 28
-h 14
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 2
-value {
-  "BIRA"
-}
-autoSize
-endObjectProperties
-
 # (Text Monitor)
 object activeXTextDspClass:noedit
 beginObjectProperties
@@ -3884,63 +3751,6 @@ bgColor index 0
 useDisplayBg
 value {
   "This will be from the EOECM or another method"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 427
-y 613
-w 51
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 28
-value {
-  "STREAM"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 437
-y 436
-w 28
-h 14
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 2
-value {
-  "BIRA"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 444
-y 581
-w 28
-h 14
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 2
-value {
-  "BIRA"
 }
 autoSize
 endObjectProperties

@@ -1,6 +1,7 @@
-==Viewscreens==
+==E-Linac==
 
-===Crash log===
+===Viewscreens===
+====Crash log====
  *** glibc detected *** ./viewscreenioc: malloc(): memory corruption (fast): 0xb71cf4a0 ***
  ======= Backtrace: =========
  /lib/libc.so.6(+0x6af2a)[0xb6bcbf2a]

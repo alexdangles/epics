@@ -1,5 +1,5 @@
 [schematic2]
-uniq 276
+uniq 274
 [tools]
 [detail]
 w 696 -2989 100 0 n#1 emps_streamps.emps_streamps#1.flink 656 -2992 736 -2992 emps_streamps.emps_streamps#2.scanin
@@ -7,12 +7,12 @@ w 2000 -2989 100 0 n#2 emps_streamps.emps_streamps#3.flink 1960 -2992 2040 -2992
 w 204 -2941 100 0 n#3 trcalcos.EGUN:ENABLE.VAL 104 -2944 304 -2944 emps_streamps.emps_streamps#1.enable
 w 2032 -2941 100 0 n#3 emps_streamps.emps_streamps#4.enable 2040 -2944 2024 -2944 2024 -2704 1584 -2704 junction
 w 154 -2909 100 0 n#4 trcalcos.EGUN:ENABLE.FLNK 104 -2912 204 -2912 204 -2992 304 -2992 emps_streamps.emps_streamps#1.scanin
-w -316 -3133 100 0 n#5 trcalcos.EGUN:ENABLE.SLNK -184 -3136 -448 -3136 -448 -3168 -720 -3168 efanouts.SCANFAN1.LNK2
+w -316 -3133 100 0 n#5 trcalcos.EGUN:ENABLE.SLNK -184 -3136 -448 -3136 -448 -3168 -1016 -3168 efanouts.SCANFAN1.LNK2
 w 1100 -2941 100 0 n#6 emps_streamps.emps_streamps#2.statok 1088 -2944 1112 -2944 1112 -2768 2672 -2768 trcalcos.EGUN:PATHOK.INPC
 w 1676 -2733 100 0 n#7 trcalcos.EGUN:PATHOK.INPB 2672 -2736 680 -2736 680 -2944 656 -2944 emps_streamps.emps_streamps#1.statok
 w 2348 -2701 100 0 n#3 trcalcos.EGUN:PATHOK.INPA 2672 -2704 2024 -2704 junction
 w 283 -2824 100 0 n#3 junction 280 -2944 280 -2704 712 -2704 712 -2944 736 -2944 emps_streamps.emps_streamps#2.enable
-w -576 -3197 100 0 n#8 efanouts.SCANFAN1.LNK3 -720 -3200 -432 -3200 -432 -3720 -184 -3720 trcalcos.ELBT0:ENABLE.SLNK
+w -724 -3197 100 0 n#8 efanouts.SCANFAN1.LNK3 -1016 -3200 -432 -3200 -432 -3720 -184 -3720 trcalcos.ELBT0:ENABLE.SLNK
 w 680 -3573 100 0 n#9 emps_streamps.emps_streamps#5.flink 640 -3576 720 -3576 emps_streamps.emps_streamps#6.scanin
 w 1572 -3573 100 0 n#10 emps_streamps.emps_streamps#7.scanin 1600 -3576 1544 -3576 emps_canps.emps_canps#339.flink
 w 1992 -3573 100 0 n#11 emps_streamps.emps_streamps#7.flink 1952 -3576 2032 -3576 emps_streamps.emps_streamps#8.scanin
@@ -39,7 +39,7 @@ w 2500 -3853 100 0 n#254 trcalcos.ELBT1:PATHOK.INPA 2976 -3856 2024 -3856 juncti
 w 2420 -4125 100 0 n#25 emps_streamps.emps_streamps#12.statok 2400 -4128 2440 -4128 2440 -4016 2976 -4016 trcalcos.ELBT1:PATHOK.INPF
 w 2456 -4173 100 0 n#26 emps_streamps.emps_streamps#12.flink 2400 -4176 2512 -4176 emps_canps_off.emps_canps_off#17.scanin
 w 268 -4173 100 0 n#27 emps_canps.emps_canps#337.scanin 328 -4176 208 -4176 208 -4064 104 -4064 trcalcos.ELBT1:ENABLE.FLNK
-w -320 -4285 100 0 n#28 trcalcos.ELBT1:ENABLE.SLNK -184 -4288 -456 -4288 -456 -3232 -720 -3232 efanouts.SCANFAN1.LNK4
+w -320 -4285 100 0 n#28 trcalcos.ELBT1:ENABLE.SLNK -184 -4288 -456 -4288 -456 -3232 -1016 -3232 efanouts.SCANFAN1.LNK4
 w 1128 -4861 100 0 n#29 emps_canps.emps_canps#341.flink 1088 -4864 1168 -4864 emps_streamps.emps_streamps#14.scanin
 w 1568 -4861 100 0 n#30 emps_streamps.emps_streamps#15.scanin 1616 -4864 1520 -4864 emps_streamps.emps_streamps#14.flink
 w 2004 -4861 100 0 n#31 emps_streamps.emps_streamps#15.flink 1968 -4864 2040 -4864 emps_canps.emps_canps#16.scanin
@@ -50,7 +50,7 @@ w 2056 -4493 100 0 n#33 trcalcos.ELBD:PATHOK.INPB 3448 -4496 664 -4496 664 -4816
 w 1532 -4813 100 0 n#34 emps_streamps.emps_streamps#14.statok 1520 -4816 1544 -4816 1544 -4560 3448 -4560 trcalcos.ELBD:PATHOK.INPD
 w 2720 -4589 100 0 n#35 trcalcos.ELBD:PATHOK.INPE 3448 -4592 1992 -4592 1992 -4816 1968 -4816 emps_streamps.emps_streamps#15.statok
 w 244 -4861 100 0 n#36 emps_streamps.emps_streamps#13.scanin 288 -4864 200 -4864 200 -4672 104 -4672 trcalcos.ELBD:ENABLE.FLNK
-w -332 -4893 100 0 n#37 trcalcos.ELBD:ENABLE.SLNK -184 -4896 -480 -4896 -480 -3264 -720 -3264 efanouts.SCANFAN1.LNK5
+w -332 -4893 100 0 n#37 trcalcos.ELBD:ENABLE.SLNK -184 -4896 -480 -4896 -480 -3264 -1016 -3264 efanouts.SCANFAN1.LNK5
 w 3072 -3477 100 0 n#38 trcalcos.ELBT0:PATHOK.VAL 2968 -3480 3176 -3480 3176 -3704 3456 -3704 trcalcos.ELBT:PATHOK.INPC
 w 3300 -4045 100 0 n#39 trcalcos.ELBT1:PATHOK.VAL 3264 -4048 3336 -4048 3336 -3736 3456 -3736 trcalcos.ELBT:PATHOK.INPD
 w 3128 -3445 100 0 n#40 trcalcos.ELBT0:PATHOK.FLNK 2968 -3448 3288 -3448 3288 -4024 3456 -4024 trcalcos.ELBT:PATHOK.SLNK
@@ -377,13 +377,11 @@ w 2332 -2829 100 0 n#265 trcalcos.EGUN:PATHOK.INPE 2672 -2832 1992 -2832 1992 -2
 w 2584 -2861 100 0 n#266 trcalcos.EGUN:PATHOK.INPF 2672 -2864 2496 -2864 2496 -2944 2392 -2944 emps_streamps.emps_streamps#4.statok
 w 1548 -2941 100 0 n#267 emps_canps.emps_canps#335.statok 1536 -2944 1560 -2944 1560 -2800 2672 -2800 trcalcos.EGUN:PATHOK.INPD
 w 2468 -2989 100 0 n#268 emps_streamps.emps_streamps#4.flink 2392 -2992 2544 -2992 2544 -3088 2672 -3088 trcalcos.EGUN:PATHOK.SLNK
-w -684 -3133 100 0 n#269 efanouts.SCANFAN1.LNK1 -720 -3136 -648 -3136 -648 -3024 -1016 -3024 -1016 -2896 -872 -2896 eais.BEAMPATH.SLNK
-w 796 867 100 0 n#270 trcalcos.TUNELOCK.FLNK 664 864 928 864 928 704 1000 704 trcalcos.BEAMCUROK.SLNK
-w 684 835 100 0 n#271 trcalcos.TUNELOCK.VAL 664 832 704 832 704 1088 1000 1088 trcalcos.BEAMCUROK.INPA
-w 1352 931 100 0 n#272 trcalcos.BEAMCUROK.FLNK 1288 928 1416 928 1416 832 1448 832 trcalcos.TESTOKAY.SLNK
-w -116 1123 100 0 n#273 esels.SUMMARY.FLNK -256 1120 24 1120 24 640 376 640 trcalcos.TUNELOCK.SLNK
-w 1328 899 100 0 n#274 trcalcos.BEAMCUROK.VAL 1288 896 1368 896 1368 1184 1448 1184 trcalcos.TESTOKAY.INPB
-w -216 1091 100 0 n#275 esels.SUMMARY.VAL -256 1088 -176 1088 -176 1216 1448 1216 trcalcos.TESTOKAY.INPA
+w -1008 -3133 100 0 n#269 efanouts.SCANFAN1.LNK1 -1016 -3136 -1000 -3136 -1000 -3024 -1296 -3024 -1296 -2872 -1104 -2872 eais.BEAMPATH.SLNK
+w -216 1091 100 0 n#270 esels.SUMMARY.VAL -256 1088 -176 1088 -176 1216 1448 1216 trcalcos.TESTOKAY.INPA
+w -832 -2853 100 0 n#271 eais.BEAMPATH.FLNK -848 -2856 -816 -2856 -816 -3040 -744 -3040 trcalcos.TUNELOCK.SLNK
+w -820 -2885 100 0 n#272 eais.BEAMPATH.VAL -848 -2888 -792 -2888 -792 -2688 -744 -2688 trcalcos.TUNELOCK.INPB
+w 224 1123 100 0 n#273 esels.SUMMARY.FLNK -256 1120 704 1120 704 832 1448 832 trcalcos.TESTOKAY.SLNK
 n -923 -4575 -663 -4143 100
 Beam Request modes:
 From EMPS:BMPATHREQSTR
@@ -405,7 +403,7 @@ From EMPS:BMPATHREQSTR
 16: EHBT:FC43
 _
 s -1169 -2443 300 0 This schematic is for determining if all optics are ok for a given beam path. The beam path is broken up in logical parts for final calculations
-n -1081 -2763 -592 -2691 100
+n -1345 -2771 -856 -2699 100
 Criteria:
 - X/YCBs ON, Quad ON, Benders ON, PS not in timeout
 - Benders @ correct field (need values)
@@ -537,10 +535,7 @@ From EMPS:BMPATHREQSTR
 _
 s 6271 -8014 500 0 EHDT
 f -708 1760 -313 1842 350 3328  TEST & SUMMARY HERE!
-f -454 1896 1507 3013 100 1280  Remove when done
-n 319 487 847 511 100
-All optics status symbols reference this in their macro $(TL)
-_
+f -502 1880 1459 2997 100 1280  Remove when done
 [cell use]
 use be200tr -1472 -7416 100 0 be200tr#46
 xform 0 1968 -4776
@@ -575,12 +570,12 @@ p 11185 -12595 150 0 -1 seta:M. Rowe
 p 11534 -12595 150 0 -1 setdat:2018/04/23
 p 11260 -12521 200 0 -1 setd:$Revision: 1.18 $
 p 11036 -12654 150 0 -1 setf:emps_beampathoptics.sch
-use eais -789 -2981 100 0 BEAMPATH
-xform 0 -744 -2896
-p -957 -2981 100 0 -1 PV:EMPS:OPTICS:
-p -1128 -3026 100 0 0 LINR:NO CONVERSION
-p -1190 -2869 100 0 1 def(INP):EMPS:BMPATHREQ
-p -1033 -2933 100 0 0 SCAN:Passive
+use eais -1021 -2957 100 0 BEAMPATH
+xform 0 -976 -2872
+p -1189 -2957 100 0 -1 PV:EMPS:OPTICS:
+p -1360 -3002 100 0 0 LINR:NO CONVERSION
+p -1356 -2849 100 0 1 def(INP):EMPS:BMPATHREQ
+p -1265 -2909 100 0 0 SCAN:Passive
 use trcalcos -115 -3236 100 0 EGUN:ENABLE
 xform 0 -40 -2944
 p -283 -3236 100 0 -1 PV:EMPS:OPTICS:
@@ -608,7 +603,7 @@ p 2128 -2976 100 0 -1 set2:PS EGUN:YCB1
 use trcalcos 2734 -3175 100 0 EGUN:PATHOK
 xform 0 2816 -2896
 p 2566 -3175 100 0 -1 PV:EMPS:OPTICS:
-p 2752 -2736 150 0 1 CALC:A?B:2
+p 2752 -2736 150 0 1 CALC:A?B&D:2
 p 2758 -2757 100 0 0 OCAL:0
 use trcalcos -115 -3820 100 0 ELBT0:ENABLE
 xform 0 -40 -3528
@@ -637,7 +632,7 @@ p 2120 -3560 100 0 -1 set2:PS ELBT:YCB1
 use trcalcos 2742 -3759 100 0 ELBT0:PATHOK
 xform 0 2824 -3480
 p 2574 -3759 100 0 -1 PV:EMPS:OPTICS:
-p 2760 -3320 150 0 1 CALC:A?1:2
+p 2760 -3320 150 0 1 CALC:A?B:2
 p 2766 -3341 100 0 0 OCAL:0
 use emps_streamps 728 -4216 100 0 emps_streamps#9
 xform 0 904 -4120
@@ -666,7 +661,7 @@ p -91 -9220 100 0 1 OOPT:Every Time
 use trcalcos 3038 -4327 100 0 ELBT1:PATHOK
 xform 0 3120 -4048
 p 2870 -4327 100 0 -1 PV:EMPS:OPTICS:
-p 3056 -3888 150 0 1 CALC:A?B:2
+p 3056 -3888 150 0 1 CALC:A?B&C:2
 p 3062 -3909 100 0 0 OCAL:0
 p 448 0 100 0 0 pproc(INPA):NPP
 p 448 0 100 0 0 palrm(INPA):NMS
@@ -681,7 +676,7 @@ p -91 -9220 100 0 1 OOPT:Every Time
 use trcalcos 3510 -4935 100 0 ELBD:PATHOK
 xform 0 3592 -4656
 p 3342 -4935 100 0 -1 PV:EMPS:OPTICS:
-p 3528 -4496 150 0 1 CALC:A?F:2
+p 3528 -4496 150 0 1 CALC:A?C&F:2
 p 3534 -4517 100 0 0 OCAL:0
 use trcalcos 3518 -4111 100 0 ELBT:PATHOK
 xform 0 3600 -3832
@@ -783,8 +778,11 @@ p 1773 -5815 100 0 1 FRST:Not Monitored
 use trcalcos 1515 736 100 0 TESTOKAY
 xform 0 1592 1024
 p 1347 736 100 0 -1 PV:EMPS:OPTICS:
-p 1528 1184 150 0 1 CALC:A>0?B&!L:0
+p 1528 1184 150 0 1 CALC:A>0?(B?(C<D):1)&!L:0
 p 1751 985 100 0 0 def(OUT):
+p 1203 1180 100 0 1 def(INPB):EMPS:TUNELOCK
+p 1220 1145 100 0 1 def(INPC):ALEX:BEAMCUR
+p 1338 1114 100 0 1 def(INPD):2
 use trcalcos 2276 -5797 100 0 WFBP:STATUS
 xform 0 2336 -5496
 p 2108 -5797 100 0 -1 PV:EMPS:OPTICS:
@@ -845,6 +843,7 @@ use emps_streamps 8168 -2968 100 0 emps_streamps#23
 xform 0 8344 -2872
 p 8256 -2880 100 0 -1 set1:D EMPS:OPTICS:
 p 8256 -2912 100 0 -1 set2:PS EMBT:Q1
+p 8256 -2936 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 7296 -3352 100 0 emps_streamps#24
 xform 0 7472 -3256
 p 7384 -3264 100 0 -1 set1:D EMPS:OPTICS:
@@ -861,6 +860,7 @@ use emps_streamps 8592 -2968 100 0 emps_streamps#27
 xform 0 8768 -2872
 p 8680 -2880 100 0 -1 set1:D EMPS:OPTICS:
 p 8680 -2912 100 0 -1 set2:PS EMBT:Q2
+p 8680 -2936 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 8600 -3352 100 0 emps_streamps#28
 xform 0 8776 -3256
 p 8688 -3264 100 0 -1 set1:D EMPS:OPTICS:
@@ -869,6 +869,7 @@ use emps_streamps 7296 -3720 100 0 emps_streamps#29
 xform 0 7472 -3624
 p 7384 -3632 100 0 -1 set1:D EMPS:OPTICS:
 p 7384 -3664 100 0 -1 set2:PS EMBT:Q3
+p 7384 -3688 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 7728 -3720 100 0 emps_streamps#30
 xform 0 7904 -3624
 p 7816 -3632 100 0 -1 set1:D EMPS:OPTICS:
@@ -887,12 +888,13 @@ p 6510 -4287 100 0 -1 def(INPB):EMPS:OPTICS:BEAMPATH.STAT
 use trcalcos 9358 -4567 100 0 EMBT1:PATHCALC
 xform 0 9440 -4288
 p 9233 -4568 100 0 -1 PV:EMPS:OPTICS:
-p 9376 -4128 150 0 1 CALC:L
+p 9376 -4128 150 0 1 CALC:B&L
 p 9382 -4149 100 0 0 OCAL:0
 use emps_streamps 7344 -4392 100 0 emps_streamps#32
 xform 0 7520 -4296
 p 7432 -4304 100 0 -1 set1:D EMPS:OPTICS:
 p 7432 -4336 100 0 -1 set2:PS EMBT:Q4
+p 7432 -4360 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 7776 -4392 100 0 emps_streamps#33
 xform 0 7952 -4296
 p 7864 -4304 100 0 -1 set1:D EMPS:OPTICS:
@@ -917,6 +919,7 @@ use emps_streamps 8648 -4392 100 0 emps_streamps#38
 xform 0 8824 -4296
 p 8736 -4304 100 0 -1 set1:D EMPS:OPTICS:
 p 8736 -4336 100 0 -1 set2:PS EMBT:Q5
+p 8736 -4360 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 8656 -4776 100 0 emps_streamps#39
 xform 0 8832 -4680
 p 8744 -4688 100 0 -1 set1:D EMPS:OPTICS:
@@ -925,6 +928,7 @@ use emps_streamps 7352 -5144 100 0 emps_streamps#40
 xform 0 7528 -5048
 p 7440 -5056 100 0 -1 set1:D EMPS:OPTICS:
 p 7440 -5088 100 0 -1 set2:PS EMBT:Q5B
+p 7440 -5112 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 8232 -5144 100 0 emps_streamps#41
 xform 0 8408 -5048
 p 8320 -5056 100 0 -1 set1:D EMPS:OPTICS:
@@ -960,6 +964,7 @@ use emps_streamps 8208 -6432 100 0 emps_streamps#55
 xform 0 8384 -6336
 p 8296 -6344 100 0 -1 set1:D EMPS:OPTICS:
 p 8296 -6376 100 0 -1 set2:PS EMBD:Q1
+p 8296 -6400 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 8632 -6432 100 0 emps_streamps#57
 xform 0 8808 -6336
 p 8720 -6344 100 0 -1 set1:D EMPS:OPTICS:
@@ -971,12 +976,13 @@ p 7416 -6376 100 0 -1 set2:PS EMBD:MB0
 use trcalcos 9390 -6583 100 0 EMBD:PATHOK
 xform 0 9472 -6304
 p 9265 -6584 100 0 -1 PV:EMPS:OPTICS:
-p 9408 -6144 150 0 1 CALC:A?B:2
+p 9408 -6144 150 0 1 CALC:A?B&D:2
 p 9414 -6165 100 0 0 OCAL:0
 use emps_streamps 7768 -6816 100 0 emps_streamps#67
 xform 0 7944 -6720
 p 7856 -6728 100 0 -1 set1:D EMPS:OPTICS:
 p 7856 -6760 100 0 -1 set2:PS EMBD:Q2
+p 7856 -6784 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 8216 -6816 100 0 emps_streamps#69
 xform 0 8392 -6720
 p 8304 -6728 100 0 -1 set1:D EMPS:OPTICS:
@@ -997,6 +1003,7 @@ use emps_streamps 8232 -5528 100 0 emps_streamps#80
 xform 0 8408 -5432
 p 8320 -5440 100 0 -1 set1:D EMPS:OPTICS:
 p 8320 -5472 100 0 -1 set2:PS EMBT:Q6
+p 8320 -5496 100 0 -1 set3:TUNELOCK 1
 use trcalcos 8854 -5527 100 0 EMBT1:PATHCALC2
 xform 0 8936 -5248
 p 8729 -5528 100 0 -1 PV:EMPS:OPTICS:
@@ -1018,6 +1025,7 @@ use emps_streamps 8256 -5896 100 0 emps_streamps#99
 xform 0 8432 -5800
 p 8344 -5808 100 0 -1 set1:D EMPS:OPTICS:
 p 8344 -5840 100 0 -1 set2:PS EMBT:Q7
+p 8344 -5864 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 7808 -5896 100 0 emps_streamps#101
 xform 0 7984 -5800
 p 7896 -5808 100 0 -1 set1:D EMPS:OPTICS:
@@ -1067,6 +1075,7 @@ use emps_streamps 1256 -8432 100 0 emps_streamps#154
 xform 0 1432 -8336
 p 1344 -8344 100 0 -1 set1:D EMPS:OPTICS:
 p 1344 -8376 100 0 -1 set2:PS EABT:Q1
+p 1344 -8400 100 0 -1 set3:TUNELOCK 1
 use trcalcos 3534 -9191 100 0 EABT:PATHOK
 xform 0 3616 -8912
 p 3366 -9191 100 0 -1 PV:EMPS:OPTICS:
@@ -1079,19 +1088,21 @@ xform 0 1640 552
 p 1421 448 100 0 -1 PV:EMPS:OPTICS:
 p 1582 630 100 0 1 DTYP:Soft Channel
 p 1552 650 100 0 1 OMSL:closed_loop
-use efanouts -768 -3344 100 0 SCANFAN1
-xform 0 -840 -3200
-p -936 -3344 100 0 -1 PV:EMPS:OPTICS:
-p -923 -3376 100 0 0 SCAN:Passive
-p -707 -3109 100 0 0 def(FLNK):
+use efanouts -1064 -3344 100 0 SCANFAN1
+xform 0 -1136 -3200
+p -1232 -3344 100 0 -1 PV:EMPS:OPTICS:
+p -1219 -3376 100 0 0 SCAN:Passive
+p -1003 -3109 100 0 0 def(FLNK):
 use emps_streamps 272 -9264 100 0 emps_streamps#174
 xform 0 448 -9168
 p 360 -9176 100 0 -1 set1:D EMPS:OPTICS:
 p 360 -9208 100 0 -1 set2:PS EABT:Q2
+p 360 -9232 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 712 -9264 100 0 emps_streamps#176
 xform 0 888 -9168
 p 800 -9176 100 0 -1 set1:D EMPS:OPTICS:
 p 800 -9208 100 0 -1 set2:PS EABT:Q3
+p 800 -9232 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 1160 -9264 100 0 emps_streamps#178
 xform 0 1336 -9168
 p 1248 -9176 100 0 -1 set1:D EMPS:OPTICS:
@@ -1110,7 +1121,7 @@ p -470 -8984 100 0 -1 def(INPB):EMPS:OPTICS:BEAMPATH.STAT
 use trcalcos 2582 -9407 100 0 EABT1:PATHOK
 xform 0 2664 -9128
 p 2414 -9407 100 0 -1 PV:EMPS:OPTICS:
-p 2600 -8968 150 0 1 CALC:A?F:2
+p 2600 -8968 150 0 1 CALC:A?B&F:2
 p 2606 -8989 100 0 0 OCAL:0
 use emps_biraps_off 2056 -9256 100 0 emps_biraps_off#188
 xform 0 2232 -9168
@@ -1131,6 +1142,7 @@ use emps_streamps 1192 -9848 100 0 emps_streamps#194
 xform 0 1368 -9752
 p 1280 -9760 100 0 -1 set1:D EMPS:OPTICS:
 p 1280 -9792 100 0 -1 set2:PS EABD:Q1
+p 1280 -9816 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 1616 -9848 100 0 emps_streamps#196
 xform 0 1792 -9752
 p 1704 -9760 100 0 -1 set1:D EMPS:OPTICS:
@@ -1142,12 +1154,13 @@ p 400 -9792 100 0 -1 set2:PS EABD:MB0
 use trcalcos 2374 -9999 100 0 EABD:PATHOK
 xform 0 2456 -9720
 p 2249 -10000 100 0 -1 PV:EMPS:OPTICS:
-p 2392 -9560 150 0 1 CALC:A?B:2
+p 2392 -9560 150 0 1 CALC:A?B&D:2
 p 2398 -9581 100 0 0 OCAL:0
 use emps_streamps 752 -10232 100 0 emps_streamps#202
 xform 0 928 -10136
 p 840 -10144 100 0 -1 set1:D EMPS:OPTICS:
 p 840 -10176 100 0 -1 set2:PS EABD:Q2
+p 840 -10200 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 1200 -10232 100 0 emps_streamps#204
 xform 0 1376 -10136
 p 1288 -10144 100 0 -1 set1:D EMPS:OPTICS:
@@ -1271,6 +1284,7 @@ use emps_streamps 1128 -11432 100 0 emps_streamps#242
 xform 0 1304 -11336
 p 1216 -11344 100 0 -1 set1:D EMPS:OPTICS:
 p 1216 -11376 100 0 -1 set2:PS EHAT:Q2
+p 1216 -11400 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 1552 -11432 100 0 emps_streamps#244
 xform 0 1728 -11336
 p 1640 -11344 100 0 -1 set1:D EMPS:OPTICS:
@@ -1278,12 +1292,13 @@ p 1640 -11376 100 0 -1 set2:PS EHAT:XCB2
 use trcalcos 2310 -11583 100 0 EHAT1:PATHOK
 xform 0 2392 -11304
 p 2185 -11584 100 0 -1 PV:EMPS:OPTICS:
-p 2328 -11144 150 0 1 CALC:A?K:2
+p 2328 -11144 150 0 1 CALC:A?D:2
 p 2334 -11165 100 0 0 OCAL:0
 use emps_streamps 688 -11816 100 0 emps_streamps#250
 xform 0 864 -11720
 p 776 -11728 100 0 -1 set1:D EMPS:OPTICS:
 p 776 -11760 100 0 -1 set2:PS EHAT:Q3
+p 776 -11784 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 1136 -11816 100 0 emps_streamps#252
 xform 0 1312 -11720
 p 1224 -11728 100 0 -1 set1:D EMPS:OPTICS:
@@ -1319,6 +1334,7 @@ use emps_streamps 1160 -10760 100 0 emps_streamps#220
 xform 0 1336 -10664
 p 1248 -10672 100 0 -1 set1:D EMPS:OPTICS:
 p 1248 -10704 100 0 -1 set2:PS EHAT:Q1
+p 1248 -10728 100 0 -1 set3:TUNELOCK 1
 use trcalcos 3438 -11519 100 0 EHAT:PATHOK
 xform 0 3520 -11240
 p 3270 -11519 100 0 -1 PV:EMPS:OPTICS:
@@ -1335,6 +1351,7 @@ use emps_streamps 264 -12200 100 0 emps_streamps#259
 xform 0 440 -12104
 p 352 -12112 100 0 -1 set1:D EMPS:OPTICS:
 p 352 -12144 100 0 -1 set2:PS EHAT:Q4
+p 352 -12168 100 0 -1 set3:TUNELOCK 1
 use emps_biraps 704 -12200 100 0 emps_biraps#261
 xform 0 880 -12104
 p 792 -12112 100 0 -1 set1:D EMPS:OPTICS:
@@ -1359,10 +1376,12 @@ use emps_streamps 8440 -9456 100 0 emps_streamps#269
 xform 0 8616 -9360
 p 8528 -9368 100 0 -1 set1:D EMPS:OPTICS:
 p 8528 -9400 100 0 -1 set2:PS EHDT:Q5
+p 8528 -9424 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 8864 -9456 100 0 emps_streamps#271
 xform 0 9040 -9360
 p 8952 -9368 100 0 -1 set1:D EMPS:OPTICS:
 p 8952 -9400 100 0 -1 set2:PS EHDT:Q6
+p 8952 -9424 100 0 -1 set3:TUNELOCK 1
 use trcalcos 9622 -9607 100 0 EHDT1:PATHOK
 xform 0 9704 -9328
 p 9497 -9608 100 0 -1 PV:EMPS:OPTICS:
@@ -1393,14 +1412,16 @@ use emps_streamps 8448 -8352 100 0 emps_streamps#307
 xform 0 8624 -8256
 p 8536 -8264 100 0 -1 set1:D EMPS:OPTICS:
 p 8536 -8296 100 0 -1 set2:PS EHDT:Q1
+p 8536 -8320 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 8872 -8352 100 0 emps_streamps#309
 xform 0 9048 -8256
 p 8960 -8264 100 0 -1 set1:D EMPS:OPTICS:
 p 8960 -8296 100 0 -1 set2:PS EHDT:Q2
+p 8960 -8320 100 0 -1 set3:TUNELOCK 1
 use trcalcos 9630 -8503 100 0 EHDT0:PATHOK
 xform 0 9712 -8224
 p 9505 -8504 100 0 -1 PV:EMPS:OPTICS:
-p 9648 -8064 150 0 1 CALC:A?F:2
+p 9648 -8064 150 0 1 CALC:A?D:2
 p 9654 -8085 100 0 0 OCAL:0
 use emps_streamps 8008 -8736 100 0 emps_streamps#315
 xform 0 8184 -8640
@@ -1461,18 +1482,22 @@ use emps_canps 1184 -3024 100 0 emps_canps#335
 xform 0 1360 -2936
 p 1272 -2944 100 0 -1 set1:D EMPS:OPTICS:
 p 1272 -2976 100 0 -1 set2:PS EGUN:SOL1
+p 1272 -3000 100 0 -1 set3:TUNELOCK 1
 use emps_canps 328 -4208 100 0 emps_canps#337
 xform 0 504 -4120
 p 416 -4128 100 0 -1 set1:D EMPS:OPTICS:
 p 416 -4160 100 0 -1 set2:PS ELBT:SOL2
+p 416 -4184 100 0 -1 set3:TUNELOCK 1
 use emps_canps 1192 -3608 100 0 emps_canps#339
 xform 0 1368 -3520
 p 1280 -3528 100 0 -1 set1:D EMPS:OPTICS:
 p 1280 -3560 100 0 -1 set2:PS ELBT:SOL1
+p 1280 -3584 100 0 -1 set3:TUNELOCK 1
 use emps_canps 736 -4896 100 0 emps_canps#341
 xform 0 912 -4808
 p 824 -4816 100 0 -1 set1:D EMPS:OPTICS:
 p 824 -4848 100 0 -1 set2:PS ELBD:SOL1
+p 824 -4872 100 0 -1 set3:TUNELOCK 1
 use emps_streamps 2472 -4904 100 0 emps_streamps#343
 xform 0 2648 -4808
 p 2560 -4816 100 0 -1 set1:D EMPS:OPTICS:
@@ -1564,64 +1589,66 @@ p 518 2569 100 0 1 HOPR:5
 p 518 2541 100 0 1 LOPR:0
 p 517 2596 100 0 0 PREC:0
 p 518 2619 100 0 1 PINI:YES
-use ecalcs 1117 2276 100 0 BMMODEGRANTSTATUS
-xform 0 1112 2608
-p 1049 2274 100 0 -1 PV:EMPS:
-p 1106 2780 150 0 1 CALC:A
-p 708 2811 100 0 1 def(INPA):1
-p 684 2776 100 0 1 def(INPB):1
-p 700 2745 100 0 1 def(INPC):1
-p 673 2713 100 0 1 def(INPD):1
-p 680 2622 100 0 1 PINI:YES
-use trcalcos 445 540 100 0 TUNELOCK
-xform 0 520 832
-p 375 540 100 0 -1 PV:EMPS:
-p 187 1027 100 0 -1 def(INPA):EMPS:BMPROPREQ
-p 471 1013 150 0 1 CALC:(A>2)&B
-p 460 974 100 0 0 OCAL:0
-p 95 988 100 0 -1 def(INPB):EMPS:BMMODEGRANTSTATUS
-p 462 745 100 0 1 OOPT:On Change
-use trcalcos 1062 617 100 0 BEAMCUROK
-xform 0 1144 896
-p 894 617 100 0 -1 PV:EMPS:OPTICS:
-p 1113 1053 150 0 1 CALC:A?(B<2):1
-p 1086 1035 100 0 0 OCAL:0
-p 732 1079 100 0 0 def(INPA):
-p 734 1048 100 0 1 def(INPB):ALEX:BEAMCUR
-p 636 1016 100 0 0 def(INPC):
-p 783 995 100 0 0 def(INPD):
-p 1080 800 100 0 1 OOPT:Every Time
-use fakeps 3120 -3024 100 0 fakeps#347
-xform 0 3312 -2928
-p 3142 -2875 100 0 -1 set0:D EGUN:XCB0:
-use fakeps 4000 -3968 100 0 fakeps#349
-xform 0 4192 -3872
-p 4022 -3819 100 0 -1 set0:D ELBT:SOL2:
+use fakeps 3112 -2856 100 0 fakeps#347
+xform 0 3304 -2760
+p 3134 -2707 100 0 -1 set0:D EGUN:XCB0:
+use fakeps 3296 -4360 100 0 fakeps#349
+xform 0 3488 -4264
+p 3318 -4211 100 0 -1 set0:D ELBT:SOL2:
 use fakeps 3832 -4832 100 0 fakeps#351
 xform 0 4024 -4736
 p 3854 -4683 100 0 -1 set0:D ELBD:MB0:
-use fakeps 10832 -3640 100 0 fakeps#353
-xform 0 11024 -3544
-p 10854 -3491 100 0 -1 set0:D EMBT:XCB0:
-use fakeps 9288 -5616 100 0 fakeps#355
-xform 0 9480 -5520
-p 9310 -5467 100 0 -1 set0:D EMBD:MB0:
+use fakeps 9584 -2760 100 0 fakeps#353
+xform 0 9776 -2664
+p 9606 -2611 100 0 -1 set0:D EMBT:XCB0:
+use fakeps 9232 -5992 100 0 fakeps#355
+xform 0 9424 -5896
+p 9254 -5843 100 0 -1 set0:D EMBD:MB0:
 use fakeps 2760 -8216 100 0 fakeps#357
 xform 0 2952 -8120
 p 2782 -8067 100 0 -1 set0:D EABT:XCB0:
-use fakeps 2656 -9936 100 0 fakeps#359
-xform 0 2848 -9840
-p 2678 -9787 100 0 -1 set0:D EABD:MB0:
+use fakeps 2704 -9752 100 0 fakeps#359
+xform 0 2896 -9656
+p 2726 -9603 100 0 -1 set0:D EABD:MB0:
 use fakeps 3048 -10656 100 0 fakeps#361
 xform 0 3240 -10560
 p 3070 -10507 100 0 -1 set0:D EHAT:XCB0:
 use fakeps 2400 -11840 100 0 fakeps#363
 xform 0 2592 -11744
-p 2422 -11691 100 0 -1 set0:D EHAT:MB4:
+p 2422 -11691 100 0 -1 set0:D EHAT:Q2:
 use fakeps 9992 -8168 100 0 fakeps#365
 xform 0 10184 -8072
-p 10014 -8019 100 0 -1 set0:D EHDT:MB2:
+p 10014 -8019 100 0 -1 set0:D EHDT:Q1:
 use fakeps 9960 -9656 100 0 fakeps#367
 xform 0 10152 -9560
 p 9982 -9507 100 0 -1 set0:D EHDT:XCB4:
+use trcalcos -675 -3140 100 0 TUNELOCK
+xform 0 -600 -2848
+p -745 -3140 100 0 -1 PV:EMPS:
+p -933 -2653 100 0 -1 def(INPA):EMPS:BMPROPREQ
+p -649 -2667 150 0 1 CALC:(A>2)&(B>0)
+p -660 -2706 100 0 0 OCAL:0
+p -1025 -2692 100 0 0 def(INPB):
+p -658 -2935 100 0 1 OOPT:On Change
+use fakeps 3112 -3096 100 0 fakeps#369
+xform 0 3304 -3000
+p 3134 -2947 100 0 -1 set0:D EGUN:SOL1:
+use fakeps 3320 -3536 100 0 fakeps#371
+xform 0 3512 -3440
+p 3342 -3387 100 0 -1 set0:D ELBT:XCB0:
+use fakeps 3824 -4616 100 0 fakeps#373
+xform 0 4016 -4520
+p 3846 -4467 100 0 -1 set0:D ELBD:SOL1:
+use fakeps 9480 -4800 100 0 fakeps#375
+xform 0 9672 -4704
+p 9502 -4651 100 0 -1 set0:D EMBT:Q4:
+use fakeps 9816 -6312 100 0 fakeps#379
+xform 0 10008 -6216
+p 9838 -6163 100 0 -1 set0:D EMBD:Q1:
+use fakeps 2856 -9384 100 0 fakeps#381
+xform 0 3048 -9288
+p 2878 -9235 100 0 -1 set0:D EABT:Q2:
+use fakeps 2680 -10040 100 0 fakeps#383
+xform 0 2872 -9944
+p 2702 -9891 100 0 -1 set0:D EABD:Q1:
 [comments]
