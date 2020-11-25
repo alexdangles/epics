@@ -1,0 +1,72 @@
+[[Category:Implementation Note]]
+
+==Introduction and Scope==
+The minimum Root Mean Square (RMS) beam size achievable onto the
+EHDT dump is around 0.3mm1. With such a beam size it is safe to send
+up to 1.0kW onto the EHDT dump.Above 1.0kW, it is essential to maintain the beam spot above
+a 2 RMS beam radius of 6 mm.To control the beam size it was initially
+considered to enforce the setting of the last two EHDT quadrupoles: unfortunately
+this measure is insufficient as the final spot size is determined
+by the setting of all the upstream optical elements. In this document we
+propose to overcome this difficulty by implementing a modification of the existing
+Machine Protection System (MPS) Beam Modes (implemented in
+the EPICS control system). The proposed modification of the MPS will affect
+all Beam Modes.
+The application scope of the tune lock is in fact not restricted to the EHDT
+dump. Although the initial motivation comes from EHDT, the approach is
+necessary and valid for the beam parameters in EHBT at the AETE target
+station.
+
+==Definitions==
+* ‘Low-power beam modes’ are: NO BEAM, SCINTILLATE, and OTRVIEWER.
+* All other beam modes are referred to as ‘high-power beam modes’.
+* ‘Optical elements’ are: solenoids and quadrupoles.
+* ‘Magnetic elements’ are: optical elements, benders and correction benders.
+* ‘RF parameters’ are: the amplitude and phase set points of ELBT:BUNCH, EINJ, and EACA.
+
+==Requirements==
+RS-1: Low-power beam modes shall allow for average currents no greater
+than 2 μA. The beam shall be tripped if the average current exceeds
+2 μA.
+Rationale: The risk is not only related to the average beam power.
+At low duty cycle a single pulse can carry enough energy to create
+damage.
+Comment: The pulse charge can be monitored using an AC or a DC
+current transformer.
+Comment: Note that 2 μA at 30MeV corresponds to 60W.
+
+RS-2: When a low-power beam mode is granted no constraint is applied to
+the set point of magnetic elements.
+Rationale: Low-power beam modes are used to determine beam energy,
+and setup a suitable steering and optics tune.
+Comment: In a low-power beam mode it is safe to lose all the beam.
+
+RS-3: When a high-power beam mode is requested, the set point of all the
+optics elements and benders upstream of the beam terminus shall be
+locked prior to granting the beam request.
+Rationale: This way the beam size onto the beam terminus cannot be
+changed by operators.
+Comment: The set point of correction benders is not locked: it is the
+role of the Beam Position Monitor (BPM) part of the MPS to look after
+beam steering.
+Comment: Locking does not guarantee the correctness of the tune.
+For this purpose we rely on tuning procedures, and on the machine
+protection system (beam loss and beam position).
+Comment: It is the responsibility of the operator to request a highpower
+beam mode after having verified using a low-power tune that
+the beam size onto the beam terminus is large enough.
+
+RS-4: The Control System shall trip the beam if any of the locked power supplies:
+# lose communication, or
+# see their readback drift by more than +/-0.5% of the full range (DRVH-DRVL).
+Rationale: To turn off the beam if the locked tune is lost.
+
+RS-5: Once a high-power beam mode has been granted, the set point of the
+RF parameters are to be maintained within a window: +/- 5 deg. for RF
+phases and +/-1% of the full range for RF amplitudes.
+Rationale: RF parameters tend to drift over long periods of time, and
+often need online re-adjustments.
+Comment: Since RF is controlled indirectly through the e-Linac Control
+System, by passing messages to the LLRF control system, this requirement
+prescribes a window of eligible setpoints available through
+the control system for use by operators.
