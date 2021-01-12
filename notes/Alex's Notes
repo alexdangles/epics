@@ -35,6 +35,23 @@ The alarm limits are configured by the user in the HIHI, LOLO, HIGH, and LOW fie
  /epicsserver/data/iocboot/elvs02ioc/vslib/libGraphicsMagick++.so.3(_ZN6Magick8DrawableC1ERKS0_+0x19)[0xb7191f49]
  Segmentation fault
 
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=4524000/-1 bytes)
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=4524000/-1 bytes)
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=4524000/-1 bytes)
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=4524000/-1 bytes)
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=2262000/16777216 bytes)
+ NDArrayPool:convert: ERROR, cannot allocate output array
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=4524000/-1 bytes)
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=2262000/16777216 bytes)
+ NDArrayPool:convert: ERROR, cannot allocate output array
+ NDArrayPool:release ERROR, reference count < 0 pArray=0x966bcb0
+ NDArrayPool:release ERROR, reference count < 0 pArray=0x966bcb0
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=2262000/16777216 bytes)
+ NDArrayPool:convert: ERROR, cannot allocate output array
+ NDArrayPool::alloc:: error: reached limit of 5 buffers (memory use=2262000/16777216 bytes)
+ NDArrayPool:convert: ERROR, cannot allocate output array
+ Segmentation fault
+
 
 ==MPS==
 
@@ -47,4 +64,3 @@ To bypass benders, run after ioc reboot:
  < benderBypass.iocscr
 
 ===Discussions===
-* Find method to save tunes (HV and BLM values) and later restore on ioc reboots.

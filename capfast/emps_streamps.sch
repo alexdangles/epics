@@ -26,10 +26,6 @@ CHECK THAT STREAM DEVICE OPTICS ELEMENT IS ON,
 COMMUNICATING AND NOT IN TIMEOUT STATE.
 Updated for Tune Lock (TUNELOCK macro on symbol) -AD
 _
-n 1017 818 1330 866 100
-CALC does not include STATCOMM
--AD
-_
 s 2621 1715 100 0 Tune lock and current exceeds threshold causes trip (statok bad)
 s 2173 1875 100 0 Tune lock disables current setpoint when high-energy grant.
 [cell use]
@@ -49,7 +45,7 @@ p 1513 1298 100 0 -1 def(INPA):$(PS):STATON
 p 1502 1265 100 0 -1 def(INPB):$(PS):STATTMO
 p 1458 1233 100 0 0 def(INPC):
 p 1468 1201 100 0 0 def(INPD):
-p 1760 1272 150 0 1 CALC:L?((A&!B&1)?1:0):2
+p 1760 1272 150 0 1 CALC:L?((A&!B&C)?1:0):2
 p 1759 1251 100 0 1 OCAL:L?(!C?3:(B?2:(!A?1:0))):4
 p 1974 1075 100 0 1 def(OUT):$(D)$(PS):STATTEXT PP
 p 1760 1016 100 0 1 OOPT:Every Time
@@ -143,7 +139,7 @@ p 2189 1725 100 0 1 def(OUT):$(PS):CUR.DISP PP MS
 p 2180 1924 100 0 1 OCAL:0
 p 1880 1940 100 0 1 def(INPB):$(TUNELOCK)
 p 2176 1688 100 0 1 OOPT:On Change
-p 1855 1907 100 0 1 def(INPC):EMPS:TUNELOCK
+p 1855 1907 100 0 1 def(INPC):$(D)TUNELOCK
 p 1843 1871 100 0 0 def(INPD):
 p 1850 1842 100 0 0 def(INPE):
 p 1835 1808 100 0 0 def(INPF):
