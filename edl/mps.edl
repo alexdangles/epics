@@ -1,0 +1,4303 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2511
+y 440
+w 1084
+h 657
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-r-10.0"
+btnFont "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 1
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 574
+y 60
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS2):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 829
+y 63
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS2):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 268
+y 299
+w 52
+h 27
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:OKAY"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 192
+y 304
+w 67
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "OPTICS OK"
+}
+autoSize
+endObjectProperties
+
+# (Radio Box)
+object activeRadioButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 8
+y 32
+w 159
+h 417
+fgColor index 1
+bgColor index 0
+buttonColor index 2
+selectColor index 1
+topShadowColor index 3
+botShadowColor index 4
+controlPv "EMPS:BMPATHREQSTR"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 92
+y 12
+w 31
+h 15
+controlPv "EMPS:OPTICS:BEAMPATH"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 64
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS2):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 784
+y 64
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS2):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 576
+y 27
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+bgAlarm 1
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS1):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 828
+y 32
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS1):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 744
+y 33
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS1):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 783
+y 33
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS1):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 488
+y 67
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS2)"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 489
+y 31
+w 76
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS1)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 575
+y 94
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS3):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 830
+y 97
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS3):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 746
+y 98
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS3):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 98
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS3):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 489
+y 100
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS3)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 574
+y 125
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS4):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 829
+y 128
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS4):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 129
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS4):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 784
+y 129
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS4):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 488
+y 131
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS4)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 575
+y 155
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS5):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 830
+y 158
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS5):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 746
+y 159
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS5):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 159
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS5):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 489
+y 161
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS5)"
+}
+autoSize
+endObjectProperties
+
+# (Radio Box)
+object activeRadioButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 183
+y 31
+w 159
+h 252
+fgColor index 1
+bgColor index 0
+buttonColor index 2
+selectColor index 1
+topShadowColor index 3
+botShadowColor index 4
+controlPv "EMPS:BMPROPREQSTR"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 575
+y 222
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS7):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 830
+y 225
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS7):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 746
+y 226
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS7):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 226
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS7):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 577
+y 189
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS6):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 829
+y 194
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS6):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 195
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS6):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 784
+y 195
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS6):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 489
+y 229
+w 79
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS7)"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 491
+y 193
+w 79
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS6)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 576
+y 256
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS8):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 831
+y 259
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS8):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 747
+y 260
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS8):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 786
+y 260
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS8):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 490
+y 262
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS8)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 575
+y 287
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS9):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 830
+y 290
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS9):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 746
+y 291
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS9):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 291
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS9):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 489
+y 293
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS9)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 574
+y 318
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS10):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 829
+y 321
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS10):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 322
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS10):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 784
+y 322
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS10):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 488
+y 324
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS10)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 575
+y 387
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS12):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 830
+y 390
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS12):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 746
+y 391
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS12):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 391
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS12):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 577
+y 354
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS11):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 829
+y 359
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS11):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 360
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS11):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 784
+y 360
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS11):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 489
+y 394
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS12)"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 490
+y 358
+w 76
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS11)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 577
+y 430
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS13):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 832
+y 433
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS13):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 434
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS13):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 787
+y 434
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS13):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 491
+y 436
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS13)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 576
+y 461
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS14):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 831
+y 464
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS14):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 747
+y 465
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS14):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 786
+y 465
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS14):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 490
+y 467
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS14)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 576
+y 502
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS15):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 831
+y 505
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS15):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 747
+y 506
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS15):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 786
+y 506
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS15):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 490
+y 508
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS15)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 577
+y 574
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS17):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 832
+y 577
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS17):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 578
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS17):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 787
+y 578
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS17):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 578
+y 535
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS16):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 830
+y 540
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS16):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 746
+y 541
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS16):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 541
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS16):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 491
+y 581
+w 84
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS17)"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 492
+y 539
+w 84
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS16)"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 578
+y 608
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(PS18):RDCUR"
+font "helvetica-medium-i-8.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 833
+y 611
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "$(PS18):STATON"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 749
+y 612
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS18):STATON"
+pressValue "on"
+releaseValue "on"
+onLabel "|"
+offLabel "|"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 788
+y 612
+w 37
+h 15
+fgColor index 1
+onColor index 76
+offColor index 76
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(PS18):STATON"
+pressValue "off"
+releaseValue "off"
+onLabel "0"
+offLabel "0"
+3d
+font "helvetica-bold-r-8.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 492
+y 614
+w 82
+h 17
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(PS18)"
+}
+autoSize
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 389
+y 50
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:EGUN:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 116
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:ELBT:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 388
+y 182
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:ELBD:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 388
+y 246
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:EMBT:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 388
+y 311
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:EMBD:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 378
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:EABT:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 447
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:EABD:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 384
+y 519
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:EHAT:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 384
+y 592
+w 34
+h 17
+file "led5state.edl"
+numStates 5
+minValues {
+  0 -0.5
+  1 -2
+  2 0.5
+  3 -2
+  4 -2
+}
+maxValues {
+  0 0.5
+  1 -1
+  2 1.5
+  3 -1
+  4 -1
+}
+controlPvs {
+  0 "EMPS:OPTICS:EHDT:PATHOK"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 359
+y 88
+w 731
+h 1
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 359
+  1 1050
+  2 1090
+}
+yPoints {
+  0 89
+  1 89
+  2 88
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 366
+y 151
+w 731
+h 1
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 366
+  1 1057
+  2 1097
+}
+yPoints {
+  0 152
+  1 152
+  2 151
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 370
+y 215
+w 719
+h 1
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 370
+  1 1050
+  2 1089
+}
+yPoints {
+  0 216
+  1 216
+  2 215
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 369
+y 283
+w 714
+h 1
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 369
+  1 1044
+  2 1083
+}
+yPoints {
+  0 284
+  1 284
+  2 283
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 363
+y 349
+w 715
+h 1
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 363
+  1 1039
+  2 1078
+}
+yPoints {
+  0 350
+  1 350
+  2 349
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 364
+y 422
+w 717
+h 0
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 364
+  1 1043
+  2 1081
+}
+yPoints {
+  0 422
+  1 422
+  2 422
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 352
+y 496
+w 717
+h 0
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 352
+  1 1031
+  2 1069
+}
+yPoints {
+  0 496
+  1 496
+  2 496
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 363
+y 567
+w 708
+h 1
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 363
+  1 1032
+  2 1071
+}
+yPoints {
+  0 568
+  1 568
+  2 567
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 358
+y 640
+w 711
+h 1
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 358
+  1 1031
+  2 1069
+}
+yPoints {
+  0 641
+  1 641
+  2 640
+}
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 387
+y 34
+w 36
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EGUN"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 389
+y 100
+w 31
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "ELBT"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 389
+y 166
+w 32
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "ELBD"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 388
+y 231
+w 34
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EMBT"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 387
+y 295
+w 35
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EMBD"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 387
+y 362
+w 32
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EABT"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 388
+y 430
+w 33
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EABD"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 385
+y 504
+w 33
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EHAT"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 384
+y 575
+w 34
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EHDT"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 8
+y 11
+w 75
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "BEAM PATH"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 184
+y 12
+w 105
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "BEAM PROPERTY"
+}
+autoSize
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 101
+y 466
+w 160
+h 25
+fgColor index 1
+bgColor index 0
+2ndBgColor index 29
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "ALEX:BEAMCUR"
+font "helvetica-medium-i-8.0"
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 28
+y 474
+w 64
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "BEAM CUR"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 302
+y 13
+w 31
+h 15
+controlPv "EMPS:BMPROPREQ"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 885
+y 39
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS1):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 886
+y 103
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS3):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 166
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS5):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 882
+y 228
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS7):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 293
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS9):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 881
+y 366
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS11):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 433
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS13):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 879
+y 507
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS15):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 578
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS17):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 886
+y 66
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS2):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 884
+y 130
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS4):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 878
+y 195
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS6):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 882
+y 258
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS8):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 326
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS10):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 881
+y 393
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS12):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 880
+y 469
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS14):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 879
+y 542
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS16):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 881
+y 607
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS18):STATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 20
+y 499
+w 266
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "This will be from the EOECM or another method"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 990
+y 39
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS1):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 877
+y 14
+w 49
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "STATUS"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 994
+y 14
+w 71
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "TUNE LOCK"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 991
+y 69
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS2):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 989
+y 104
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS3):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 989
+y 130
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS4):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 992
+y 169
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS5):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 992
+y 193
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS6):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 993
+y 232
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS7):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 994
+y 256
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS8):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 994
+y 296
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS9):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 993
+y 323
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS10):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 999
+y 369
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS11):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 996
+y 400
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS12):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 997
+y 442
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS13):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 997
+y 475
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS14):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1002
+y 511
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS15):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1000
+y 540
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS16):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1001
+y 579
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS17):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1001
+y 607
+w 74
+h 16
+controlPv "EMPS:OPTICS:$(PS18):TLSTATTEXT"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 976
+y 8
+w 0
+h 653
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 9
+xPoints {
+  0 976
+  1 976
+  2 976
+  3 976
+  4 976
+  5 976
+  6 976
+  7 976
+  8 976
+}
+yPoints {
+  0 8
+  1 8
+  2 8
+  3 8
+  4 8
+  5 661
+  6 661
+  7 661
+  8 661
+}
+endObjectProperties
+
