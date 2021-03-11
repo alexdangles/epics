@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 1105
-y 417
+x 54
+y 73
 w 785
 h 212
 font "helvetica-medium-r-12.0"
@@ -855,5 +855,42 @@ yPoints {
   4 107
   5 107
 }
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 5
+y 73
+w 101
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+yPosOffset 10
+buttonLabel "Glassman KT"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "glassmanKT.edl"
+}
+setPosition {
+  0 "parentWindow"
+}
+symbols {
+  0 "D=TEST"
+}
+replaceSymbols {
+  0 1
+}
+propagateMacros {
+  0 0
+}
+helpCommand "dillo -g 600x600\{+50\}\{+5\} -f http://isacwserv.triumf.ca/cgi-bin/devel/dbdev/web_info.pl?D=\\$(!label)"
 endObjectProperties
 

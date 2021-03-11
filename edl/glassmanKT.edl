@@ -1,0 +1,861 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2649
+y 313
+w 453
+h 337
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-r-12.0"
+btnFont "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 1
+ctlFgColor2 index 7
+ctlBgColor1 index 19
+ctlBgColor2 index 21
+topShadowColor index 1
+botShadowColor index 2
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 20
+w 400
+h 30
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 20
+y 20
+w 400
+h 30
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 420
+  1 420
+  2 20
+}
+yPoints {
+  0 20
+  1 50
+  2 50
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 23
+y 27
+w 200
+h 14
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 1
+bgColor index 0
+value {
+  "$(D)"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 60
+w 40
+h 20
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 120
+y 60
+w 40
+h 20
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 120
+  1 120
+  2 160
+}
+yPoints {
+  0 80
+  1 60
+  2 60
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 61
+w 37
+h 17
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 61
+w 37
+h 17
+lineColor index 9
+fill
+fillColor index 9
+visPv "$(D):STATINT"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 40
+y 64
+w 75
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 1
+bgColor index 0
+value {
+  "Interlock"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 82
+w 40
+h 20
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 120
+y 82
+w 40
+h 20
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 120
+  1 120
+  2 160
+}
+yPoints {
+  0 102
+  1 82
+  2 82
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 83
+w 37
+h 17
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 83
+w 37
+h 17
+lineColor index 8
+fill
+fillColor index 8
+visPv "$(D):STATDRV"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 40
+y 86
+w 75
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 1
+bgColor index 0
+value {
+  "Drive"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 104
+w 40
+h 20
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 120
+y 104
+w 40
+h 20
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 120
+  1 120
+  2 160
+}
+yPoints {
+  0 124
+  1 104
+  2 104
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 105
+w 37
+h 17
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 105
+w 37
+h 17
+lineColor index 8
+fill
+fillColor index 8
+visPv "$(D):STATON"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 40
+y 108
+w 75
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 1
+bgColor index 0
+value {
+  "ON Status"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 126
+w 40
+h 20
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 120
+y 126
+w 40
+h 20
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 120
+  1 120
+  2 160
+}
+yPoints {
+  0 146
+  1 126
+  2 126
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 127
+w 37
+h 17
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 127
+w 37
+h 17
+lineColor index 8
+fill
+fillColor index 8
+visPv "$(D):STATON"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 40
+y 130
+w 75
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 1
+bgColor index 0
+value {
+  "OFF Status"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 148
+w 40
+h 20
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 120
+y 148
+w 40
+h 20
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 120
+  1 120
+  2 160
+}
+yPoints {
+  0 168
+  1 148
+  2 148
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 149
+w 37
+h 17
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 121
+y 149
+w 37
+h 17
+lineColor index 10
+fill
+fillColor index 10
+visPv "$(D):STATTMO"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 40
+y 152
+w 75
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 1
+bgColor index 0
+value {
+  "Timeout"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 170
+y 60
+w 40
+h 20
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(D):RST"
+pressValue "1"
+onLabel "RST"
+offLabel "RST"
+3d
+useEnumNumeric
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 170
+y 82
+w 40
+h 20
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(D):DRVON"
+pressValue "1"
+onLabel "1"
+offLabel "1"
+3d
+useEnumNumeric
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 170
+y 104
+w 40
+h 20
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(D):DRVOFF"
+pressValue "1"
+onLabel "0"
+offLabel "0"
+3d
+useEnumNumeric
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 215
+y 60
+w 180
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 24
+bgColor index 0
+visPv "$(D):STATBYP"
+visMin "0.5"
+visMax "1.5"
+value {
+  "Interlocks bypassed"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 200
+y 200
+w 0
+h 0
+font "helvetica-bold-r-8.0"
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 200
+y 200
+w 75
+h 14
+controlPv "$(D):RDVOL"
+font "helvetica-medium-r-12.0"
+fgColor index 22
+fgAlarm
+bgColor index 0
+limitsFromDb
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+showUnits
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 280
+y 200
+w 0
+h 0
+font "helvetica-bold-r-8.0"
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 280
+y 200
+w 75
+h 14
+controlPv "$(D):RDCUR"
+font "helvetica-medium-r-12.0"
+fgColor index 22
+fgAlarm
+bgColor index 0
+limitsFromDb
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+showUnits
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 25
+y 220
+w 180
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+value {
+  "Voltage Set"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 25
+y 260
+w 180
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+value {
+  "Current Set"
+}
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 120
+y 220
+w 250
+h 33
+fgColor index 1
+bgColor index 0
+2ndBgColor index 0
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(D):VOL"
+font "helvetica-medium-r-10.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Triumf Slider)
+object activeTriumfSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 120
+y 255
+w 250
+h 33
+fgColor index 1
+bgColor index 0
+2ndBgColor index 0
+topShadowColor index 3
+botShadowColor index 4
+increment 1
+controlPv "$(D):CUR"
+font "helvetica-medium-r-10.0"
+limitsFromDb
+precision 0
+showLimits
+showValue
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 20
+y 292
+w 150
+h 24
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-14.0"
+buttonLabel "Device Notes"
+numCmds 1
+commandLabel {
+  0 "Device Notes"
+}
+command {
+  0 "scr/cphelp.pl $(D)"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 321
+y 298
+w 113
+h 24
+fgColor index 0
+bgColor index 7
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+yPosOffset 10
+buttonLabel "Asyn"
+numPvs 4
+numDsps 2
+displayFileName {
+  0 "asynRecord.edl"
+  1 "asynOctet.edl"
+}
+menuLabel {
+  0 "Asyn Record"
+  1 "Asyn Octet"
+}
+symbols {
+  0 "D=$(D),P=TEST:,R=ASYN"
+  1 "P=GALIL:,R=ASYN"
+}
+endObjectProperties
+

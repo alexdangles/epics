@@ -1,0 +1,39 @@
+# streamDevice protocol file for Glassman FR series
+#
+# Note:  Glassman checksum involves summing all ASCII hex codes after SOH (0x01) then determining the sum mod 256 (0x100)
+# 		This is accomplished using a %01<sum8> checksum
+#
+#  $Revision: $
+#  $Date: $
+#  $Id: $
+#  $Log: $
+#
+#
+
+
+# Stream device settings
+#Terminator = CR;
+Terminator = 0x0D;
+LockTimeout  = 2000;
+ReplyTimeout = 1000;
+ReadTimeout  = 800;
+
+
+# Current setpoint, Voltage setpoint and Output on/off are all controlled by the same command.
+
+OUT {
+    OUT 0x01 "S%(\$1SETVOL)3X%(\$1SETCUR)3X000000%(\$1CMDBYTE)d%01.0<sum8>";
+    IN "A";
+}    
+
+STATUS {
+    OUT 0x01 "Q%01.0<sum8>";
+    IN "R%(\$1RDVOL)3X%(\$1RDCUR)3X000%(\$1STATUS)3X%01.0<sum8>";
+}    
+
+
+
+# No Operation. Used to correctly initialize RDDAC record
+NOP {
+     WAIT 0;
+}

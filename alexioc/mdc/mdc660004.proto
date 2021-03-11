@@ -28,7 +28,7 @@ INIT {
 }
 
 HOME {
-  OUT ":\$1j-5000000";
+  OUT ":\$1j-50000000";
 }
 
 RDSTEPPOS {

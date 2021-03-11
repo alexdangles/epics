@@ -2,10 +2,19 @@
 
 Directories:
 alexioc
-    testing and prototyping for new devices.
+    testing and prototyping for new devices
+	
 capfast
-    contains schematics for logical device operation and processing.
+    contains schematics for logical device operation and processing
+	
 data
-    logging and analysis.
+    logging and analysis
+	
+edl
+    graphical user interface for projects
+	
+scr
+	scripts
+	
 training
     learning material.

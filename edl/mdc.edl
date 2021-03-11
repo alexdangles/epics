@@ -3,10 +3,10 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 53
-y 79
-w 567
-h 409
+x 478
+y 440
+w 581
+h 367
 font "helvetica-medium-r-12.0"
 ctlFont "helvetica-medium-r-10.0"
 btnFont "helvetica-bold-r-12.0"
@@ -854,9 +854,9 @@ major 4
 minor 0
 release 0
 x 356
-y 278
+y 251
 w 31
-h 13
+h 11
 lineColor index 4
 fillColor index 0
 lineWidth 2
@@ -869,9 +869,9 @@ major 4
 minor 0
 release 1
 x 356
-y 278
+y 251
 w 31
-h 13
+h 11
 lineColor index 3
 fillColor index 0
 lineWidth 2
@@ -882,81 +882,7 @@ xPoints {
   2 387
 }
 yPoints {
-  0 291
-  1 278
-  2 278
-}
-endObjectProperties
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 357
-y 279
-w 28
-h 10
-lineColor index 1
-fill
-fillColor index 1
-endObjectProperties
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 357
-y 279
-w 28
-h 10
-lineColor index 8
-fill
-fillColor index 8
-visPv "$(D):POSOK.VAL"
-visMin "0.5"
-visMax "1.5"
-endObjectProperties
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 355
-y 251
-w 31
-h 13
-lineColor index 4
-fillColor index 0
-lineWidth 2
-endObjectProperties
-
-# (Lines)
-object activeLineClass
-beginObjectProperties
-major 4
-minor 0
-release 1
-x 355
-y 251
-w 31
-h 13
-lineColor index 3
-fillColor index 0
-lineWidth 2
-numPoints 3
-xPoints {
-  0 355
-  1 355
-  2 386
-}
-yPoints {
-  0 264
+  0 262
   1 251
   2 251
 }
@@ -968,16 +894,13 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 356
+x 357
 y 252
 w 28
-h 10
+h 9
 lineColor index 1
 fill
 fillColor index 1
-visPv "$(D):CALIB"
-visMin "-0.5"
-visMax "0.5"
 endObjectProperties
 
 # (Rectangle)
@@ -986,16 +909,16 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 356
+x 357
 y 252
 w 28
-h 10
-lineColor index 14
+h 9
+lineColor index 8
 fill
-fillColor index 14
-visPv "$(D):CALIBSTAT"
-visMin "-0.5"
-visMax "0.5"
+fillColor index 8
+visPv "$(D):CALIBRATED"
+visMin "0.5"
+visMax "1.5"
 endObjectProperties
 
 # (Message Button)
@@ -1004,9 +927,9 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 289
-y 249
-w 52
+x 295
+y 277
+w 63
 h 17
 fgColor index 1
 onColor index 0
@@ -1015,8 +938,8 @@ topShadowColor index 3
 botShadowColor index 4
 controlPv "$(D):CALIB.PROC"
 pressValue "0"
-onLabel "Calib"
-offLabel "Calib"
+onLabel "Calibrate"
+offLabel "Calibrate"
 3d
 font "helvetica-bold-r-12.0"
 endObjectProperties
@@ -1090,7 +1013,7 @@ h 10
 lineColor index 9
 fill
 fillColor index 9
-visPv "$(D):OKTOMOVE"
+visPv "$(D):STATINT"
 visMin "-0.5"
 visMax "0.5"
 endObjectProperties
@@ -1101,17 +1024,17 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 288
-y 279
-w 55
-h 16
+x 279
+y 251
+w 60
+h 14
 font "helvetica-medium-r-12.0"
 fgColor index 7
 bgColor index 0
 bgAlarm
 useDisplayBg
 value {
-  "Pos OK:"
+  "Calibrated"
 }
 endObjectProperties
 
@@ -1135,287 +1058,14 @@ value {
 }
 endObjectProperties
 
-# (Group)
-object activeGroupClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 7
-y 255
-w 250
-h 135
-
-beginGroup
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 7
-y 273
-w 250
-h 53
-lineColor index 1
-fillColor index 0
-endObjectProperties
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 12
-y 255
-w 150
-h 17
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 0
-bgAlarm
-useDisplayBg
-value {
-  "JOG"
-}
-endObjectProperties
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 10
-y 338
-w 35
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 7
-bgColor index 0
-bgAlarm
-useDisplayBg
-value {
-  "SLEW"
-}
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 172
-y 298
-w 69
-h 22
-fgColor index 5
-onColor index 0
-offColor index 0
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(D):JOGNEG"
-pressValue "1"
-onLabel "Jog Neg"
-offLabel "Jog Neg"
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 89
-y 298
-w 64
-h 22
-fgColor index 1
-onColor index 0
-offColor index 0
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(D):JOGPOS.PROC"
-pressValue "1"
-onLabel "Jog Pos"
-offLabel "Jog Pos"
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
 # (Text Control)
 object activeXTextDspClass
 beginObjectProperties
 major 4
 minor 7
 release 0
-x 85
-y 278
-w 70
-h 18
-controlPv "$(D):JOGSIZE"
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 0
-useDisplayBg
-editable
-autoHeight
-motifWidget
-precision 3
-nullColor index 24
-useHexPrefix
-newPos
-inputFocusUpdates
-objType "controls"
-noExecuteClipMask
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 173
-y 363
-w 73
-h 22
-fgColor index 1
-onColor index 0
-offColor index 0
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(D):SLEWNEG.PROC"
-pressValue "1"
-onLabel "Slew Neg"
-offLabel "Slew Neg"
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 90
-y 363
-w 70
-h 22
-fgColor index 1
-onColor index 0
-offColor index 0
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(D):SLEWPOS.PROC"
-pressValue "1"
-onLabel "Slew Pos"
-offLabel "Slew Pos"
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 25
-y 278
-w 55
-h 16
-font "helvetica-medium-r-12.0"
-fgColor index 7
-bgColor index 0
-bgAlarm
-useDisplayBg
-value {
-  "Jog Size:"
-}
-endObjectProperties
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 7
-y 354
-w 250
-h 36
-lineColor index 1
-fillColor index 0
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 176
-y 276
-w 63
-h 18
-controlPv "$(D):RDSTEPPOS.EGU"
-format "decimal"
-font "helvetica-medium-r-12.0"
-fgColor index 1
-fgAlarm
-bgColor index 0
-useDisplayBg
-limitsFromDb
-precision 0
-nullColor index 21
-nullCondition "disabled"
-useHexPrefix
-newPos
-noExecuteClipMask
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 15
-y 364
-w 62
-h 22
-fgColor index 1
-onColor index 0
-offColor index 0
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(D):STOP"
-pressValue "on"
-onLabel "Stop"
-offLabel "Stop"
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-endGroup
-
-endObjectProperties
-
-# (Text Control)
-object activeXTextDspClass
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 418
-y 361
+x 413
+y 314
 w 90
 h 18
 controlPv "$(D):COMMAND.DESC"
@@ -1441,8 +1091,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 310
-y 362
+x 305
+y 315
 w 71
 h 18
 controlPv "$(D):COMMAND"
@@ -1566,26 +1216,156 @@ value {
 }
 endObjectProperties
 
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 7
+y 273
+w 250
+h 53
+lineColor index 1
+fillColor index 0
+endObjectProperties
+
 # (Static Text)
 object activeXTextClass
 beginObjectProperties
 major 4
 minor 1
 release 1
-x 485
-y 25
-w 65
-h 16
+x 12
+y 255
+w 150
+h 17
 font "helvetica-medium-r-12.0"
-fgColor index 14
+fgColor index 1
 bgColor index 0
 bgAlarm
 useDisplayBg
-visPv "$(D):CALIBSTAT.DISV"
-visMin "0.5"
-visMax "1.5"
 value {
-  "calibrating"
+  "JOG"
 }
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 172
+y 298
+w 69
+h 22
+fgColor index 5
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(D):JOGNEG"
+pressValue "1"
+onLabel "Jog Neg"
+offLabel "Jog Neg"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 89
+y 298
+w 64
+h 22
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "$(D):JOGPOS.PROC"
+pressValue "1"
+onLabel "Jog Pos"
+offLabel "Jog Pos"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 85
+y 278
+w 70
+h 18
+controlPv "$(D):JOGSIZE"
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 24
+useHexPrefix
+newPos
+inputFocusUpdates
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 25
+y 278
+w 55
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 7
+bgColor index 0
+bgAlarm
+useDisplayBg
+value {
+  "Jog Size:"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 176
+y 276
+w 63
+h 18
+controlPv "$(D):RDSTEPPOS.EGU"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 1
+fgAlarm
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
 endObjectProperties
 
