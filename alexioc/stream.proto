@@ -1,0 +1,21 @@
+# streamDevice protocol file for general testing
+#
+#  $Revision: $
+#  $Date: $
+#  $Id: $
+#  $Log: $
+#
+#
+
+
+# Stream device settings
+Terminator = CR;
+ExtraInput = Ignore;
+LockTimeout  = 2000;
+ReplyTimeout = 500;
+ReadTimeout  = 100;
+
+CMD {
+	OUT "%s";
+	IN "%(DESC)s";
+}

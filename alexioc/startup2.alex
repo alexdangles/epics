@@ -1,0 +1,49 @@
+#!./genericStream
+# generic stream ioc for testing on ALEXIOC testbench
+#
+epicsEnvSet(IOCSH_PS1, "alexioc>")
+epicsEnvSet(STREAM_PROTOCOL_PATH,".")
+epicsEnvSet(EPICS_CA_REPEATER_PORT,"9191")
+epicsEnvSet(EPICS_CA_SERVER_PORT,"9192")
+
+# ====== load and intialize application DBD file(s) =================
+# (this must match the name of the executable binary in the shebang line)
+dbLoadDatabase("genericStream.dbd")
+genericStream_registerRecordDeviceDriver(pdbbase)
+
+#
+# =========== Configure Asyn Ports =======================
+# Device                 Bus    IP Address:Port
+#
+# Office RS232/485 to Ethernet
+drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,1,0)
+#
+# MDC Motor
+#drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,1,0)
+#
+# GlassmanKT power supply
+drvAsynIPPortConfigure("ETH5","192.168.1.5:771",0,1,0)
+#
+# =========== Load EPICS runtime DB =======================
+#
+dbLoadRecords("test.db")
+
+#
+#  Don't use ADDR=10, here (in use by application DB), but okay to change after iocInit
+#
+dbLoadRecords("asynRecord.db","P=ALEX:,R=ASYN,PORT=TTYS1,ADDR=2,IMAX=0,OMAX=0")
+
+## ===================================================
+iocInit
+## ===================================================
+
+# caPutLogInit("142.90.148.155:7000",1)
+caPutLogInit("icsl6.ggeng.triumf.ca:7000",1)
+asInit()
+
+< test.iocscr
+
+# var scopeReadDebug 0
+# var wfcursorDebug 0
+var streamDebug 0
+
