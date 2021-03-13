@@ -3,10 +3,10 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 54
-y 73
-w 785
-h 212
+x 518
+y 965
+w 794
+h 215
 font "helvetica-medium-r-12.0"
 ctlFont "helvetica-medium-r-10.0"
 btnFont "helvetica-bold-r-12.0"
@@ -235,7 +235,7 @@ setPosition {
   0 "parentWindow"
 }
 symbols {
-  0 "D=ALEX"
+  0 "D=ALEX:MOT1"
 }
 replaceSymbols {
   0 1
@@ -313,7 +313,7 @@ onColor index 8
 offColor index 10
 topShadowColor index 3
 botShadowColor index 4
-controlPv "ALEX:OK"
+controlPv "ALEX:EXTIL"
 pressValue "on"
 releaseValue "off"
 toggle
@@ -618,7 +618,7 @@ maxValues {
   4 -1
 }
 controlPvs {
-  0 "CALC\\\{!A&&B?2:B\}(ALEX:OK,ALEX:BO)"
+  0 "CALC\\\{!A&&B?2:B\}(ALEX:EXTIL,ALEX:BO)"
 }
 numPvs 1
 useOriginalColors
@@ -883,7 +883,7 @@ setPosition {
   0 "parentWindow"
 }
 symbols {
-  0 "D=TEST"
+  0 "D=ALEX:PS1"
 }
 replaceSymbols {
   0 1
