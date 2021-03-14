@@ -1,5 +1,5 @@
 #!./genericStream
-# generic stream ioc for testing on ALEXIOC testbench
+# generic stream ioc for testing on ALEXIOC
 #
 epicsEnvSet(IOCSH_PS1, "alexioc>")
 epicsEnvSet(STREAM_PROTOCOL_PATH,".")
