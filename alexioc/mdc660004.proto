@@ -21,75 +21,117 @@ LockTimeout  = 1000;
 ReplyTimeout = 500;
 ReadTimeout  = 100;
 
-# $1 = $(ADDR)
+# $1 = $(ADDR) macro in symbol
 
+# Initialize the motor (sets encoder to zero)
+# This needs to be done before it will move
 INIT {
   OUT ":\$1i%d";
 }
 
+# Send motor to negative limit. Needs limit SW
+# or defaults to hard stop when reached.
 HOME {
   OUT ":\$1j-50000000";
 }
 
+# Read step position
 RDSTEPPOS {
 	OUT ":\$1p";
 	IN ":\$1p%d";
 }
 
+# Read encoder position
 RDENCPOS {
 	OUT ":\$1y";
 	IN ":\$1y%d";
 }
 
-STOP {
+# Stop motion immediately (hard stop)
+HSTOP {
 	OUT ":\$1h1";
 }
 
+# Stop motion gradual (soft stop)
+SSTOP {
+	OUT ":\$1h2";
+}
+
+# Motor Status________
+# Returns :abxy where:
+# a = address
+# b = 'g'
+# x = 1 = motor running
+# x = 0 = motor stopped/finished
+# y = motor status:
+#	0 = motor ready
+#	1 = motor not homed
+#	2 = motor not initialized
+#	3 = motor error
 AXISSTATUS {
 	OUT ":\$1g";
 	IN ":\$1g%d";
 }
 
-DEFPOS {
-	OUT ":\$1y";
-	IN ":\$1y%d";
-}
-
+# Read speed setting
 RDSPD {
 	OUT ":\$1s";
 	IN ":\$1s%d";
 }
 
+# Read acceleration setting
 RDACC {
 	OUT ":\$1a";
 	IN ":\$1a%f";
 }
 
+# Set holding current
+SETHCUR {
+	OUT ":\$1H%d";
+}
+
+# Set run current
+SETRCUR {
+	OUT ":\$1R%d";
+}
+
+# Set allowable error before faulting
+SETTOL {
+	OUT ":\$1L%d";
+}
+
+# Go to position
 SETPOS {
 	OUT ":\$1p%d";
 }	
 
+# Set acceleration
 SETACC {
 	OUT ":\$1A%f";
 }
 
+# Set speed
 SETSPD {
 	OUT ":\$1S%d";
 }
 
+# Read step size setting
 RDSTEPSIZE {
 	OUT ":\$1E";
 	IN ":\$1E%d";
 }
 
+# Jog in positive direction
 JOGPOS {
 	OUT ":\$1j%f";
 }
 
+# Jog in negative direction
 JOGNEG {
 	OUT ":\$1j-%f";
 }
 
+# Give specified command
 CMDOUT {
 	OUT "%s";
 	IN "%(DESC)s";

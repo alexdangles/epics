@@ -3,10 +3,10 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 993
-y 453
-w 622
-h 193
+x 2098
+y 251
+w 954
+h 1144
 font "helvetica-medium-r-12.0"
 ctlFont "helvetica-medium-r-10.0"
 btnFont "helvetica-bold-r-12.0"
@@ -27,10 +27,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 415
-y 13
-w 192
-h 172
+x 381
+y 19
+w 129
+h 128
 
 beginGroup
 
@@ -40,10 +40,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 415
-y 32
-w 192
-h 153
+x 381
+y 33
+w 129
+h 114
 lineColor index 4
 fillColor index 0
 lineWidth 2
@@ -55,23 +55,23 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 415
-y 32
-w 192
-h 153
+x 381
+y 33
+w 129
+h 114
 lineColor index 3
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 415
-  1 607
-  2 607
+  0 381
+  1 510
+  2 510
 }
 yPoints {
-  0 185
-  1 185
-  2 32
+  0 147
+  1 147
+  2 33
 }
 endObjectProperties
 
@@ -81,15 +81,15 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 427
-y 13
-w 59
-h 14
-font "helvetica-bold-r-12.0"
+x 388
+y 19
+w 43
+h 12
+font "helvetica-bold-r-10.0"
 fgColor index 1
 bgColor index 0
 value {
-  "Interlocks"
+  "Interlock"
 }
 autoSize
 endObjectProperties
@@ -104,10 +104,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 21
-y 78
-w 303
-h 99
+x 11
+y 55
+w 233
+h 87
 
 beginGroup
 
@@ -117,10 +117,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 21
-y 89
-w 303
-h 88
+x 11
+y 65
+w 233
+h 77
 lineColor index 4
 fillColor index 0
 lineWidth 2
@@ -132,23 +132,23 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 21
-y 89
-w 303
-h 88
+x 11
+y 65
+w 233
+h 77
 lineColor index 3
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 21
-  1 324
-  2 324
+  0 11
+  1 244
+  2 244
 }
 yPoints {
-  0 177
-  1 177
-  2 89
+  0 142
+  1 142
+  2 65
 }
 endObjectProperties
 
@@ -158,15 +158,15 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 40
-y 78
-w 89
-h 14
-font "helvetica-bold-r-12.0"
+x 26
+y 55
+w 54
+h 12
+font "helvetica-bold-r-10.0"
 fgColor index 1
 bgColor index 0
 value {
-  "Stream Device"
+  "Stream I/O"
 }
 autoSize
 endObjectProperties
@@ -181,17 +181,17 @@ beginObjectProperties
 major 4
 minor 4
 release 0
-x 330
-y 55
-w 77
-h 20
+x 487
+y 12
+w 21
+h 16
 fgColor index 0
 bgColor index 1
 topShadowColor index 3
 botShadowColor index 4
 font "helvetica-bold-r-12.0"
 yPosOffset 10
-buttonLabel "Template"
+buttonLabel "#"
 numPvs 4
 numDsps 1
 displayFileName {
@@ -215,9 +215,9 @@ beginObjectProperties
 major 4
 minor 4
 release 0
-x 330
-y 77
-w 77
+x 434
+y 76
+w 63
 h 20
 fgColor index 0
 bgColor index 1
@@ -227,24 +227,21 @@ font "helvetica-bold-r-12.0"
 yPosOffset 10
 buttonLabel "Devices"
 numPvs 4
-numDsps 3
+numDsps 2
 displayFileName {
   0 "mdc.edl"
-  1 "mps.edl"
-  2 "glassmanFR.edl"
+  1 "glassmanFR.edl"
 }
 menuLabel {
   0 "MDC Motor"
-  1 "MPS Testing"
-  2 "Glassman KT"
+  1 "Glassman KT"
 }
 setPosition {
   0 "parentWindow"
 }
 symbols {
   0 "D=ALEX:MOT1"
-  1 "PS1=EGUN:XCB0,PS2=EGUN:SOL1,PS3=ELBT:XCB0,PS4=ELBT:SOL2,PS5=ELBD:SOL1,PS6=ELBD:MB0,PS7=EMBT:XCB0,PS8=EMBT:Q4,PS9=EMBD:Q1,PS10=EMBD:MB0,PS11=EABT:XCB0,PS12=EABT:Q2,PS13=EABD:MB0,PS14=EABD:Q1,PS15=EHAT:XCB0,PS16=EHAT:Q2,PS17=EHDT:Q1,PS18=EHDT:XCB4"
-  2 "D=ALEX:PS1"
+  1 "D=ALEX:PS1"
 }
 replaceSymbols {
   0 1
@@ -261,8 +258,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 15
-y 16
+x 6
+y 6
 w 160
 h 28
 fgColor index 1
@@ -285,8 +282,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 175
-y 25
+x 166
+y 15
 w 71
 h 15
 controlPv "ALEX:AI"
@@ -313,8 +310,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 499
-y 104
+x 398
+y 50
 w 37
 h 15
 fgColor index 1
@@ -330,42 +327,15 @@ toggle
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
-# (Shell Command)
-object shellCmdClass
-beginObjectProperties
-major 4
-minor 3
-release 0
-x 330
-y 99
-w 77
-h 21
-fgColor index 1
-bgColor index 0
-topShadowColor index 3
-botShadowColor index 4
-font "helvetica-bold-r-12.0"
-buttonLabel "Scripts"
-numCmds 2
-commandLabel {
-  0 "Update IOC"
-  1 "alexioc"
-}
-command {
-  0 "cp -up /usr1/local/epics/userappl/alex/alexioc/* /data/isacdata/iocboot/alexioc/current"
-  1 "scr/alexioc.scr"
-}
-endObjectProperties
-
 # (Text Control)
 object activeXTextDspClass
 beginObjectProperties
 major 4
 minor 7
 release 0
-x 105
-y 99
-w 197
+x 95
+y 71
+w 140
 h 18
 controlPv "ALEX:CMD"
 font "helvetica-medium-r-12.0"
@@ -389,9 +359,9 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 105
-y 127
-w 197
+x 95
+y 99
+w 140
 h 14
 controlPv "ALEX:CMD.DESC"
 format "decimal"
@@ -415,10 +385,10 @@ beginObjectProperties
 major 4
 minor 4
 release 0
-x 30
-y 147
-w 59
-h 24
+x 21
+y 119
+w 50
+h 19
 fgColor index 0
 bgColor index 7
 topShadowColor index 3
@@ -448,8 +418,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 30
-y 101
+x 20
+y 73
 w 67
 h 16
 font "helvetica-medium-r-14.0"
@@ -468,8 +438,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 30
-y 123
+x 20
+y 95
 w 68
 h 16
 font "helvetica-medium-r-14.0"
@@ -488,62 +458,24 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 517
-y 121
-w 0
-h 62
-lineColor index 1
-fillColor index 0
-lineWidth 2
-numPoints 9
-xPoints {
-  0 517
-  1 517
-  2 517
-  3 517
-  4 517
-  5 517
-  6 517
-  7 517
-  8 517
-}
-yPoints {
-  0 121
-  1 121
-  2 121
-  3 121
-  4 121
-  5 183
-  6 183
-  7 183
-  8 183
-}
-endObjectProperties
-
-# (Lines)
-object activeLineClass
-beginObjectProperties
-major 4
-minor 0
-release 1
-x 518
+x 417
 y 34
 w 0
-h 69
+h 16
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 9
 xPoints {
-  0 518
-  1 518
-  2 518
-  3 518
-  4 518
-  5 518
-  6 518
-  7 518
-  8 518
+  0 417
+  1 417
+  2 417
+  3 417
+  4 417
+  5 417
+  6 417
+  7 417
+  8 417
 }
 yPoints {
   0 34
@@ -551,10 +483,10 @@ yPoints {
   2 34
   3 34
   4 34
-  5 103
-  6 103
-  7 103
-  8 103
+  5 50
+  6 50
+  7 50
+  8 50
 }
 endObjectProperties
 
@@ -564,8 +496,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 337
-y 23
+x 328
+y 13
 w 34
 h 16
 file "led5state.edl"
@@ -598,27 +530,27 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 62
-y 50
+x 328
+y 37
 w 34
 h 16
 file "led5state.edl"
 numStates 5
 minValues {
-  1 -1
-  2 1
-  3 -1
-  4 -1
+  1 1
+  2 2
+  3 3
+  4 4
 }
 maxValues {
   0 1
-  1 -1
-  2 2
-  3 -1
-  4 -1
+  1 2
+  2 3
+  3 4
+  4 5
 }
 controlPvs {
-  0 "ALEX:CALC"
+  0 "ALEX:TRCALC.VAL"
 }
 numPvs 1
 useOriginalColors
@@ -626,34 +558,14 @@ fgColor index 1
 bgColor index 0
 endObjectProperties
 
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 21
-y 51
-w 34
-h 14
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 0
-useDisplayBg
-value {
-  "CALC"
-}
-autoSize
-endObjectProperties
-
 # (Group)
 object activeGroupClass
 beginObjectProperties
 major 4
 minor 0
 release 0
-x 253
-y 24
+x 244
+y 14
 w 76
 h 14
 
@@ -665,8 +577,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 253
-y 24
+x 244
+y 14
 w 76
 h 14
 
@@ -678,8 +590,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 253
-y 24
+x 244
+y 14
 w 76
 h 14
 
@@ -691,8 +603,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 253
-y 24
+x 244
+y 14
 w 37
 h 14
 fgColor index 1
@@ -714,8 +626,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 292
-y 24
+x 283
+y 14
 w 37
 h 14
 fgColor index 1
@@ -749,29 +661,182 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 457
-y 111
-w 40
+x 403
+y 85
+w 27
 h 0
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 6
 xPoints {
-  0 457
-  1 497
-  2 497
-  3 497
-  4 497
-  5 497
+  0 403
+  1 430
+  2 430
+  3 430
+  4 430
+  5 430
 }
 yPoints {
-  0 111
-  1 111
-  2 111
-  3 111
-  4 111
-  5 111
+  0 85
+  1 85
+  2 85
+  3 85
+  4 85
+  5 85
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 416
+y 65
+w 0
+h 21
+lineColor index 1
+fillColor index 0
+lineWidth 2
+numPoints 9
+xPoints {
+  0 416
+  1 416
+  2 416
+  3 416
+  4 416
+  5 416
+  6 416
+  7 416
+  8 416
+}
+yPoints {
+  0 65
+  1 65
+  2 65
+  3 65
+  4 65
+  5 86
+  6 86
+  7 86
+  8 86
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 442
+y 51
+w 52
+h 12
+font "helvetica-bold-r-10.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Scan Task"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 124
+y 38
+w 200
+h 15
+controlPv "ALEX:CALC.CALC"
+format "decimal"
+font "helvetica-bold-r-10.0"
+fontAlign "right"
+fgColor index 56
+fgAlarm
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 316
+y 61
+w 51
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+yPosOffset 10
+buttonLabel "MPS"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "mps.edl"
+}
+setPosition {
+  0 "parentWindow"
+}
+symbols {
+  0 "PS1=EGUN:XCB0,PS2=EGUN:SOL1,PS3=ELBT:XCB0,PS4=ELBT:SOL2,PS5=ELBD:SOL1,PS6=ELBD:MB0,PS7=EMBT:XCB0,PS8=EMBT:Q4,PS9=EMBD:Q1,PS10=EMBD:MB0,PS11=EABT:XCB0,PS12=EABT:Q2,PS13=EABD:MB0,PS14=EABD:Q1,PS15=EHAT:XCB0,PS16=EHAT:Q2,PS17=EHDT:Q1,PS18=EHDT:XCB4"
+}
+replaceSymbols {
+  0 1
+}
+propagateMacros {
+  0 0
+}
+helpCommand "dillo -g 600x600\{+50\}\{+5\} -f http://isacwserv.triumf.ca/cgi-bin/devel/dbdev/web_info.pl?D=\\$(!label)"
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 253
+y 62
+w 56
+h 17
+fgColor index 1
+bgColor index 0
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+buttonLabel "Scripts"
+numCmds 4
+commandLabel {
+  0 "Update IOC"
+  1 "alexioc"
+  2 "edit startup"
+  3 "edit iocscr"
+}
+command {
+  0 "cp -up /usr1/local/epics/userappl/alex/alexioc/* /data/isacdata/iocboot/alexioc/current"
+  1 "scr/alexioc.scr"
+  2 "nedit alexioc/startup2.alex &"
+  3 "nedit alexioc/test.iocscr &"
 }
 endObjectProperties
 
