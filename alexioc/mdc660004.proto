@@ -47,14 +47,9 @@ RDENCPOS {
 	IN ":\$1y%d";
 }
 
-# Stop motion immediately (hard stop)
-HSTOP {
+# Stop motion (hard stop)
+STOP {
 	OUT ":\$1h1";
-}
-
-# Stop motion gradual (soft stop)
-SSTOP {
-	OUT ":\$1h2";
 }
 
 # Motor Status________
@@ -96,7 +91,7 @@ SETRCUR {
 }
 
 # Set allowable error before faulting
-SETTOL {
+MAXERR {
 	OUT ":\$1L%d";
 }
 
