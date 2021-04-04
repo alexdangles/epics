@@ -1,4 +1,4 @@
-# My projects at TRIUMF
+# EPICS projects
 
 Directories:
 alexioc
