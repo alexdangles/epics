@@ -1,0 +1,5 @@
+# Auto-connect devices
+#dbpf ALEX:EXTIL 1
+
+# Set current unit for Glassman KT
+dbpf ALEX:PS1:RDCUR.EGU "mA"
