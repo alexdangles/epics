@@ -3,10 +3,10 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 699
-y 29
-w 1315
-h 917
+x 998
+y 99
+w 1176
+h 700
 font "helvetica-medium-r-12.0"
 ctlFont "helvetica-medium-r-10.0"
 btnFont "helvetica-bold-r-12.0"
@@ -27,8 +27,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 616
-y 155
+x 581
+y 80
 w 160
 h 25
 fgColor index 1
@@ -51,8 +51,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 911
-y 159
+x 864
+y 83
 w 34
 h 17
 file "led5state.edl"
@@ -86,8 +86,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 347
-y 395
+x 284
+y 310
 w 52
 h 27
 file "led5state.edl"
@@ -121,8 +121,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 271
-y 400
+x 208
+y 315
 w 67
 h 16
 font "helvetica-medium-r-12.0"
@@ -141,8 +141,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 87
-y 128
+x 24
+y 43
 w 159
 h 417
 fgColor index 1
@@ -161,8 +161,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 171
-y 108
+x 93
+y 23
 w 31
 h 15
 controlPv "EMPS:OPTICS:BEAMPATH"
@@ -187,8 +187,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 787
-y 159
+x 752
+y 84
 w 37
 h 15
 fgColor index 1
@@ -211,8 +211,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 826
-y 159
+x 791
+y 84
 w 37
 h 15
 fgColor index 1
@@ -235,8 +235,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 618
-y 122
+x 583
+y 47
 w 160
 h 25
 fgColor index 1
@@ -260,8 +260,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 910
-y 128
+x 863
+y 52
 w 34
 h 17
 file "led5state.edl"
@@ -295,8 +295,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 786
-y 128
+x 751
+y 53
 w 37
 h 15
 fgColor index 1
@@ -319,8 +319,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 825
-y 128
+x 790
+y 53
 w 37
 h 15
 fgColor index 1
@@ -343,9 +343,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 530
-y 162
-w 82
+x 472
+y 87
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -363,9 +363,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 531
-y 126
-w 76
+x 474
+y 51
+w 96
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -383,8 +383,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 617
-y 189
+x 582
+y 114
 w 160
 h 25
 fgColor index 1
@@ -407,8 +407,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 912
-y 193
+x 865
+y 117
 w 34
 h 17
 file "led5state.edl"
@@ -442,8 +442,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 788
-y 193
+x 753
+y 118
 w 37
 h 15
 fgColor index 1
@@ -466,8 +466,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 827
-y 193
+x 792
+y 118
 w 37
 h 15
 fgColor index 1
@@ -490,9 +490,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 531
-y 195
-w 82
+x 474
+y 120
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -510,8 +510,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 616
-y 220
+x 581
+y 145
 w 160
 h 25
 fgColor index 1
@@ -534,8 +534,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 911
-y 224
+x 864
+y 148
 w 34
 h 17
 file "led5state.edl"
@@ -569,8 +569,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 787
-y 224
+x 752
+y 149
 w 37
 h 15
 fgColor index 1
@@ -593,8 +593,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 826
-y 224
+x 791
+y 149
 w 37
 h 15
 fgColor index 1
@@ -617,9 +617,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 530
-y 226
-w 82
+x 472
+y 151
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -637,8 +637,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 617
-y 250
+x 582
+y 175
 w 160
 h 25
 fgColor index 1
@@ -661,8 +661,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 912
-y 254
+x 865
+y 178
 w 34
 h 17
 file "led5state.edl"
@@ -696,8 +696,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 788
-y 254
+x 753
+y 179
 w 37
 h 15
 fgColor index 1
@@ -720,8 +720,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 827
-y 254
+x 792
+y 179
 w 37
 h 15
 fgColor index 1
@@ -744,9 +744,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 531
-y 256
-w 82
+x 474
+y 181
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -764,10 +764,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 262
-y 127
+x 199
+y 42
 w 159
-h 252
+h 249
 fgColor index 1
 bgColor index 0
 buttonColor index 2
@@ -784,8 +784,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 617
-y 317
+x 582
+y 242
 w 160
 h 25
 fgColor index 1
@@ -808,8 +808,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 912
-y 321
+x 865
+y 245
 w 34
 h 17
 file "led5state.edl"
@@ -843,8 +843,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 788
-y 321
+x 753
+y 246
 w 37
 h 15
 fgColor index 1
@@ -867,8 +867,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 827
-y 321
+x 792
+y 246
 w 37
 h 15
 fgColor index 1
@@ -891,8 +891,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 619
-y 284
+x 584
+y 209
 w 160
 h 25
 fgColor index 1
@@ -915,8 +915,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 911
-y 290
+x 864
+y 214
 w 34
 h 17
 file "led5state.edl"
@@ -950,8 +950,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 787
-y 290
+x 752
+y 215
 w 37
 h 15
 fgColor index 1
@@ -974,8 +974,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 826
-y 290
+x 791
+y 215
 w 37
 h 15
 fgColor index 1
@@ -998,9 +998,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 531
-y 324
-w 79
+x 474
+y 249
+w 99
 h 16
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1018,9 +1018,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 533
-y 288
-w 79
+x 476
+y 213
+w 99
 h 16
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1038,8 +1038,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 618
-y 351
+x 583
+y 276
 w 160
 h 25
 fgColor index 1
@@ -1062,8 +1062,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 913
-y 355
+x 866
+y 279
 w 34
 h 17
 file "led5state.edl"
@@ -1097,8 +1097,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 789
-y 355
+x 754
+y 280
 w 37
 h 15
 fgColor index 1
@@ -1121,8 +1121,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 828
-y 355
+x 793
+y 280
 w 37
 h 15
 fgColor index 1
@@ -1145,9 +1145,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 532
-y 357
-w 82
+x 475
+y 282
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1165,8 +1165,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 617
-y 382
+x 582
+y 307
 w 160
 h 25
 fgColor index 1
@@ -1189,8 +1189,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 912
-y 386
+x 865
+y 310
 w 34
 h 17
 file "led5state.edl"
@@ -1224,8 +1224,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 788
-y 386
+x 753
+y 311
 w 37
 h 15
 fgColor index 1
@@ -1248,8 +1248,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 827
-y 386
+x 792
+y 311
 w 37
 h 15
 fgColor index 1
@@ -1272,9 +1272,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 531
-y 388
-w 82
+x 474
+y 313
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1292,8 +1292,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 616
-y 413
+x 581
+y 338
 w 160
 h 25
 fgColor index 1
@@ -1316,8 +1316,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 911
-y 417
+x 864
+y 341
 w 34
 h 17
 file "led5state.edl"
@@ -1351,8 +1351,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 787
-y 417
+x 752
+y 342
 w 37
 h 15
 fgColor index 1
@@ -1375,8 +1375,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 826
-y 417
+x 791
+y 342
 w 37
 h 15
 fgColor index 1
@@ -1399,9 +1399,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 530
-y 419
-w 82
+x 472
+y 344
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1419,8 +1419,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 617
-y 482
+x 582
+y 407
 w 160
 h 25
 fgColor index 1
@@ -1443,8 +1443,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 912
-y 486
+x 865
+y 410
 w 34
 h 17
 file "led5state.edl"
@@ -1478,8 +1478,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 788
-y 486
+x 753
+y 411
 w 37
 h 15
 fgColor index 1
@@ -1502,8 +1502,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 827
-y 486
+x 792
+y 411
 w 37
 h 15
 fgColor index 1
@@ -1526,8 +1526,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 619
-y 449
+x 584
+y 374
 w 160
 h 25
 fgColor index 1
@@ -1550,8 +1550,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 911
-y 455
+x 864
+y 379
 w 34
 h 17
 file "led5state.edl"
@@ -1585,8 +1585,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 787
-y 455
+x 752
+y 380
 w 37
 h 15
 fgColor index 1
@@ -1609,8 +1609,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 826
-y 455
+x 791
+y 380
 w 37
 h 15
 fgColor index 1
@@ -1633,9 +1633,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 531
-y 489
-w 82
+x 474
+y 414
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1653,9 +1653,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 532
-y 453
-w 76
+x 475
+y 378
+w 96
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1673,8 +1673,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 619
-y 525
+x 584
+y 450
 w 160
 h 25
 fgColor index 1
@@ -1697,8 +1697,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 914
-y 529
+x 867
+y 453
 w 34
 h 17
 file "led5state.edl"
@@ -1732,8 +1732,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 790
-y 529
+x 755
+y 454
 w 37
 h 15
 fgColor index 1
@@ -1756,8 +1756,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 829
-y 529
+x 794
+y 454
 w 37
 h 15
 fgColor index 1
@@ -1780,9 +1780,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 533
-y 531
-w 82
+x 476
+y 456
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1800,8 +1800,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 618
-y 556
+x 583
+y 481
 w 160
 h 25
 fgColor index 1
@@ -1824,8 +1824,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 913
-y 560
+x 866
+y 484
 w 34
 h 17
 file "led5state.edl"
@@ -1859,8 +1859,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 789
-y 560
+x 754
+y 485
 w 37
 h 15
 fgColor index 1
@@ -1883,8 +1883,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 828
-y 560
+x 793
+y 485
 w 37
 h 15
 fgColor index 1
@@ -1907,9 +1907,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 532
-y 562
-w 82
+x 475
+y 487
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -1927,8 +1927,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 618
-y 597
+x 583
+y 522
 w 160
 h 25
 fgColor index 1
@@ -1951,8 +1951,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 913
-y 601
+x 866
+y 525
 w 34
 h 17
 file "led5state.edl"
@@ -1986,8 +1986,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 789
-y 601
+x 754
+y 526
 w 37
 h 15
 fgColor index 1
@@ -2010,8 +2010,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 828
-y 601
+x 793
+y 526
 w 37
 h 15
 fgColor index 1
@@ -2034,9 +2034,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 532
-y 603
-w 82
+x 475
+y 528
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -2054,8 +2054,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 619
-y 669
+x 584
+y 594
 w 160
 h 25
 fgColor index 1
@@ -2078,8 +2078,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 914
-y 673
+x 867
+y 597
 w 34
 h 17
 file "led5state.edl"
@@ -2113,8 +2113,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 790
-y 673
+x 755
+y 598
 w 37
 h 15
 fgColor index 1
@@ -2137,8 +2137,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 829
-y 673
+x 794
+y 598
 w 37
 h 15
 fgColor index 1
@@ -2161,8 +2161,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 620
-y 630
+x 585
+y 555
 w 160
 h 25
 fgColor index 1
@@ -2185,8 +2185,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 912
-y 636
+x 865
+y 560
 w 34
 h 17
 file "led5state.edl"
@@ -2220,8 +2220,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 788
-y 636
+x 753
+y 561
 w 37
 h 15
 fgColor index 1
@@ -2244,8 +2244,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 827
-y 636
+x 792
+y 561
 w 37
 h 15
 fgColor index 1
@@ -2268,9 +2268,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 533
-y 676
-w 84
+x 476
+y 601
+w 106
 h 16
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -2288,9 +2288,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 534
-y 634
-w 84
+x 477
+y 559
+w 106
 h 16
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -2308,8 +2308,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 620
-y 703
+x 585
+y 628
 w 160
 h 25
 fgColor index 1
@@ -2332,8 +2332,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 915
-y 707
+x 868
+y 631
 w 34
 h 17
 file "led5state.edl"
@@ -2367,8 +2367,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 791
-y 707
+x 756
+y 632
 w 37
 h 15
 fgColor index 1
@@ -2391,8 +2391,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 830
-y 708
+x 795
+y 633
 w 37
 h 15
 fgColor index 1
@@ -2415,9 +2415,9 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 534
-y 709
-w 82
+x 477
+y 634
+w 103
 h 17
 font "helvetica-medium-r-12.0"
 fgColor index 1
@@ -2435,8 +2435,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 431
-y 145
+x 415
+y 70
 w 34
 h 17
 file "led5state.edl"
@@ -2470,8 +2470,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 429
-y 211
+x 413
+y 136
 w 34
 h 17
 file "led5state.edl"
@@ -2505,8 +2505,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 430
-y 277
+x 414
+y 202
 w 34
 h 17
 file "led5state.edl"
@@ -2540,8 +2540,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 430
-y 341
+x 414
+y 266
 w 34
 h 17
 file "led5state.edl"
@@ -2575,8 +2575,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 430
-y 406
+x 414
+y 331
 w 34
 h 17
 file "led5state.edl"
@@ -2610,8 +2610,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 429
-y 473
+x 415
+y 402
 w 34
 h 17
 file "led5state.edl"
@@ -2645,8 +2645,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 429
-y 542
+x 414
+y 474
 w 34
 h 17
 file "led5state.edl"
@@ -2680,8 +2680,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 426
-y 614
+x 414
+y 547
 w 34
 h 17
 file "led5state.edl"
@@ -2715,8 +2715,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 426
-y 687
+x 413
+y 623
 w 34
 h 17
 file "led5state.edl"
@@ -2750,8 +2750,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 438
-y 184
+x 403
+y 109
 w 731
 h 1
 lineColor index 1
@@ -2759,14 +2759,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 438
-  1 1129
-  2 1169
+  0 403
+  1 1094
+  2 1134
 }
 yPoints {
-  0 185
-  1 185
-  2 184
+  0 110
+  1 110
+  2 109
 }
 endObjectProperties
 
@@ -2776,8 +2776,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 445
-y 247
+x 410
+y 172
 w 731
 h 1
 lineColor index 1
@@ -2785,14 +2785,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 445
-  1 1136
-  2 1176
+  0 410
+  1 1101
+  2 1141
 }
 yPoints {
-  0 248
-  1 248
-  2 247
+  0 173
+  1 173
+  2 172
 }
 endObjectProperties
 
@@ -2802,8 +2802,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 449
-y 311
+x 414
+y 236
 w 719
 h 1
 lineColor index 1
@@ -2811,14 +2811,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 449
-  1 1129
-  2 1168
+  0 414
+  1 1094
+  2 1133
 }
 yPoints {
-  0 312
-  1 312
-  2 311
+  0 237
+  1 237
+  2 236
 }
 endObjectProperties
 
@@ -2828,8 +2828,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 448
-y 379
+x 413
+y 304
 w 714
 h 1
 lineColor index 1
@@ -2837,14 +2837,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 448
-  1 1123
-  2 1162
+  0 413
+  1 1088
+  2 1127
 }
 yPoints {
-  0 380
-  1 380
-  2 379
+  0 305
+  1 305
+  2 304
 }
 endObjectProperties
 
@@ -2854,8 +2854,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 442
-y 445
+x 407
+y 370
 w 715
 h 1
 lineColor index 1
@@ -2863,14 +2863,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 442
-  1 1118
-  2 1157
+  0 407
+  1 1083
+  2 1122
 }
 yPoints {
-  0 446
-  1 446
-  2 445
+  0 371
+  1 371
+  2 370
 }
 endObjectProperties
 
@@ -2880,8 +2880,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 443
-y 518
+x 408
+y 443
 w 717
 h 0
 lineColor index 1
@@ -2889,14 +2889,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
+  0 408
+  1 1087
+  2 1125
+}
+yPoints {
   0 443
-  1 1122
-  2 1160
-}
-yPoints {
-  0 518
-  1 518
-  2 518
+  1 443
+  2 443
 }
 endObjectProperties
 
@@ -2906,8 +2906,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 431
-y 592
+x 396
+y 517
 w 717
 h 0
 lineColor index 1
@@ -2915,14 +2915,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 431
-  1 1110
-  2 1148
+  0 396
+  1 1075
+  2 1113
 }
 yPoints {
-  0 592
-  1 592
-  2 592
+  0 517
+  1 517
+  2 517
 }
 endObjectProperties
 
@@ -2932,8 +2932,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 442
-y 663
+x 407
+y 588
 w 708
 h 1
 lineColor index 1
@@ -2941,14 +2941,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 442
-  1 1111
-  2 1150
+  0 407
+  1 1076
+  2 1115
 }
 yPoints {
-  0 664
-  1 664
-  2 663
+  0 589
+  1 589
+  2 588
 }
 endObjectProperties
 
@@ -2958,8 +2958,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 437
-y 736
+x 402
+y 661
 w 711
 h 1
 lineColor index 1
@@ -2967,14 +2967,14 @@ fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 437
-  1 1110
-  2 1148
+  0 402
+  1 1075
+  2 1113
 }
 yPoints {
-  0 737
-  1 737
-  2 736
+  0 662
+  1 662
+  2 661
 }
 endObjectProperties
 
@@ -2984,8 +2984,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 429
-y 129
+x 413
+y 54
 w 36
 h 16
 font "helvetica-medium-r-12.0"
@@ -3004,8 +3004,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 431
-y 195
+x 415
+y 120
 w 31
 h 16
 font "helvetica-medium-r-12.0"
@@ -3024,8 +3024,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 431
-y 261
+x 415
+y 186
 w 32
 h 16
 font "helvetica-medium-r-12.0"
@@ -3044,8 +3044,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 430
-y 326
+x 414
+y 251
 w 34
 h 16
 font "helvetica-medium-r-12.0"
@@ -3064,8 +3064,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 429
-y 390
+x 413
+y 315
 w 35
 h 16
 font "helvetica-medium-r-12.0"
@@ -3084,8 +3084,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 429
-y 457
+x 415
+y 386
 w 32
 h 16
 font "helvetica-medium-r-12.0"
@@ -3104,8 +3104,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 430
-y 525
+x 415
+y 457
 w 33
 h 16
 font "helvetica-medium-r-12.0"
@@ -3124,8 +3124,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 427
-y 599
+x 415
+y 532
 w 33
 h 16
 font "helvetica-medium-r-12.0"
@@ -3144,8 +3144,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 426
-y 670
+x 413
+y 606
 w 34
 h 16
 font "helvetica-medium-r-12.0"
@@ -3164,8 +3164,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 87
-y 107
+x 24
+y 22
 w 75
 h 16
 font "helvetica-medium-r-12.0"
@@ -3184,8 +3184,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 263
-y 108
+x 200
+y 23
 w 105
 h 16
 font "helvetica-medium-r-12.0"
@@ -3204,8 +3204,8 @@ beginObjectProperties
 major 4
 minor 2
 release 0
-x 180
-y 562
+x 117
+y 477
 w 160
 h 25
 fgColor index 1
@@ -3227,8 +3227,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 107
-y 570
+x 44
+y 485
 w 64
 h 16
 font "helvetica-medium-r-12.0"
@@ -3247,8 +3247,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 381
-y 109
+x 295
+y 23
 w 31
 h 15
 controlPv "EMPS:BMPROPREQ"
@@ -3273,8 +3273,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 964
-y 135
+x 929
+y 60
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS1):STATTEXT"
@@ -3299,8 +3299,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 965
-y 199
+x 930
+y 124
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS3):STATTEXT"
@@ -3325,8 +3325,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 959
-y 262
+x 924
+y 187
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS5):STATTEXT"
@@ -3351,8 +3351,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 961
-y 324
+x 926
+y 249
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS7):STATTEXT"
@@ -3377,8 +3377,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 959
-y 389
+x 924
+y 314
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS9):STATTEXT"
@@ -3403,8 +3403,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 960
-y 462
+x 925
+y 387
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS11):STATTEXT"
@@ -3429,8 +3429,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 959
-y 529
+x 924
+y 454
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS13):STATTEXT"
@@ -3455,8 +3455,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 958
-y 603
+x 923
+y 528
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS15):STATTEXT"
@@ -3481,8 +3481,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 959
-y 674
+x 924
+y 599
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS17):STATTEXT"
@@ -3507,8 +3507,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 965
-y 162
+x 930
+y 87
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS2):STATTEXT"
@@ -3533,8 +3533,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 963
-y 226
+x 928
+y 151
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS4):STATTEXT"
@@ -3559,8 +3559,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 957
-y 291
+x 922
+y 216
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS6):STATTEXT"
@@ -3585,8 +3585,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 961
-y 354
+x 926
+y 279
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS8):STATTEXT"
@@ -3611,8 +3611,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 959
-y 422
+x 924
+y 347
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS10):STATTEXT"
@@ -3637,8 +3637,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 960
-y 489
+x 925
+y 414
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS12):STATTEXT"
@@ -3663,8 +3663,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 959
-y 565
+x 924
+y 490
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS14):STATTEXT"
@@ -3689,8 +3689,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 958
-y 638
+x 923
+y 563
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS16):STATTEXT"
@@ -3715,8 +3715,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 960
-y 703
+x 925
+y 628
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS18):STATTEXT"
@@ -3741,8 +3741,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 99
-y 595
+x 36
+y 510
 w 266
 h 14
 font "helvetica-medium-r-12.0"
@@ -3761,8 +3761,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1069
-y 135
+x 1034
+y 60
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS1):TLSTATTEXT"
@@ -3787,8 +3787,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 956
-y 110
+x 935
+y 34
 w 49
 h 16
 font "helvetica-medium-r-12.0"
@@ -3807,8 +3807,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 1073
-y 110
+x 1038
+y 35
 w 71
 h 16
 font "helvetica-medium-r-12.0"
@@ -3827,8 +3827,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1070
-y 165
+x 1035
+y 90
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS2):TLSTATTEXT"
@@ -3853,8 +3853,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1068
-y 200
+x 1033
+y 125
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS3):TLSTATTEXT"
@@ -3879,8 +3879,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1068
-y 226
+x 1033
+y 151
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS4):TLSTATTEXT"
@@ -3905,8 +3905,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1071
-y 265
+x 1036
+y 190
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS5):TLSTATTEXT"
@@ -3931,8 +3931,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1071
-y 289
+x 1036
+y 214
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS6):TLSTATTEXT"
@@ -3957,8 +3957,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1072
-y 328
+x 1037
+y 253
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS7):TLSTATTEXT"
@@ -3983,8 +3983,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1073
-y 352
+x 1038
+y 277
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS8):TLSTATTEXT"
@@ -4009,8 +4009,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1073
-y 392
+x 1038
+y 317
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS9):TLSTATTEXT"
@@ -4035,8 +4035,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1072
-y 419
+x 1037
+y 344
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS10):TLSTATTEXT"
@@ -4061,8 +4061,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1078
-y 465
+x 1043
+y 390
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS11):TLSTATTEXT"
@@ -4087,8 +4087,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1075
-y 496
+x 1040
+y 421
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS12):TLSTATTEXT"
@@ -4113,8 +4113,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1076
-y 538
+x 1041
+y 463
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS13):TLSTATTEXT"
@@ -4139,8 +4139,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1076
-y 571
+x 1041
+y 496
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS14):TLSTATTEXT"
@@ -4165,8 +4165,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1081
-y 607
+x 1046
+y 532
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS15):TLSTATTEXT"
@@ -4191,8 +4191,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1079
-y 636
+x 1044
+y 561
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS16):TLSTATTEXT"
@@ -4217,8 +4217,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1080
-y 675
+x 1045
+y 600
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS17):TLSTATTEXT"
@@ -4243,8 +4243,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 1080
-y 703
+x 1045
+y 628
 w 74
 h 16
 controlPv "EMPS:OPTICS:$(PS18):TLSTATTEXT"
@@ -4269,8 +4269,8 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 1055
-y 104
+x 1020
+y 29
 w 0
 h 653
 lineColor index 1
@@ -4278,441 +4278,27 @@ fillColor index 0
 lineWidth 2
 numPoints 9
 xPoints {
-  0 1055
-  1 1055
-  2 1055
-  3 1055
-  4 1055
-  5 1055
-  6 1055
-  7 1055
-  8 1055
+  0 1020
+  1 1020
+  2 1020
+  3 1020
+  4 1020
+  5 1020
+  6 1020
+  7 1020
+  8 1020
 }
 yPoints {
-  0 104
-  1 104
-  2 104
-  3 104
-  4 104
-  5 757
-  6 757
-  7 757
-  8 757
+  0 29
+  1 29
+  2 29
+  3 29
+  4 29
+  5 682
+  6 682
+  7 682
+  8 682
 }
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 866
-y 129
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS1):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 869
-y 159
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS2):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 868
-y 195
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS3):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 866
-y 223
-w 37
-h 16
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS4):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 866
-y 255
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS5):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 868
-y 288
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS6):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 872
-y 325
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS7):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 875
-y 355
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS8):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 874
-y 391
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS9):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 872
-y 419
-w 37
-h 16
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS10):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 872
-y 451
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS11):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 874
-y 484
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS12):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 871
-y 531
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS13):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 874
-y 561
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS14):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 869
-y 599
-w 37
-h 17
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS15):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 870
-y 637
-w 37
-h 16
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS16):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 870
-y 674
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS17):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 872
-y 710
-w 37
-h 15
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "$(PS18):STATTMO"
-pressValue "off"
-releaseValue "on"
-toggle
-3d
-font "helvetica-bold-r-12.0"
 endObjectProperties
 
 # (Text w. Reg. Exp.)
@@ -4721,8 +4307,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 911
-y 106
+x 870
+y 32
 w 19
 h 14
 font "helvetica-medium-r-12.0"
@@ -4741,28 +4327,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 868
-y 105
-w 28
-h 14
-font "helvetica-medium-r-12.0"
-fgColor index 1
-bgColor index 0
-useDisplayBg
-value {
-  "TMO"
-}
-autoSize
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 653
-y 102
+x 618
+y 27
 w 97
 h 14
 font "helvetica-medium-r-12.0"
@@ -4781,10 +4347,10 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 524
-y 101
-w 46
-h 14
+x 477
+y 24
+w 58
+h 16
 font "helvetica-medium-r-12.0"
 fgColor index 1
 bgColor index 0
@@ -4801,8 +4367,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 433
-y 100
+x 398
+y 24
 w 54
 h 14
 font "helvetica-medium-r-12.0"

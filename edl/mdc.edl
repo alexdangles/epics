@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 980
-y 96
+x 996
+y 106
 w 581
 h 367
 font "helvetica-medium-r-12.0"
@@ -415,7 +415,7 @@ menuLabel {
 }
 symbols {
   0 "D=$(D),P=$(D):,R=ASYN"
-  1 "P=GALIL:,R=ASYN"
+  1 "P=MDC:,R=ASYN"
 }
 endObjectProperties
 

@@ -16,10 +16,10 @@ genericStream_registerRecordDeviceDriver(pdbbase)
 # DEVICE NAME            BUS    IP ADDRESS:PORT
 # ========================================================
 # Office RS232/485 to ethernet converter
-drvAsynIPPortConfigure("LAB1","192.168.1.4:100",0,1,0)
+#drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,1,0)
 #
 # MDC Motor
-#drvAsynIPPortConfigure("MOT1","192.168.1.4:100",0,1,0)
+drvAsynIPPortConfigure("MOT1","192.168.1.4:100",0,1,0)
 #
 # GlassmanKT power supply
 #drvAsynIPPortConfigure("PS1","192.168.1.5:2101",0,1,0)
@@ -27,23 +27,15 @@ drvAsynIPPortConfigure("LAB1","192.168.1.4:100",0,1,0)
 # =========== Load EPICS runtime DB =======================
 #
 dbLoadRecords("test.db")
+dbLoadRecords("mdc.db")
 
-#
-#  Don't use ADDR=10, here (in use by application DB), but okay to change after iocInit
-#
-dbLoadRecords("asynRecord.db","P=ALEX:,R=ASYN,PORT=PS1,ADDR=2,IMAX=0,OMAX=0")
+#dbLoadRecords("asynRecord.db","P=ALEX:,R=ASYN,PORT=ETH4,ADDR=2,IMAX=0,OMAX=0")
 
 ## ===================================================
 iocInit
 ## ===================================================
 
-# caPutLogInit("142.90.148.155:7000",1)
-caPutLogInit("icsl6.ggeng.triumf.ca:7000",1)
-asInit()
-
 < test.iocscr
 
-# var scopeReadDebug 0
-# var wfcursorDebug 0
 var streamDebug 0
 
