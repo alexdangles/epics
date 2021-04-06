@@ -6,9 +6,9 @@ w 2576 1867 100 0 n#1 efanouts.SCANMASTER.LNK1 2512 1880 2712 1880 glassmankt.gl
 w 2344 1979 100 0 n#2 ebos.EXTIL.VAL 2080 1976 2608 1976 2608 1944 2712 1944 glassmankt.glassmankt#6.intok
 w 2227 1896 100 0 n#2 junction 2224 1976 2224 1832 2272 1832 efanouts.SCANMASTER.SDIS
 w 2132 2011 100 0 n#3 ebos.EXTIL.FLNK 2080 2008 2184 2008 2184 1800 2272 1800 efanouts.SCANMASTER.SLNK
-n 4004 2958 4782 3076 275
+n 4004 2958 4775 3076 275
 Functionality:
-Testing MDC 660004 stepper motor
+Testing Glassman KT power supply
 _
 [cell use]
 use bd200tr 0 0 100 0 bd200tr#1

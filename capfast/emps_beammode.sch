@@ -59,7 +59,7 @@ s -978 1385 100 0 SEL records require a NVL b/w 0-11
 s -1516 -754 100 0 Note: This only passes to BMPATHREQ when legit value in BMPATHREQSTR
 s -254 -3024 100 0 NOTE: This record processes the entire request/grant chain to ensure the beam modes are still valid
 s -687 -2350 150 0 GRANT/DENIED decision and results here!
-n 1705 -1446 2282 -1254 100
+n 1705 -1446 2251 -1254 100
 NOTE: EMPS:ExBDMBxSET and EMPS:ExBDMBxCALC come from
 emps_bmpathbenders.sch.  xxxCALC determines the current
 setpoint for the magnet, xxxSET.C is the tolerance.
@@ -69,7 +69,7 @@ For the calc record outputs:
 NOTE: dure to  beam orientation, EMBD:MB0 and EMBT:MB5A
 records are reversed (DRVH has calc for DRVL record)
 _
-n 4054 -2665 4598 -2593 100
+n 4054 -2665 4566 -2593 100
 THESE RECORDS CHECK IF BEAM PATH IS EHD '(H==5)' :
 IF BEAM PATH IS EHD USE EHATMB4LCALC
 ELSE USE EHATMB4RCALC. (from emps_bmpathbenders.sch)
@@ -287,7 +287,7 @@ use trcalcos -1424 -1283 100 0 BMPATHREQADD1
 xform 0 -1352 -1016
 p -1484 -1283 100 0 -1 PV:EMPS:
 p -1405 -921 100 0 1 CALC:A<B?A+1:0
-p -1185 -1051 100 0 1 def(OUT):EMPS:OPTICS:BEAMMODE PP
+p -1185 -1051 100 0 1 def(OUT):EMPS:BMPATHREQ PP
 p -1368 -746 100 0 0 OCAL:1
 p -1614 -858 100 0 1 def(INPB):17
 p -1416 -1112 100 0 1 OOPT:When Non-zero
