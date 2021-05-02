@@ -10,26 +10,27 @@ epicsEnvSet(EPICS_CA_SERVER_PORT,"9192")
 # (this must match the name of the executable binary in the shebang line)
 dbLoadDatabase("genericStream.dbd")
 genericStream_registerRecordDeviceDriver(pdbbase)
-
+#
+# Keep a list of previously tested SCPI devices and comment out when done
 #
 # =========== Configure Asyn Ports =======================
 # DEVICE NAME            BUS    IP ADDRESS:PORT
 # ========================================================
-# Office RS232/485 to ethernet converter
+# Startech RS232/485 to ethernet converter
 #drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,1,0)
 #
-# MDC Motor
-drvAsynIPPortConfigure("MOT1","192.168.1.4:100",0,1,0)
+# MDC Motor with MOXA serial device server
+drvAsynIPPortConfigure("MOT1","192.168.1.6:4001",0,1,0)
 #
-# GlassmanKT power supply
+# Glassman KT series power supply
 #drvAsynIPPortConfigure("PS1","192.168.1.5:2101",0,1,0)
 #
 # =========== Load EPICS runtime DB =======================
 #
 dbLoadRecords("test.db")
 dbLoadRecords("mdc.db")
-
-#dbLoadRecords("asynRecord.db","P=ALEX:,R=ASYN,PORT=ETH4,ADDR=2,IMAX=0,OMAX=0")
+#dbLoadRecords("pstest.db")
+dbLoadRecords("asynRecord.db","P=ALEX:,R=ASYN,PORT=ETH4,ADDR=2,IMAX=0,OMAX=0")
 
 ## ===================================================
 iocInit

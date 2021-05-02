@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 996
-y 106
+x 956
+y 651
 w 581
 h 367
 font "helvetica-medium-r-12.0"
@@ -20,6 +20,29 @@ ctlBgColor2 index 2
 topShadowColor index 3
 botShadowColor index 4
 endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 452
+y 50
+w 84
+h 24
+font "helvetica-bold-r-14.0"
+fgColor index 33
+bgColor index 0
+bgAlarm
+useDisplayBg
+visPv "CALC\\\{A&&!B\}($(D):MOVN,$(D):CALIBOK.RVAL)"
+visMin "0.5"
+visMax "1.5"
+value {
+  "calibrating"
+}
+endObjectProperties
 
 # (Lines)
 object activeLineClass
@@ -868,7 +891,7 @@ onLabel "Calibrate"
 offLabel "Calibrate"
 3d
 font "helvetica-bold-r-12.0"
-visPv "CALC\\\{!A&&!B\}($(D):MOVN,$(D):CALIBSTATUS)"
+visPv "CALC\\\{!A\}($(D):CALIB.DISA)"
 visMin "0"
 visMax "1"
 endObjectProperties
@@ -977,7 +1000,7 @@ x 413
 y 314
 w 90
 h 18
-controlPv "$(D):COMMAND.DESC"
+controlPv "$(D):CMD.DESC"
 font "helvetica-medium-r-12.0"
 fgColor index 1
 bgColor index 0
@@ -1004,7 +1027,7 @@ x 305
 y 315
 w 71
 h 18
-controlPv "$(D):COMMAND"
+controlPv "$(D):CMD"
 font "helvetica-medium-r-12.0"
 fgColor index 1
 bgColor index 0
@@ -1293,9 +1316,9 @@ fgColor index 15
 bgColor index 0
 bgAlarm
 useDisplayBg
-visPv "$(D):CALIBSTATUS"
-visMin "0"
-visMax "1"
+visPv "CALC\\\{!A&&!B\}($(D):MOVN,$(D):CALIBOK.RVAL)"
+visMin "0.5"
+visMax "1.5"
 value {
   "not calibrated"
 }

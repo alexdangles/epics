@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 995
-y 60
+x 948
+y 745
 w 484
 h 140
 font "helvetica-medium-r-12.0"
@@ -20,84 +20,6 @@ ctlBgColor2 index 2
 topShadowColor index 3
 botShadowColor index 4
 endScreenProperties
-
-# (Group)
-object activeGroupClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 386
-y 11
-w 72
-h 110
-
-beginGroup
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 386
-y 23
-w 72
-h 98
-lineColor index 4
-fillColor index 0
-lineWidth 2
-endObjectProperties
-
-# (Lines)
-object activeLineClass
-beginObjectProperties
-major 4
-minor 0
-release 1
-x 386
-y 23
-w 72
-h 98
-lineColor index 3
-fillColor index 0
-lineWidth 2
-numPoints 3
-xPoints {
-  0 386
-  1 458
-  2 458
-}
-yPoints {
-  0 121
-  1 121
-  2 23
-}
-endObjectProperties
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 389
-y 11
-w 43
-h 12
-font "helvetica-bold-r-10.0"
-fontAlign "center"
-fgColor index 1
-bgColor index 0
-value {
-  "Interlock"
-}
-autoSize
-endObjectProperties
-
-endGroup
-
-endObjectProperties
 
 # (Group)
 object activeGroupClass
@@ -161,8 +83,8 @@ minor 1
 release 1
 x 30
 y 55
-w 53
-h 9
+w 54
+h 12
 font "helvetica-bold-r-10.0"
 fgColor index 1
 bgColor index 0
@@ -183,7 +105,7 @@ major 4
 minor 4
 release 0
 x 257
-y 78
+y 80
 w 74
 h 19
 fgColor index 0
@@ -217,7 +139,7 @@ major 4
 minor 4
 release 0
 x 390
-y 87
+y 84
 w 62
 h 21
 fgColor index 0
@@ -260,7 +182,7 @@ major 4
 minor 2
 release 0
 x 10
-y 6
+y 0
 w 160
 h 28
 fgColor index 1
@@ -284,7 +206,7 @@ major 4
 minor 7
 release 0
 x 170
-y 15
+y 14
 w 71
 h 15
 controlPv "ALEX:AI"
@@ -312,7 +234,7 @@ major 4
 minor 1
 release 0
 x 401
-y 45
+y 42
 w 39
 h 16
 fgColor index 1
@@ -334,9 +256,9 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 99
+x 78
 y 71
-w 140
+w 161
 h 18
 controlPv "ALEX:CMD"
 font "helvetica-medium-r-12.0"
@@ -349,7 +271,6 @@ limitsFromDb
 nullColor index 24
 useHexPrefix
 newPos
-inputFocusUpdates
 objType "controls"
 noExecuteClipMask
 endObjectProperties
@@ -360,9 +281,9 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 99
-y 99
-w 140
+x 83
+y 96
+w 155
 h 14
 controlPv "ALEX:CMD.DESC"
 format "decimal"
@@ -387,7 +308,7 @@ major 4
 minor 4
 release 0
 x 256
-y 99
+y 101
 w 50
 h 19
 fgColor index 0
@@ -421,9 +342,9 @@ minor 1
 release 1
 x 24
 y 73
-w 67
-h 16
-font "helvetica-medium-r-14.0"
+w 50
+h 12
+font "helvetica-medium-r-10.0"
 fgColor index 1
 bgColor index 0
 useDisplayBg
@@ -441,9 +362,9 @@ minor 1
 release 1
 x 24
 y 95
-w 68
-h 16
-font "helvetica-medium-r-14.0"
+w 48
+h 12
+font "helvetica-medium-r-10.0"
 fgColor index 1
 bgColor index 0
 useDisplayBg
@@ -460,9 +381,9 @@ major 4
 minor 0
 release 1
 x 420
-y 27
+y 28
 w 0
-h 17
+h 13
 lineColor index 1
 fillColor index 0
 lineWidth 2
@@ -479,15 +400,15 @@ xPoints {
   8 420
 }
 yPoints {
-  0 27
-  1 27
-  2 27
-  3 27
-  4 27
-  5 44
-  6 44
-  7 44
-  8 44
+  0 28
+  1 28
+  2 28
+  3 28
+  4 28
+  5 41
+  6 41
+  7 41
+  8 41
 }
 endObjectProperties
 
@@ -498,7 +419,7 @@ major 4
 minor 0
 release 0
 x 332
-y 13
+y 12
 w 34
 h 16
 file "led5state.edl"
@@ -551,7 +472,7 @@ maxValues {
   4 5
 }
 controlPvs {
-  0 "ALEX:TRCALC.VAL"
+  0 "ALEX:TCALC.VAL"
 }
 numPvs 1
 useOriginalColors
@@ -566,7 +487,7 @@ major 4
 minor 0
 release 0
 x 248
-y 14
+y 13
 w 76
 h 14
 
@@ -579,7 +500,7 @@ major 4
 minor 0
 release 0
 x 248
-y 14
+y 13
 w 76
 h 14
 
@@ -592,7 +513,7 @@ major 4
 minor 0
 release 0
 x 248
-y 14
+y 13
 w 76
 h 14
 
@@ -605,7 +526,7 @@ major 4
 minor 1
 release 0
 x 248
-y 14
+y 13
 w 37
 h 14
 fgColor index 1
@@ -628,7 +549,7 @@ major 4
 minor 1
 release 0
 x 287
-y 14
+y 13
 w 37
 h 14
 fgColor index 1
@@ -663,7 +584,7 @@ major 4
 minor 0
 release 1
 x 406
-y 83
+y 80
 w 28
 h 0
 lineColor index 1
@@ -679,12 +600,12 @@ xPoints {
   5 434
 }
 yPoints {
-  0 83
-  1 83
-  2 83
-  3 83
-  4 83
-  5 83
+  0 80
+  1 80
+  2 80
+  3 80
+  4 80
+  5 80
 }
 endObjectProperties
 
@@ -695,7 +616,7 @@ major 4
 minor 0
 release 1
 x 420
-y 62
+y 59
 w 0
 h 20
 lineColor index 1
@@ -714,15 +635,15 @@ xPoints {
   8 420
 }
 yPoints {
-  0 62
-  1 62
-  2 62
-  3 62
-  4 62
-  5 82
-  6 82
-  7 82
-  8 82
+  0 59
+  1 59
+  2 59
+  3 59
+  4 59
+  5 79
+  6 79
+  7 79
+  8 79
 }
 endObjectProperties
 
@@ -732,11 +653,11 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 128
-y 38
-w 200
+x 12
+y 37
+w 316
 h 15
-controlPv "ALEX:CALC.CALC"
+controlPv "ALEX:TCALC.CALC"
 format "decimal"
 font "helvetica-bold-r-10.0"
 fontAlign "right"
@@ -760,7 +681,7 @@ major 4
 minor 3
 release 0
 x 257
-y 58
+y 60
 w 56
 h 17
 fgColor index 1
@@ -791,7 +712,7 @@ major 4
 minor 4
 release 0
 x 309
-y 100
+y 102
 w 46
 h 18
 fgColor index 0
@@ -819,5 +740,83 @@ propagateMacros {
   0 0
 }
 helpCommand "dillo -g 600x600\{+50\}\{+5\} -f http://isacwserv.triumf.ca/cgi-bin/devel/dbdev/web_info.pl?D=\\$(!label)"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 386
+y 20
+w 72
+h 98
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 401
+y 12
+w 43
+h 15
+font "helvetica-bold-r-10.0"
+fontAlign "center"
+fgColor index 1
+bgColor index 0
+value {
+  "Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 386
+y 20
+w 72
+h 98
+
+beginGroup
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 386
+y 20
+w 72
+h 98
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 386
+  1 458
+  2 458
+}
+yPoints {
+  0 118
+  1 118
+  2 20
+}
+endObjectProperties
+
+endGroup
+
 endObjectProperties
 
