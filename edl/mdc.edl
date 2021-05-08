@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 956
-y 651
+x 273
+y 122
 w 581
 h 367
 font "helvetica-medium-r-12.0"
@@ -28,19 +28,19 @@ major 4
 minor 1
 release 1
 x 452
-y 50
-w 84
+y 32
+w 105
 h 24
 font "helvetica-bold-r-14.0"
-fgColor index 33
+fgColor index 10
 bgColor index 0
 bgAlarm
 useDisplayBg
-visPv "CALC\\\{A&&!B\}($(D):MOVN,$(D):CALIBOK.RVAL)"
+visPv "CALC\\\{A&&!B\}($(D):MOVN,$(D):CALIBOK)"
 visMin "0.5"
 visMax "1.5"
 value {
-  "calibrating"
+  "not calibrated"
 }
 endObjectProperties
 
@@ -891,9 +891,9 @@ onLabel "Calibrate"
 offLabel "Calibrate"
 3d
 font "helvetica-bold-r-12.0"
-visPv "CALC\\\{!A\}($(D):CALIB.DISA)"
-visMin "0"
-visMax "1"
+visPv "CALC\\\{!A\}($(D):CALIBOK)"
+visMin "0.5"
+visMax "1.5"
 endObjectProperties
 
 # (Rectangle)
@@ -1299,28 +1299,5 @@ nullCondition "disabled"
 useHexPrefix
 newPos
 noExecuteClipMask
-endObjectProperties
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 453
-y 34
-w 97
-h 24
-font "helvetica-bold-r-14.0"
-fgColor index 15
-bgColor index 0
-bgAlarm
-useDisplayBg
-visPv "CALC\\\{!A&&!B\}($(D):MOVN,$(D):CALIBOK.RVAL)"
-visMin "0.5"
-visMax "1.5"
-value {
-  "not calibrated"
-}
 endObjectProperties
 

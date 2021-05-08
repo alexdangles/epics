@@ -17,7 +17,7 @@ genericStream_registerRecordDeviceDriver(pdbbase)
 # DEVICE NAME            BUS    IP ADDRESS:PORT
 # ========================================================
 # Startech RS232/485 to ethernet converter
-#drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,1,0)
+drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,1,0)
 #
 # MDC Motor with MOXA serial device server
 drvAsynIPPortConfigure("MOT1","192.168.1.6:4001",0,1,0)

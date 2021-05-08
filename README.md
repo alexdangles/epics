@@ -13,8 +13,14 @@ data
 edl
     graphical user interface for projects
 	
+iocscr
+	scripts to run on an IOC
+	
 scr
 	scripts
+	
+src
+	startup and access control scripts
 	
 training
     learning material.
