@@ -29,10 +29,15 @@ INIT {
   OUT ":\$1i%d";
 }
 
+# Set the address for the motor (0 is default)
+SETADDR {
+  OUT ":0D%d";
+}
+
 # Send motor to negative limit. Needs limit SW
 # or defaults to hard stop when reached.
 HOME {
-  OUT ":\$1j-50000000";
+  OUT ":\$1j-10000000";
 }
 
 # Read step position
@@ -75,9 +80,9 @@ RDSPD {
 }
 
 # Read acceleration setting
-RDACC {
+RDACCL {
 	OUT ":\$1a";
-	IN ":\$1a%f";
+	IN ":\$1a%d";
 }
 
 # Set holding current
@@ -101,8 +106,8 @@ SETPOS {
 }	
 
 # Set acceleration
-SETACC {
-	OUT ":\$1A%f";
+SETACCL {
+	OUT ":\$1a%d";
 }
 
 # Set speed

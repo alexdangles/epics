@@ -3,10 +3,10 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 273
-y 122
-w 581
-h 367
+x 629
+y 358
+w 570
+h 358
 font "helvetica-medium-r-12.0"
 ctlFont "helvetica-medium-r-10.0"
 btnFont "helvetica-bold-r-12.0"
@@ -20,29 +20,6 @@ ctlBgColor2 index 2
 topShadowColor index 3
 botShadowColor index 4
 endScreenProperties
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 452
-y 32
-w 105
-h 24
-font "helvetica-bold-r-14.0"
-fgColor index 10
-bgColor index 0
-bgAlarm
-useDisplayBg
-visPv "CALC\\\{A&&!B\}($(D):MOVN,$(D):CALIBOK)"
-visMin "0.5"
-visMax "1.5"
-value {
-  "not calibrated"
-}
-endObjectProperties
 
 # (Lines)
 object activeLineClass
@@ -347,9 +324,9 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 17
-y 192
-w 71
+x 140
+y 217
+w 117
 h 40
 fgColor index 1
 onColor index 0
@@ -396,8 +373,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 470
-y 261
+x 479
+y 293
 w 73
 h 33
 fgColor index 7
@@ -415,9 +392,9 @@ beginObjectProperties
 major 4
 minor 4
 release 0
-x 431
-y 229
-w 113
+x 477
+y 247
+w 69
 h 24
 fgColor index 0
 bgColor index 7
@@ -626,7 +603,7 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 373
+x 377
 y 130
 w 71
 h 14
@@ -698,7 +675,7 @@ x 286
 y 104
 w 71
 h 18
-controlPv "$(D):ACCLTIME"
+controlPv "$(D):ACCLSP"
 font "helvetica-medium-r-12.0"
 fgColor index 1
 bgColor index 0
@@ -706,6 +683,7 @@ useDisplayBg
 editable
 autoHeight
 motifWidget
+limitsFromDb
 precision 1
 nullColor index 24
 useHexPrefix
@@ -733,7 +711,8 @@ useDisplayBg
 editable
 autoHeight
 motifWidget
-precision 3
+limitsFromDb
+precision 2
 nullColor index 24
 useHexPrefix
 newPos
@@ -850,34 +829,14 @@ newPos
 noExecuteClipMask
 endObjectProperties
 
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 284
-y 127
-w 62
-h 20
-font "helvetica-bold-r-12.0"
-fgColor index 7
-bgColor index 0
-bgAlarm
-useDisplayBg
-value {
-  "Accl time"
-}
-endObjectProperties
-
 # (Message Button)
 object activeMessageButtonClass
 beginObjectProperties
 major 4
 minor 1
 release 0
-x 394
-y 164
+x 474
+y 159
 w 73
 h 26
 fgColor index 1
@@ -891,9 +850,8 @@ onLabel "Calibrate"
 offLabel "Calibrate"
 3d
 font "helvetica-bold-r-12.0"
-visPv "CALC\\\{!A\}($(D):CALIBOK)"
-visMin "0.5"
-visMax "1.5"
+visMin "0"
+visMax "1"
 endObjectProperties
 
 # (Rectangle)
@@ -902,10 +860,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 356
+x 72
 y 228
 w 31
-h 13
+h 12
 lineColor index 1
 fill
 fillColor index 1
@@ -917,10 +875,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 356
+x 72
 y 228
 w 31
-h 13
+h 12
 lineColor index 4
 fillColor index 0
 lineWidth 2
@@ -932,21 +890,21 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 357
+x 73
 y 229
 w 28
-h 10
+h 9
 lineColor index 3
 fillColor index 0
 lineWidth 2
 numPoints 3
 xPoints {
-  0 357
-  1 357
-  2 385
+  0 73
+  1 73
+  2 101
 }
 yPoints {
-  0 239
+  0 238
   1 229
   2 229
 }
@@ -958,10 +916,10 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 357
-y 229
+x 73
+y 228
 w 28
-h 10
+h 11
 lineColor index 9
 fill
 fillColor index 9
@@ -976,10 +934,10 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 288
+x 4
 y 227
 w 55
-h 16
+h 15
 font "helvetica-medium-r-12.0"
 fgColor index 7
 bgColor index 0
@@ -996,8 +954,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 413
-y 314
+x 374
+y 237
 w 90
 h 18
 controlPv "$(D):CMD.DESC"
@@ -1023,8 +981,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 305
-y 315
+x 284
+y 237
 w 71
 h 18
 controlPv "$(D):CMD"
@@ -1085,8 +1043,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 282
-y 29
+x 280
+y 27
 w 55
 h 24
 font "helvetica-bold-r-14.0"
@@ -1203,6 +1161,8 @@ onLabel "Jog Neg"
 offLabel "Jog Neg"
 3d
 font "helvetica-bold-r-12.0"
+visMin "0"
+visMax "1"
 endObjectProperties
 
 # (Message Button)
@@ -1226,6 +1186,8 @@ onLabel "Jog Pos"
 offLabel "Jog Pos"
 3d
 font "helvetica-bold-r-12.0"
+visMin "0"
+visMax "1"
 endObjectProperties
 
 # (Text Control)
@@ -1299,5 +1261,259 @@ nullCondition "disabled"
 useHexPrefix
 newPos
 noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 289
+y 129
+w 71
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 7
+bgColor index 0
+bgAlarm
+useDisplayBg
+value {
+  "Accl. Time"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 457
+y 29
+w 98
+h 24
+font "helvetica-bold-r-14.0"
+fgColor index 31
+bgColor index 0
+bgAlarm
+useDisplayBg
+visPv "$(D):NEEDCALIB"
+visMin "1"
+visMax "2"
+value {
+  "not calibrated"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 464
+y 50
+w 81
+h 24
+font "helvetica-bold-r-14.0"
+fgColor index 22
+bgColor index 0
+bgAlarm
+useDisplayBg
+visPv "$(D):CALIBRATING"
+visMin "0.5"
+visMax "1.5"
+value {
+  "calibrating"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 7
+y 188
+w 80
+h 16
+font "helvetica-medium-r-12.0"
+fgColor index 7
+bgColor index 0
+bgAlarm
+useDisplayBg
+value {
+  "current speed"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 125
+y 189
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 7
+bgColor index 0
+bgAlarm
+useDisplayBg
+value {
+  "/sec"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 80
+y 189
+w 41
+h 15
+controlPv "$(D):RDENC.EGU"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 1
+fgAlarm
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 174
+y 185
+w 85
+h 22
+controlPv "$(D):RDSPDCALC.VAL"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 22
+fgAlarm
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 375
+y 181
+w 71
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 7
+bgColor index 0
+bgAlarm
+useDisplayBg
+value {
+  "steps/fault"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 457
+y 174
+w 0
+h 1
+lineColor index 1
+fillColor index 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 377
+y 155
+w 72
+h 18
+controlPv "$(D):STEPTOL"
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+limitsFromDb
+nullColor index 24
+useHexPrefix
+newPos
+inputFocusUpdates
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 362
+y 215
+w 99
+h 16
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 7
+bgColor index 0
+bgAlarm
+useDisplayBg
+value {
+  "COMMAND I/O"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 210
+w 290
+h 70
+lineColor index 1
+fillColor index 0
 endObjectProperties
 

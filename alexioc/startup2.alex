@@ -1,4 +1,4 @@
-#!./genericStream
+#!./modStream
 # generic stream ioc for testing on ALEXIOC
 #
 epicsEnvSet(IOCSH_PS1, "alexioc>")
@@ -8,8 +8,8 @@ epicsEnvSet(EPICS_CA_SERVER_PORT,"9192")
 
 # ====== load and intialize application DBD file(s) =================
 # (this must match the name of the executable binary in the shebang line)
-dbLoadDatabase("genericStream.dbd")
-genericStream_registerRecordDeviceDriver(pdbbase)
+dbLoadDatabase("modStream.dbd")
+modStream_registerRecordDeviceDriver(pdbbase)
 #
 # Keep a list of previously tested SCPI devices and comment out when done
 #
@@ -19,8 +19,20 @@ genericStream_registerRecordDeviceDriver(pdbbase)
 # Startech RS232/485 to ethernet converter
 drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,1,0)
 #
-# MDC Motor with MOXA serial device server
+# MDC Motor with MOXA serial device server and digital I/0
+drvAsynIPPortConfigure("MOXA","192.168.1.5:502",0,0,1)
 drvAsynIPPortConfigure("MOT1","192.168.1.6:4001",0,1,0)
+### MOXA digi setup via MODBUS
+# modbusInterposeConfig(portName, linkType, timeoutMsec, writeDelayMsec) 
+modbusInterposeConfig(   "MOXA",    0,          0,          0 )
+
+## drvModbusAsynConfigure(portName, tcpPortName, slaveAddress, modbusFunction, modbusStartAddress, modbusLength, dataType, pollMsec, plcType);
+##                                                                                                                     (or read-first func)
+drvModbusAsynConfigure(    "DO",     "MOXA",       0,           6,                  32,              1,           0,         3,    "Moxa1212" );
+
+# For initailization of output records at startup
+#
+drvModbusAsynConfigure(    "DI",     "MOXA",       0,           4,                  48,              1,           1,        200,   "Moxa1212" );
 #
 # Glassman KT series power supply
 #drvAsynIPPortConfigure("PS1","192.168.1.5:2101",0,1,0)
