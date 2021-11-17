@@ -6,11 +6,11 @@ w 2344 1979 100 0 n#1 ebos.EXTIL.VAL 2080 1976 2608 1976 2608 1944 2716 1944 mdc
 w 2132 2011 100 0 n#2 ebos.EXTIL.FLNK 2080 2008 2184 2008 2184 1800 2272 1800 efanouts.SCANMASTER.SLNK
 w 2614 1883 100 0 n#3 efanouts.SCANMASTER.LNK1 2512 1880 2716 1880 mdc660004.mdc660004#6.scan
 w 2227 1904 100 0 n#1 junction 2224 1976 2224 1832 2272 1832 efanouts.SCANMASTER.SDIS
-w 2570 2491 100 0 n#4 hwout.hwout#14.outp 2567 2488 2567 2488 galildigi.galildigi#9.cmd
-w 2162 2323 100 0 n#5 hwin.hwin#12.in 2159 2320 2159 2320 galildigi.galildigi#9.stat
-w 2714 2011 100 0 n#6 hwin.hwin#20.in 2711 2008 2711 2008 mdc660004.mdc660004#6.neglim
-w 2721 2058 -100 0 n#7 hwin.hwin#22.in 2711 2048 2711 2048 mdc660004.mdc660004#6.poslim
-n 4004 2958 4782 3076 275
+w 2714 2011 100 0 n#4 hwin.hwin#20.in 2711 2008 2711 2008 mdc660004.mdc660004#6.neglim
+w 2714 2051 100 0 n#5 hwin.hwin#22.in 2711 2048 2711 2048 mdc660004.mdc660004#6.poslim
+w 2209 2274 -100 0 n#6 hwin.hwin#26.in 2199 2264 2199 2264 moxadigi.moxadigi#24.stat
+w 2609 2450 -100 0 n#7 hwout.hwout#28.outp 2599 2440 2599 2440 moxadigi.moxadigi#24.cmd
+n 4004 2956 4782 3076 275
 Functionality:
 Testing MDC 660004 stepper motor
 _
@@ -41,22 +41,20 @@ xform 0 2968 2064
 p 2798 2222 100 0 -1 set0:D ALEX:MOT1:
 p 2799 1918 100 0 -1 set35:ASYPORT MOT1
 p 2799 1894 100 0 -1 set36:ASYINFO IP 192.168.1.6:4001,0,1,0
-p 2799 2022 100 0 -1 set29:EGUPERREV 0.05
-p 2799 2094 100 0 -1 set30:SPD 1.2
 p 2798 2122 100 0 -1 set16:MAXTRAVEL 90.0
-use galildigi 2168 2232 100 0 galildigi#9
-xform 0 2368 2416
-p 2254 2476 100 0 -1 set0:D ALEX:DIGI:
-use hwout 2567 2488 100 0 hwout#14
-xform 0 2663 2488
-p 2654 2479 100 0 -1 val(outp):@asynMask(DO,0,0xFFFF,500)UINT16
-use hwin 2159 2320 100 0 hwin#12
-xform 0 2063 2320
-p 1758 2313 100 0 -1 val(in):@asynMask(DI,0,0xFFFF,500)UINT16
 use hwin 2711 2008 100 0 hwin#20
 xform 0 2615 2008
-p 2310 2001 100 0 -1 val(in):ALEX:DIGI:DI0.VAL
+p 2310 2001 100 0 -1 val(in):ALEX:DIGI:DIN00.VAL
 use hwin 2711 2048 100 0 hwin#22
 xform 0 2615 2048
-p 2310 2041 100 0 -1 val(in):ALEX:DIGI:DI1.VAL
+p 2310 2041 100 0 -1 val(in):ALEX:DIGI:DIN01.VAL
+use moxadigi 2096 2176 100 0 moxadigi#24
+xform 0 2399 2364
+p 2285 2424 100 0 -1 set0:D ALEX:DIGI:
+use hwin 2199 2264 100 0 hwin#26
+xform 0 2103 2264
+p 1916 2255 100 0 -1 val(in):@asynMask(DI,0,0xFFFF,500)UINT16
+use hwout 2599 2440 100 0 hwout#28
+xform 0 2695 2440
+p 2686 2431 100 0 -1 val(outp):@asynMask(DO,0,0xFFFF,500)UINT16
 [comments]

@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 3
-y 57
+x 951
+y 775
 w 475
 h 131
 font "helvetica-medium-r-12.0"
@@ -139,7 +139,7 @@ major 4
 minor 4
 release 0
 x 390
-y 84
+y 82
 w 62
 h 21
 fgColor index 0
@@ -152,25 +152,15 @@ buttonLabel "Devices"
 numPvs 4
 numDsps 2
 displayFileName {
-  0 "mdc.edl"
-  1 "glassmankt.edl"
+  0 "cycmm.edl"
+  1 "mdc660004.edl"
 }
 menuLabel {
-  0 "MDC Motor"
-  1 "Glassman KT Power Supply"
-}
-setPosition {
-  0 "parentWindow"
+  0 "Cyc Main Magnet"
+  1 "MDC Motor"
 }
 symbols {
-  0 "D=ALEX:MOT1"
-  1 "D=ALEX:PS1"
-}
-replaceSymbols {
-  0 1
-}
-propagateMacros {
-  0 0
+  1 "D=ALEX:MOT1"
 }
 helpCommand "dillo -g 600x600\{+50\}\{+5\} -f http://isacwserv.triumf.ca/cgi-bin/devel/dbdev/web_info.pl?D=\\$(!label)"
 endObjectProperties
@@ -227,29 +217,6 @@ newPos
 noExecuteClipMask
 endObjectProperties
 
-# (Message Button)
-object activeMessageButtonClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 401
-y 42
-w 39
-h 16
-fgColor index 1
-onColor index 8
-offColor index 10
-topShadowColor index 3
-botShadowColor index 4
-controlPv "ALEX:EXTIL"
-pressValue "on"
-releaseValue "off"
-toggle
-3d
-font "helvetica-bold-r-12.0"
-endObjectProperties
-
 # (Text Control)
 object activeXTextDspClass
 beginObjectProperties
@@ -272,32 +239,6 @@ nullColor index 24
 useHexPrefix
 newPos
 objType "controls"
-noExecuteClipMask
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 83
-y 96
-w 155
-h 14
-controlPv "ALEX:CMD.DESC"
-format "decimal"
-font "helvetica-medium-r-12.0"
-fgColor index 22
-fgAlarm
-bgColor index 0
-useDisplayBg
-limitsFromDb
-precision 0
-nullColor index 21
-nullCondition "disabled"
-useHexPrefix
-newPos
 noExecuteClipMask
 endObjectProperties
 
@@ -372,44 +313,6 @@ value {
   "Response:"
 }
 autoSize
-endObjectProperties
-
-# (Lines)
-object activeLineClass
-beginObjectProperties
-major 4
-minor 0
-release 1
-x 420
-y 28
-w 0
-h 13
-lineColor index 1
-fillColor index 0
-lineWidth 2
-numPoints 9
-xPoints {
-  0 420
-  1 420
-  2 420
-  3 420
-  4 420
-  5 420
-  6 420
-  7 420
-  8 420
-}
-yPoints {
-  0 28
-  1 28
-  2 28
-  3 28
-  4 28
-  5 41
-  6 41
-  7 41
-  8 41
-}
 endObjectProperties
 
 # (Symbol)
@@ -583,29 +486,29 @@ beginObjectProperties
 major 4
 minor 0
 release 1
-x 406
-y 80
-w 28
+x 405
+y 67
+w 30
 h 0
 lineColor index 1
 fillColor index 0
 lineWidth 2
 numPoints 6
 xPoints {
-  0 406
-  1 434
-  2 434
-  3 434
-  4 434
-  5 434
+  0 405
+  1 435
+  2 435
+  3 435
+  4 435
+  5 435
 }
 yPoints {
-  0 80
-  1 80
-  2 80
-  3 80
-  4 80
-  5 80
+  0 67
+  1 67
+  2 67
+  3 67
+  4 67
+  5 67
 }
 endObjectProperties
 
@@ -616,9 +519,9 @@ major 4
 minor 0
 release 1
 x 420
-y 59
+y 28
 w 0
-h 20
+h 51
 lineColor index 1
 fillColor index 0
 lineWidth 2
@@ -635,11 +538,11 @@ xPoints {
   8 420
 }
 yPoints {
-  0 59
-  1 59
-  2 59
-  3 59
-  4 59
+  0 28
+  1 28
+  2 28
+  3 28
+  4 28
   5 79
   6 79
   7 79
@@ -751,7 +654,7 @@ release 0
 x 386
 y 20
 w 72
-h 98
+h 90
 lineColor index 4
 fillColor index 0
 lineWidth 2
@@ -786,7 +689,7 @@ release 0
 x 386
 y 20
 w 72
-h 98
+h 90
 
 beginGroup
 
@@ -799,7 +702,7 @@ release 1
 x 386
 y 20
 w 72
-h 98
+h 90
 lineColor index 3
 fillColor index 0
 lineWidth 2
@@ -810,13 +713,62 @@ xPoints {
   2 458
 }
 yPoints {
-  0 118
-  1 118
+  0 110
+  1 110
   2 20
 }
 endObjectProperties
 
 endGroup
 
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 83
+y 96
+w 155
+h 14
+controlPv "ALEX:CMD.DESC"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 22
+fgAlarm
+bgColor index 0
+useDisplayBg
+limitsFromDb
+precision 0
+nullColor index 21
+nullCondition "disabled"
+useHexPrefix
+newPos
+noExecuteClipMask
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 401
+y 41
+w 39
+h 16
+fgColor index 1
+onColor index 8
+offColor index 10
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ALEX:EXTIL"
+pressValue "on"
+releaseValue "off"
+toggle
+3d
+font "helvetica-bold-r-12.0"
 endObjectProperties
 
