@@ -1,0 +1,161 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 526
+y 299
+w 500
+h 600
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-i-10.0"
+btnFont "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 22
+ctlFgColor1 index 22
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 24
+y 34
+w 189
+h 14
+controlPv "CYC:MM:MEASI"
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 24
+y 59
+w 189
+h 14
+controlPv "CYC:MM:MEASV"
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 24
+y 84
+w 189
+h 14
+controlPv "CYC:MM:CCV"
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 24
+y 109
+w 189
+h 14
+controlPv "CYC:MM:REFI"
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 24
+y 134
+w 189
+h 14
+controlPv "CYC:MM:TIMENOW"
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 24
+y 159
+w 189
+h 14
+controlPv "CYC:MM:DCCT:SELECT"
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 22
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
