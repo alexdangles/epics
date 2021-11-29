@@ -1,0 +1,9199 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 83
+y 78
+w 1233
+h 1047
+font "helvetica-medium-r-12.0"
+ctlFont "helvetica-medium-r-10.0"
+btnFont "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+textColor index 1
+ctlFgColor1 index 1
+ctlFgColor2 index 22
+ctlBgColor1 index 0
+ctlBgColor2 index 2
+topShadowColor index 3
+botShadowColor index 4
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 6
+y 64
+w 1220
+h 876
+lineColor index 1
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 7
+y 65
+w 1220
+h 875
+lineColor index 2
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 203
+y 7
+w 850
+h 50
+lineColor index 2
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 202
+y 6
+w 850
+h 50
+lineColor index 1
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 25
+y 180
+w 13
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "X "
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 25
+y 440
+w 14
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Y "
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 25
+y 695
+w 8
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "I "
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 515
+y 23
+w 128
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "E-Linac BPMs -"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 777
+y 952
+w 140
+h 37
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ELBPM:UPDREFALL"
+pressValue "on"
+onLabel "UPDATE ALL REF"
+offLabel "UPDATE ALL REF"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 67
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EGUN:BPM1,d=egunbpm1"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 115
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=ELBT:BPM0,d=elbtbpm0"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 163
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM2"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=ELBT:BPM2,d=elbtbpm2"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 211
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=ELBD:BPM0,d=elbdbpm0"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 74
+y 190
+w 1145
+h 0
+lineColor index 1
+fillColor index 0
+numPoints 2
+xPoints {
+  0 74
+  1 1219
+}
+yPoints {
+  0 190
+  1 190
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 74
+y 449
+w 1145
+h 0
+lineColor index 1
+fillColor index 0
+numPoints 2
+xPoints {
+  0 74
+  1 1219
+}
+yPoints {
+  0 449
+  1 449
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 74
+y 775
+w 1145
+h 0
+lineColor index 1
+fillColor index 0
+numPoints 2
+xPoints {
+  0 74
+  1 1219
+}
+yPoints {
+  0 775
+  1 775
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 148
+y 822
+w 30
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "ELBT"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 259
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EMBT:BPM0,d=embtbpm0"
+}
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 269
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM0:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 269
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM0:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 269
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM0:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 262
+y 828
+w 115
+h 0
+lineColor index 1
+fillColor index 0
+arrows "from"
+numPoints 2
+xPoints {
+  0 262
+  1 377
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 118
+y 828
+w 25
+h 0
+lineColor index 1
+fillColor index 0
+arrows "from"
+numPoints 2
+xPoints {
+  0 118
+  1 143
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 180
+y 828
+w 25
+h 0
+lineColor index 1
+fillColor index 0
+arrows "to"
+numPoints 2
+xPoints {
+  0 180
+  1 205
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 307
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM2"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EMBT:BPM2,d=embtbpm2"
+}
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 317
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM2:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 317
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM2:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 317
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM2:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 355
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM4"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EMBT:BPM4,d=embtbpm4"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 74
+y 822
+w 34
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EGUN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 647
+y 23
+w 47
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "$(DT)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 16
+y 460
+w 26
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "(mm)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 16
+y 200
+w 26
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "(mm)"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 92
+y 970
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "-"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=Averages,DD=AVER,DR=15,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 154
+y 970
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "+"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=Averages,DD=AVER,DR=3,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 974
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "X/Y Zoom:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 953
+w 45
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Display:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 102
+y 952
+w 56
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Averages"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 115
+y 970
+w 37
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "Norm"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=Averages,DD=AVER,DR=6,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 222
+y 952
+w 27
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Drift"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 192
+y 970
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "-"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=Drift,DD=DIFF,DR=15,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 255
+y 970
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "+"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=Drift,DD=DIFF,DR=3,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 215
+y 970
+w 37
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "Norm"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=Drift,DD=DIFF,DR=6,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 221
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBD:BPM0:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 221
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBD:BPM0:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 221
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBD:BPM0:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 218
+y 822
+w 32
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "ELBD"
+}
+autoSize
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 365
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM4:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 365
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM4:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 365
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM4:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 403
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM5B"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EMBT:BPM5B,d=embtbpm5b"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 385
+y 822
+w 34
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EMBT"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 451
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM5C"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EMBT:BPM5C,d=embtbpm5c"
+}
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 461
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM5C:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 461
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM5C:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 461
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM5C:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 425
+y 828
+w 115
+h 0
+lineColor index 1
+fillColor index 0
+arrows "to"
+numPoints 2
+xPoints {
+  0 425
+  1 540
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 499
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM7"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EMBT:BPM7,d=embtbpm7"
+}
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 509
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM7:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 509
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM7:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 509
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM7:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 547
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EMBD:BPM1,d=embdbpm1"
+}
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 413
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM5B:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 413
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM5B:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 413
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBT:BPM5B:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 553
+y 822
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EMBD"
+}
+autoSize
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 557
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBD:BPM1:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 557
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBD:BPM1:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 557
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EMBD:BPM1:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 79
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 79
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 79
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 79
+  1 79
+  2 102
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 80
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 80
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EGUN:BPM1:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 127
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 127
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 127
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 127
+  1 127
+  2 150
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "ELBT:BPM0:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 175
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 175
+  1 175
+  2 198
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 176
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 176
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "ELBT:BPM2:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 223
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 223
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 223
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 223
+  1 223
+  2 246
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 224
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 224
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "ELBD:BPM0:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 271
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 271
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 271
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 271
+  1 271
+  2 294
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 272
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 272
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM0:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 319
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 319
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 319
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 319
+  1 319
+  2 342
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM2:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 367
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 367
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 367
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 367
+  1 367
+  2 390
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 368
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 368
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM4:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 415
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 415
+  1 415
+  2 438
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 416
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 416
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM5B:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 463
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 463
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 463
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 463
+  1 463
+  2 486
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 464
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 464
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM5C:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 511
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 511
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 511
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 511
+  1 511
+  2 534
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 512
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 512
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM7:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 559
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 559
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 559
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 559
+  1 559
+  2 582
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 560
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 560
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBD:BPM1:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 11
+y 870
+w 51
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Data OK:"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1079
+y 952
+w 145
+h 37
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ELBPM:WRENALL"
+pressValue "on"
+onLabel "BUFFER ENABLE ALL"
+offLabel "BUFFER ENABLE ALL"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 79
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 79
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 79
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 79
+  1 79
+  2 102
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 80
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 80
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EGUN:BPM1:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 127
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 127
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 127
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 127
+  1 127
+  2 150
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "ELBT:BPM0:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 175
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 175
+  1 175
+  2 198
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 176
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 176
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "ELBT:BPM2:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 223
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 223
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 223
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 223
+  1 223
+  2 246
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 224
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 224
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "ELBD:BPM0:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 271
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 271
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 271
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 271
+  1 271
+  2 294
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 272
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 272
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM0:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 319
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 319
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 319
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 319
+  1 319
+  2 342
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM2:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 367
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 367
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 367
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 367
+  1 367
+  2 390
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 368
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 368
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM4:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 415
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 415
+  1 415
+  2 438
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 416
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 416
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM5B:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 463
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 463
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 463
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 463
+  1 463
+  2 486
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 464
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 464
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM5C:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 511
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 511
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 511
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 511
+  1 511
+  2 534
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 512
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 512
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBT:BPM7:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 559
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 559
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 559
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 559
+  1 559
+  2 582
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 560
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 560
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EMBD:BPM1:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 11
+y 895
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Buff ENA:"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 686
+y 828
+w 46
+h 0
+lineColor index 1
+fillColor index 0
+arrows "to"
+numPoints 2
+xPoints {
+  0 686
+  1 732
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 650
+y 822
+w 32
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EABT"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 597
+y 828
+w 48
+h 0
+lineColor index 1
+fillColor index 0
+arrows "from"
+numPoints 2
+xPoints {
+  0 597
+  1 645
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 745
+y 822
+w 34
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EABD"
+}
+autoSize
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 605
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM0:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 653
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM2:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 701
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM3:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 749
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABD:BPM1:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 605
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM0:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 653
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM2:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 701
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM3:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 749
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABD:BPM1:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 605
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM0:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 653
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM2:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 701
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABT:BPM3:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 749
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EABD:BPM1:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 595
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EABT:BPM0,d=eabtbpm0"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 643
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM2"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EABT:BPM2,d=eabtbpm2"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 691
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM3"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EABT:BPM3,d=eabtbpm3"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 739
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EABD:BPM1,d=eabdbpm1"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 607
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 607
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 607
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 607
+  1 607
+  2 630
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 608
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 608
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABT:BPM0:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 607
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 607
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 607
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 607
+  1 607
+  2 630
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 608
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 608
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABT:BPM0:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 655
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 655
+  1 655
+  2 678
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 656
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 656
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABT:BPM2:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 655
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 655
+  1 655
+  2 678
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 656
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 656
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABT:BPM2:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 703
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 703
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 703
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 703
+  1 703
+  2 726
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 704
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 704
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABT:BPM3:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 703
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 703
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 703
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 703
+  1 703
+  2 726
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 704
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 704
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABT:BPM3:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 751
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 751
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 751
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 751
+  1 751
+  2 774
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 752
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 752
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABD:BPM1:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 751
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 751
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 751
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 751
+  1 751
+  2 774
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 752
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 752
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EABD:BPM1:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 1163
+y 6
+w 28
+h 18
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "+"
+numPvs 4
+numDsps 3
+displayFileName {
+  0 "elbpm_all-m1.15.edl"
+  1 "elbpm_all-m1.3.edl"
+  2 "elbpm_all-m1.5.edl"
+}
+menuLabel {
+  0 "115%"
+  1 "130%"
+  2 "150%"
+}
+closeAction {
+  0 1
+  1 1
+  2 1
+}
+setPosition {
+  0 "parentWindow"
+  1 "parentWindow"
+  2 "parentWindow"
+}
+replaceSymbols {
+  0 1
+  1 1
+  2 1
+}
+closeDisplay {
+  0 1
+  1 1
+  2 1
+}
+helpCommand "dillo -g 600x600\{+50\}\{+5\} -f http://isacwserv.triumf.ca/cgi-bin/devel/dbdev/web_info.pl?D=24 24 1303!label)"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 173
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBT:BPM2:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 125
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBT:BPM0:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 51
+y 585
+w 58
+h 234
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EGUN:BPM1:S$(DD)"
+showScale
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 173
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBT:BPM2:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 125
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBT:BPM0:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 52
+y 332
+w 57
+h 234
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EGUN:BPM1:Y$(DD)"
+showScale
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 173
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBT:BPM2:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 125
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "ELBT:BPM0:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 52
+y 73
+w 57
+h 234
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EGUN:BPM1:X$(DD)"
+showScale
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 904
+y 828
+w 70
+h 0
+lineColor index 1
+fillColor index 0
+arrows "to"
+numPoints 2
+xPoints {
+  0 904
+  1 974
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 865
+y 822
+w 33
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EHAT"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 789
+y 828
+w 70
+h 0
+lineColor index 1
+fillColor index 0
+arrows "from"
+numPoints 2
+xPoints {
+  0 789
+  1 859
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 787
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHAT:BPM0,d=ehatbpm0"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 835
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHAT:BPM1,d=ehatbpm1"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 883
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM2"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHAT:BPM2,d=ehatbpm2"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 931
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM3"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHAT:BPM3,d=ehatbpm3"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 799
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 799
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 799
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 799
+  1 799
+  2 822
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 800
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 800
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM0:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 799
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 799
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 799
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 799
+  1 799
+  2 822
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 800
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 800
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM0:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 847
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 847
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 847
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 847
+  1 847
+  2 870
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 848
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 848
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM1:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 847
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 847
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 847
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 847
+  1 847
+  2 870
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 848
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 848
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM1:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 895
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 895
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 895
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 895
+  1 895
+  2 918
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 896
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 896
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM2:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 895
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 895
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 895
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 895
+  1 895
+  2 918
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 896
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 896
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM2:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 943
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 943
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 943
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 943
+  1 943
+  2 966
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 944
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 944
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM3:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 943
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 943
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 943
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 943
+  1 943
+  2 966
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 944
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 944
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHAT:BPM3:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 797
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM0:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 845
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM1:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 893
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM2:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 941
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM3:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 797
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM0:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 845
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM1:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 893
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM2:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 941
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM3:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 797
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM0:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 845
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM1:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 893
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM2:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 941
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHAT:BPM3:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 988
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM1:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 988
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM1:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 988
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM1:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 978
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHDT:BPM1,d=ehdtbpm1"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 990
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 990
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 990
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 990
+  1 990
+  2 1013
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 991
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 991
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM1:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 990
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 990
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 990
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 990
+  1 990
+  2 1013
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 991
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 991
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM1:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1123
+y 828
+w 90
+h 0
+lineColor index 1
+fillColor index 0
+arrows "to"
+numPoints 2
+xPoints {
+  0 1123
+  1 1213
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 1080
+y 822
+w 33
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "EHDT"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 980
+y 828
+w 90
+h 0
+lineColor index 1
+fillColor index 0
+arrows "from"
+numPoints 2
+xPoints {
+  0 980
+  1 1070
+}
+yPoints {
+  0 828
+  1 828
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 1026
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM3"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHDT:BPM3,d=ehdtbpm3"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 1074
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM5"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHDT:BPM5,d=ehdtbpm5"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 1122
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM6A"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHDT:BPM6A,d=ehdtbpm6a"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 1170
+y 838
+w 45
+h 25
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "BPM6B"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "bpmcp.edl"
+}
+symbols {
+  0 "sys=elinac,D=EHDT:BPM6B,d=ehdtbpm6b"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1038
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1038
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1038
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1038
+  1 1038
+  2 1061
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1039
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1039
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM3:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1038
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1038
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1038
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1038
+  1 1038
+  2 1061
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1039
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1039
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM3:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1086
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1086
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1086
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1086
+  1 1086
+  2 1109
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1087
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1087
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM5:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1086
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1086
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1086
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1086
+  1 1086
+  2 1109
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1087
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1087
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM5:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1134
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1134
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1134
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1134
+  1 1134
+  2 1157
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1135
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1135
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM6A:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1134
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1134
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1134
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1134
+  1 1134
+  2 1157
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1135
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1135
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM6A:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1182
+y 870
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1182
+y 870
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1182
+y 870
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1182
+  1 1182
+  2 1205
+}
+yPoints {
+  0 881
+  1 870
+  2 870
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1183
+y 871
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1183
+y 871
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM6B:RDERR"
+visMin "-0.5"
+visMax "0.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1182
+y 895
+w 23
+h 11
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1182
+y 895
+w 23
+h 11
+lineColor index 4
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1182
+y 895
+w 23
+h 11
+lineColor index 3
+fillColor index 0
+lineWidth 2
+numPoints 3
+xPoints {
+  0 1182
+  1 1182
+  2 1205
+}
+yPoints {
+  0 906
+  1 895
+  2 895
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1183
+y 896
+w 21
+h 9
+lineColor index 1
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1183
+y 896
+w 21
+h 9
+lineColor index 8
+fill
+fillColor index 8
+visPv "EHDT:BPM6B:ENSTS"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1036
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM3:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1084
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM5:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1132
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM6A:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1180
+y 80
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM6B:X$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1036
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM3:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1084
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM5:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1132
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM6A:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1180
+y 339
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM6B:Y$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "-$(DR)"
+max "$(DR)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1036
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM3:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1084
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM5:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1132
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM6A:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 2
+x 1180
+y 592
+w 30
+h 220
+indicatorColor index 22
+fgColor index 1
+bgColor index 0
+indicatorPv "EHDT:BPM6B:S$(DD)"
+origin "0"
+font "helvetica-medium-r-10.0"
+labelTicks "6"
+majorTicks "2"
+min "$(DIMIN)"
+max "$(DIMAX)"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 440
+y 953
+w 62
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Intensities"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 299
+y 952
+w 68
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "References"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 293
+y 970
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "-"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=References,DD=REF,DR=15,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 355
+y 970
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "+"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=References,DD=REF,DR=3,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 316
+y 970
+w 37
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "Norm"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=References,DD=REF,DR=6,DIMAX=$(DIMAX),DIMIN=$(DIMIN)"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 426
+y 971
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "-"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=$(DT),DD=$(DD),DR=$(DR),DIMAX=6,DIMIN=-1.2"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 449
+y 971
+w 37
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-medium-r-10.0"
+buttonLabel "Norm"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=$(DT),DD=$(DD),DR=$(DR),DIMAX=3,DIMIN=-0.6"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 512
+y 971
+w 30
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "++"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=$(DT),DD=$(DD),DR=$(DR),DIMAX=0.1,DIMIN=-0.02"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 488
+y 971
+w 21
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "+"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=$(DT),DD=$(DD),DR=$(DR),DIMAX=0.5,DIMIN=-0.1"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 394
+y 971
+w 30
+h 20
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-18.0"
+buttonLabel "--"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "elbpm_all.edl"
+}
+closeAction {
+  0 1
+}
+allowDups {
+  0 1
+}
+symbols {
+  0 "DT=$(DT),DD=$(DD),DR=$(DR),DIMAX=15,DIMIN=-3"
+}
+replaceSymbols {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 627
+y 952
+w 140
+h 37
+fgColor index 1
+bgColor index 0
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+buttonLabel "SAVE DATA"
+numCmds 1
+commandLabel {
+  0 "SAVE DATA"
+}
+command {
+  0 "$ELINAC_ROOT/scr/elbpmdump.pl elinac ALL"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 11
+y 916
+w 62
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Trip Status:"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 927
+y 952
+w 145
+h 37
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ELBPM:WRDISALL"
+pressValue "on"
+onLabel "BUFFER DISABLE ALL"
+offLabel "BUFFER DISABLE ALL"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 1079
+y 999
+w 145
+h 37
+fgColor index 0
+bgColor index 1
+topShadowColor index 3
+botShadowColor index 4
+font "helvetica-bold-r-12.0"
+buttonLabel "Device Notes"
+numCmds 1
+commandLabel {
+  0 "Device Notes"
+}
+command {
+  0 "scr/cphelp.pl BPM_ALL"
+}
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EGUN:BPM1:STATTRIP,EGUN:BPM1:RDXYEN,EGUN:BPM1:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(ELBT:BPM0:STATTRIP,ELBT:BPM0:RDXYEN,ELBT:BPM0:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 174
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(ELBT:BPM2:STATTRIP,ELBT:BPM2:RDXYEN,ELBT:BPM2:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 221
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(ELBD:BPM0:STATTRIP,ELBD:BPM0:RDXYEN,ELBD:BPM0:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EMBT:BPM0:STATTRIP,EMBT:BPM0:RDXYEN,EMBT:BPM0:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 317
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EMBT:BPM2:STATTRIP,EMBT:BPM2:RDXYEN,EMBT:BPM2:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 366
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EMBT:BPM4:STATTRIP,EMBT:BPM4:RDXYEN,EMBT:BPM4:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 413
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EMBT:BPM5B:STATTRIP,EMBT:BPM5B:RDXYEN,EMBT:BPM5B:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 462
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EMBT:BPM5C:STATTRIP,EMBT:BPM5C:RDXYEN,EMBT:BPM5C:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 509
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EMBT:BPM7:STATTRIP,EMBT:BPM7:RDXYEN,EMBT:BPM7:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 558
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EMBD:BPM1:STATTRIP,EMBD:BPM1:RDXYEN,EMBD:BPM1:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 605
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EABT:BPM0:STATTRIP,EABT:BPM0:RDXYEN,EABT:BPM0:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 654
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EABT:BPM2:STATTRIP,EABT:BPM2:RDXYEN,EABT:BPM2:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 701
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EABT:BPM3:STATTRIP,EABT:BPM3:RDXYEN,EABT:BPM3:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 750
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EABD:BPM1:STATTRIP,EABD:BPM1:RDXYEN,EABD:BPM1:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 797
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHAT:BPM0:STATTRIP,EHAT:BPM0:RDXYEN,EHAT:BPM0:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 846
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHAT:BPM1:STATTRIP,EHAT:BPM1:RDXYEN,EHAT:BPM1:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 893
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHAT:BPM2:STATTRIP,EHAT:BPM2:RDXYEN,EHAT:BPM2:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 942
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHAT:BPM3:STATTRIP,EHAT:BPM3:RDXYEN,EHAT:BPM3:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 989
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHDT:BPM1:STATTRIP,EHDT:BPM1:RDXYEN,EHDT:BPM1:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1038
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHDT:BPM3:STATTRIP,EHDT:BPM3:RDXYEN,EHDT:BPM3:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1085
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHDT:BPM5:STATTRIP,EHDT:BPM5:RDXYEN,EHDT:BPM5:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1134
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHDT:BPM6A:STATTRIP,EHDT:BPM6A:RDXYEN,EHDT:BPM6A:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1181
+y 917
+w 23
+h 11
+file "led5state.edl"
+numStates 5
+minValues {
+  1 -2
+  2 2
+  3 1
+  4 3
+}
+maxValues {
+  0 1
+  1 -1
+  2 3
+  3 2
+  4 4
+}
+controlPvs {
+  0 "CALC\\\{A?3:B+C\}(EHDT:BPM6B:STATTRIP,EHDT:BPM6B:RDXYEN,EHDT:BPM6B:RDXYDEF)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 1
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 775
+y 993
+w 145
+h 37
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ELBPM:TRENALL"
+pressValue "on"
+onLabel "TRIP ENABLE ALL"
+offLabel "TRIP ENABLE ALL"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 623
+y 993
+w 145
+h 37
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ELBPM:TRDISALL"
+pressValue "on"
+onLabel "TRIP DISABLE ALL"
+offLabel "TRIP DISABLE ALL"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 927
+y 994
+w 145
+h 37
+fgColor index 1
+onColor index 0
+offColor index 0
+topShadowColor index 3
+botShadowColor index 4
+controlPv "ELBPM:TRDEFALL"
+pressValue "on"
+onLabel "TRIP DEFAULTS ALL"
+offLabel "TRIP DEFAULTS ALL"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
