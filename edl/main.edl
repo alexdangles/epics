@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 1415
-y 81
+x 1439
+y 374
 w 475
 h 131
 font "helvetica-medium-r-12.0"
@@ -593,18 +593,20 @@ topShadowColor index 3
 botShadowColor index 4
 font "helvetica-bold-r-12.0"
 buttonLabel "Scripts"
-numCmds 4
+numCmds 5
 commandLabel {
   0 "Update Boot Area"
   1 "Edit Startup"
   2 "Edit IOCSCR"
-  3 "alexioc.scr"
+  3 "Edit PROTO"
+  4 "Run alexioc.scr"
 }
 command {
   0 "cp -up /usr1/local/epics/userappl/alex/alexioc/* /data/isacdata/iocboot/alexioc/current"
   1 "nedit alexioc/startup2.alex &"
   2 "nedit alexioc/test.iocscr &"
-  3 "scr/alexioc.scr"
+  3 "nedit alexioc/test.proto &"
+  4 "scr/alexioc.scr"
 }
 endObjectProperties
 
