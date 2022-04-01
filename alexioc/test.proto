@@ -5,17 +5,17 @@
 #  $Id: $
 #  $Log: $
 #
-#
-
-
-# Stream device settings
 Terminator = CR;
 ExtraInput = Ignore;
 LockTimeout  = 2000;
-ReplyTimeout = 500;
-ReadTimeout  = 100;
+ReplyTimeout = 300;
+ReadTimeout  = 150;
 
-CMD {
+CMDOUT {
 	OUT "%s";
-	IN "%(DESC)s";
+	#IN "%(DESC)s";
+}
+
+CMDIN {
+	IN "%(ALEX:RDBYTE.A)3X";
 }

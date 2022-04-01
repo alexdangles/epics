@@ -3,3 +3,6 @@
 
 # Set current unit for Glassman KT
 #dbpf ALEX:PS1:RDCUR.EGU "mA"
+
+dbpf ALEX:DOUT00.HIGH "0.5"
+dbpf ALEX:DOUT01.HIGH "0.5"

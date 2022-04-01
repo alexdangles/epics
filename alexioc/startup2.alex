@@ -17,22 +17,25 @@ modStream_registerRecordDeviceDriver(pdbbase)
 # DEVICE NAME            BUS    IP ADDRESS:PORT
 # ========================================================
 # Startech RS232/485 to ethernet converter
-drvAsynIPPortConfigure("ETH4","192.168.1.4:100",0,0,0)
+drvAsynIPPortConfigure( "ETH4", "192.168.1.4:100", 0, 0, 0 )
+# Shuttle IOC host serial port
+drvAsynSerialPortConfigure( "RS1", "/dev/ttyS0", 0, 0, 0 )
+asynSetOption( "RS1", 0, "baud", "9600" )
+asynSetOption( "RS1", 0, "bits", "8" )
+asynSetOption( "RS1", 0, "stop", "1" )
 #
 # MDC Motor with MOXA serial device server and digital I/0
-#drvAsynIPPortConfigure("MOXA","192.168.127.254:502",0,0,1)
+drvAsynIPPortConfigure("MOXA","192.168.1.5:502",0,0,1)
 #drvAsynIPPortConfigure("MOT1","192.168.1.6:4001",0,0,0)
 ### MOXA digi setup via MODBUS
 # modbusInterposeConfig(portName, linkType, timeoutMsec, writeDelayMsec) 
 modbusInterposeConfig(   "MOXA",    0,          0,          0 )
-
 ## drvModbusAsynConfigure(portName, tcpPortName, slaveAddress, modbusFunction, #modbusStartAddress, modbusLength, dataType, pollMsec, plcType);
 ##                                                                                                                     (or read-first func)
-#drvModbusAsynConfigure(    "DO",     "MOXA",       0,           6,                  32,              1,           0,         3,    "Moxa1212" );
-
+drvModbusAsynConfigure(    "DO",     "MOXA",       0,           6,                  32,              1,           0,         3,    "Moxa1212" );
 # For initailization of output records at startup
 #
-#drvModbusAsynConfigure(    "DI",     "MOXA",       0,           4,                  48,              1,           1,        200,   "Moxa1214" );
+drvModbusAsynConfigure(    "DI",     "MOXA",       0,           4,                  48,              1,           1,        200,   "Moxa1214" );
 #
 # Glassman KT series power supply
 #drvAsynIPPortConfigure("PS1","192.168.1.5:2101",0,0,0)
